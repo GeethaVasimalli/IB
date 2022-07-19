@@ -1,0 +1,730 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.98.0">
+    <title>INNERS BOOKS</title>
+    
+
+    
+
+<link href="css/bootstrap.min.css" rel="stylesheet" />
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+<!-- <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" rel="stylesheet"> -->
+    
+<!-- Custom styles for this template -->
+<link href="css/bootstrap-glyphicons.css" rel="stylesheet">
+<link href="css/customstyles.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/jquery.dataTables.min.css" rel="stylesheet">
+<link href="css/datatable-custom.css" rel="stylesheet">
+
+  
+</head>
+<body>
+<div class="main-wrapper">
+<section>
+    <header>
+    <div class="header-left">
+        <div class="logo-sec h-100">
+            <a href="">Inners Books</a>
+        </div>
+        <div class="primary-sec">            
+            <a href="" class="dropdown-toggle" data-toggle="dropdown">Create A New</a>
+            <div class="dropdown-menu">
+                <ul>
+                    <li><a href="">Quotation</a></li>
+                    <li><a href="">Bills</a></li>
+                    <li><a href="">Supplier Invoice</a></li>
+                    <li><a href="">Receipt of Payments</a></li>
+                    <li><a href="">Client</a></li>
+                    <li><a href="">Supplier</a></li>
+                    <li><a href="">Products and services</a></li>
+                </ul>
+            </div>
+        </div>
+            </div>
+    <div class="header-right h-100">
+        <div class="help-center">
+            <ul>
+                <li>
+                    <div class="wh-chat-btn">
+                        <a target="_blank" href="https://wa.me/+18492697581">
+                            <img src="images/whatsup-icon.png" alt="WA">
+                            <span>Need help? Speak with us </span>
+                        </a>
+                    </div>
+    
+                    <div class="wh-chat-btn wa-float">
+                        <a target="_blank" href="https://wa.me/+18492697581">
+                            <img src="images/whatsup-icon.png" alt="WA">
+                            <span>Need help? Speak with us</span>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="john-sec">
+            <a href="" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+            <span>
+              <img src="images/john-sec.png" alt="Sachin Kumar">
+            </span>
+            <span class="username">Sachin Kumar</span>
+            </a>
+            <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(1084px, 40px, 0px);">
+                <ul>
+                    <li class="user-name-li"><a href="javascript:void(0);"><span>Sachin Kumar</span></a></li>
+                    <li><a href="">sachin@yopmail.com</a></li>
+                    <li><a href="">Settings</a></li>
+                    <li class="signout"><a href="">Leave</a></li>
+                    <form id="logout-form" action="" method="POST" style="display: none;">
+                        <input type="hidden" name="_token" value="7G3XAM0JjY11fWnsHQx77WmgviX1k3xXrTFTWwhV">
+                    </form>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</header>        </section>
+
+        <section id="dashboard">
+            <div id="react-app"></div>
+            <div class="blue-sec">
+              <div class="side-blue-sec">
+    <div id="accordion">
+        <div class="card">
+            <div class="card-header">
+                <a id="dashboard_link" class="active" href="">
+                <span><img src="http://127.0.0.1:8000/images/dashboard-icon.png"></span>Start
+                </a>
+            </div>
+        </div>
+
+        
+                <div class="card">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#sales">
+                <span><img src="http://127.0.0.1:8000/images/sales-icon.png"></span>Income
+                </a>
+            </div>
+            <div id="sales" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    <ul>
+                      <li><a href="" data-resource_slug="invoices">Bills</a></li>
+                      <li><a href="">Recurring bills</a></li>
+                      <li><a href="">Receipt of Payments</a></li>
+                      <li><a href="">Cuenta por Cobrar</a></li>
+                      <li><a href="" data-resource_slug="credit-notes">Notas de Credito</a></li>
+                      <li><a href="" data-resource_slug="estimates">Cotizaciones</a></li>
+                      <li><a href="" data-resource_slug="remissions">Conduces</a></li>
+                      <li><a href="" data-resource_slug="pos" target="_blank">Punto de Venta</a></li>
+                    <li><a href="" data-resource_slug="production">Ordenes de Producción</a></li>
+                    <li><a href="" data-resource_slug="restaurant-table">Mesas</a></li>
+                    <li><a href="" data-resource_slug="shipping">Ordenes de Envío</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        
+                <div class="card">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="">
+                <span><img src="http://127.0.0.1:8000/images/cart.png"></span>Bills
+                </a>
+            </div>
+            <div id="expenses" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    <ul>
+                        <li><a href="" data-resource_slug="transactions-out">Pagos</a></li>
+                        <li><a href="" data-resource_slug="invoices-supplier">Factura de Proveedor</a></li>
+                        <li><a href="" data-resource_slug="transactions-recurring">Pagos Recurrentes</a></li>
+                        <li><a href="" data-resource_slug="debit-notes">Notas de Débito</a></li>
+                        <li><a href="" data-resource_slug="purchase-orders">Orden de Compra</a></li>
+                        <li><a href="">Nómina</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="card">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#contacts">
+                <span><img src="http://127.0.0.1:8000/images/contact-icon.png"></span>Contacts
+                </a>
+            </div>
+            <div id="contacts" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    <ul>
+                        <li><a href="" data-resource_slug="clients">Clientes</a></li>
+                        <li><a href="" data-resource_slug="suppliers">Proveedores</a></li>
+                        <li><a href="" data-resource_slug="employees">Empleados</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+                
+                <div class="card" style="display: block;">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#payroll">
+                    <span><img src="http://127.0.0.1:8000/images/sales-icon.png"></span>PAYROLL
+                </a>
+            </div>
+            <div id="payroll" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    <ul>
+                        <li><a href="http://127.0.0.1:8000/benefits" data-resource_slug="benefits">Benefits</a></li>
+                        <li><a href="http://127.0.0.1:8000/with-holdings" data-resource_slug="with-holdings">Withholdings</a></li>
+                        <li><a href="http://127.0.0.1:8000/discounts" data-resource_slug="discounts">Discounts</a></li>
+                        <li><a href="http://127.0.0.1:8000/extra-hours" data-resource_slug="extra-hours">Extra Hours</a></li>
+                        <li><a href="http://127.0.0.1:8000/leaves" data-resource_slug="leaves">Ausencias</a></li>
+                     <!--    <li><a href="" data-resource_slug="commissions">Commissions</a></li> -->
+                        <li><a href="http://127.0.0.1:8000/app/coming-soon" data-resource_slug="unemployment">Unemployment</a></li>
+                        <li><a href="" data-resource_slug="payroll-reports">Payroll Reports</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        
+                <div class="card">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#inventory">
+                    <span><img src="http://127.0.0.1:8000/images/inventry-icon.png"></span>Inventory
+                </a>
+            </div>
+            <div id="inventory" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    <ul>
+                                                <li><a href="http://127.0.0.1:8000/inventories" data-resource_slug="inventories">Productos y Servicios</a></li>
+                                                                        <li><a href="http://127.0.0.1:8000/inventory-adjustments" data-resource_slug="inventory-adjustments">Rectificación de Inventario</a></li>
+                                                <!-- <li><a href="javascript:void(0);">Inventory Value</a></li>
+                        <li><a href="javascript:void(0);">Item Management</a></li>
+                        <li><a href="javascript:void(0);">Find Order</a></li>
+                        <li><a href="javascript:void(0);">Price Lists</a></li>
+                        <li><a href="javascript:void(0);">Warehouse</a></li> -->
+                                                <li><a href="http://127.0.0.1:8000/taxes" data-resource_slug="taxes">Impuestos</a></li>
+                                                                        <li><a href="http://127.0.0.1:8000/item-categories" data-resource_slug="item-categories">Categorías de Artículos</a></li>
+                                                                        <li><a href="http://127.0.0.1:8000/units" data-resource_slug="units">Unidad de Medida</a></li>
+                                            </ul>
+                </div>
+            </div>
+        </div>
+                
+                <div class="card">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#accounting">
+                <span><img src="http://127.0.0.1:8000/images/account-btn.png"></span>Accounting
+                </a>
+            </div>
+            <div id="accounting" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    <ul>
+                        <li><a href="http://127.0.0.1:8000/accounting/charts" data-resource_slug="chart-of-accounts">Catálogo de Cuentas</a></li>
+                        <li><a href="http://127.0.0.1:8000/accounting/adjustments" data-resource_slug="account-adjustments">Ajustes Contables</a></li>
+                        <li><a href="http://127.0.0.1:8000/accounting/journals" data-resource_slug="account-journals">Diarios Contables</a></li>
+                        <li><a href="http://127.0.0.1:8000/accounting/reports" data-resource_slug="account-reports">Informes Contables</a></li>
+
+                                                
+                        <li><a href="http://127.0.0.1:8000/fixed-assets" data-resource_slug="fixed-assets">Activos Fijos</a></li>
+                                                
+                        <li><a href="http://127.0.0.1:8000/app/coming-soon">Centro de Costo</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+                
+        
+                <div class="card">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#setting">
+                <span><img src="http://127.0.0.1:8000/images/setting-icon.png"></span>Settings
+                </a>
+            </div>
+            <div id="setting" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    <ul>
+                        <li><a href="http://127.0.0.1:8000/settings/user" data-resource_slug="settings-user">Perfil del Usuario</a></li>
+                        <li><a href="http://127.0.0.1:8000/settings/company" data-resource_slug="settings-company">Perfil de la Compañía</a></li>
+                        <li><a href="http://127.0.0.1:8000/ncfs" data-resource_slug="ncfs">Comprobantes</a></li>
+                        <li><a href="http://127.0.0.1:8000/currency-exchange-rates" data-resource_slug="currency-exchange-rates">Tasa de Cambio</a></li>
+                        <li><a href="http://127.0.0.1:8000/memberships" data-resource_slug="memberships">Membresías</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#users_management">
+                <span><img src="http://127.0.0.1:8000/images/user-management-icon.png"></span>User Management
+                </a>
+            </div>
+            <div id="users_management" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    <ul>
+                        <li><a href="http://127.0.0.1:8000/user-management/users" data-resource_slug="users-list">Usuarios</a></li>
+                        <li><a href="http://127.0.0.1:8000/roles" data-resource_slug="roles-list">Roles</a></li>
+                        <li><a href="http://127.0.0.1:8000/history" data-resource_slug="history-list">Registros</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+ 
+ <div class="dashboard-right cust-dashboard-md-right">
+    <div class="menu-icon">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <div class="invoice-container">
+        <h2>User Guide</h2>
+        <div class="custom-tooltip"><span class="help-icon"><i class="fa fa-question-circle" aria-hidden="true"></i>
+            </span>
+        </div>
+        <div class="tabs-custom">
+            <input type="text" id="serchInput" placeholder="Search" name="search">
+        </div>
+        <div class="tabs-custom">
+            <div class="tab-content" id="old_usersguide">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="row">
+                            <a class="card-link col-sm-11" data-toggle="collapse" href="#faqcontent_0" aria-expanded="true">Sign Up for Kedas
+                            </a>
+                        </div>
+                    </div>
+                            
+                    <div id="faqcontent_0" class="collapse show" data-parent="#accordion" style="">
+                        <div class="card-body">
+                            <p><strong>InnersBooks</strong>does not require installation on local computers, you only need to register by accessing the <a href="">Register Here</a> website &nbsp;or visiting the website<a href="">http://innersbooks.com</a>You can also<a href="">watch the Instructional video</a> &nbsp;for better compression.</p>
+                            <p>When visiting our website you will be able to see the next button at the top of the right</p>
+                            <p><img alt="" src="data:image/png;base64,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"></p>
+
+<p>If you prefer to register from the INNERSBOOKS <a href="" target="_blank"><strong>Login</strong></a> &nbsp;screen then you will see the following button.<a href="" target="_blank">&nbsp;<strong></strong></a></p>
+
+<p><img src="https://lh4.googleusercontent.com/wim4GTEJe0hBVD_bkDstLbp_eQ0-kKhEVe2H3SlSk9S1oaZ2ElGdDsC66O7YGRal_3V9EeQqp4qaFg8HPgrCGa_UXiPYMQEBRGVgn9-fVHAGy1OYNHQswL_f_XE5hJmQVFqR-3X5" style="height:40px; margin-left:0px; margin-top:0px; width:328px"></p>
+
+<p>When you click <a href="" target="_blank"><strong>Register Now</strong></a> , the system will request basic user information and you will see a screen like the one below.</p>
+
+<p><img alt="" src="https://kedasdoc.s3.us-west-002.backblazeb2.com/Registrarse.png" style="height:225px; width:400px"></p>
+
+<p>Then we enter the data as appropriate. In the name we are going to enter the personal name of who is registering or the name of the company. In the system the field looks like the image below.</p>
+
+<p><img src="https://lh4.googleusercontent.com/fD3iYrrHbotU3I4hi9nt_IuN9nZChcC8h07cnQ9UOZ5VWDq8UV27lSmICq_k1e367m1mxDBvOhdEWg-D1QTglzYwNzY0wWsnrbrmDUPAoXo3cCc8-YcgekNQPyHl67IOQwh4Qx5m" style="height:66px; margin-left:0px; margin-top:0px; width:380px"></p>
+
+<p>In the&nbsp; <strong>Email</strong> field &nbsp;we are going to enter the email where we will receive the validation code and with which we are going to enter the system once registered. The image below illustrates what the field looks like.</p>
+
+<p><img src="https://lh5.googleusercontent.com/xcqQUmBU9q-wRBGOpovY8z-kS-UhyeroyBhFAiTbe8WI-KXdSuDWt_7l9Fwf7DHqlNdDFHxVGj4oq7bUEhXYJl8T5c-HFfY0oW5_V_7BY_21L1HtKsfrbRhD-Ey0cz606luH-1qO" style="height:54px; margin-left:0px; margin-top:0px; width:380px"></p>
+
+<p>In the&nbsp; <strong>Password</strong> field &nbsp;we are going to enter the access code to the software that we will use to enter the account once it has been registered. The image below illustrates what the field looks like.</p>
+
+<p><img src="https://lh6.googleusercontent.com/6wt6zTQvCT25zwS6UTdBrpUOlp0aoYmEr3CKslU_mI4UgnuD_bMki9TVkgOfK0PJ5OnZaIQXylelZeHjstAR9NlPWK8Yp6eQiIET-idrXsNmfYzWg00xj4ebsVAa8Nv5iQ5MkpvS" style="height:58px; margin-left:0px; margin-top:0px; width:377px"></p>
+
+<p>In the&nbsp; <strong>Confirm </strong>&nbsp;<strong>Password</strong> field &nbsp;we are going to enter once the same access code to the software that we will use to enter the account once it has been registered. The image below illustrates what the field looks like.</p>
+
+<p><img src="https://lh6.googleusercontent.com/BsmrJqaJ_qO1D6hBKVz2atrZancTzHVCHVfiKnIgNBiDsnpjdFW8BL1cztRQh0iD3gSDFDuTO5_zLZkYjKhWTbw44HhrBaMymCva73aEElRBrfRKaHtYp489_WTPLwApf9leUmfR" style="height:48px; margin-left:0px; margin-top:0px; width:367px"></p>
+
+<p>Once the form is completed, we click on the&nbsp; <a href=""><strong>Register</strong></a><strong>&nbsp;</strong> button and it is illustrated below</p>
+
+<p><img src="https://lh3.googleusercontent.com/73QrYazW9NofGxSt1CRtGCLwdZn4elivu_sgllQ5dI53hWbcNWv7zmM6av1J3l7Kd_FTiFXBvePjrWthIKZgZ8yJ-UaoOfhZoXLjG4IMLLsJ67bLIveZpD_KPTUMeV2M1UHSi3NX" style="height:54px; margin-left:0px; margin-top:0px; width:377px"></p>
+
+<p>At the end of completing the above form you will receive an email with a validation code to confirm the registration of your account. If you don't receive the message in your inbox, please check your spam list. Below you can see an instructional video on how to register in INNERSBOOKS.</p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://kedasdoc.s3.us-west-002.backblazeb2.com/Videos/Como+Registrarse+en+KEDAS.mp4" target="_blank"><strong>Click Here to see Video Demonstration</strong></a></p>
+
+<p>&nbsp;</p>
+
+<p><strong>Note</strong> : If you have any difficulty validating your account, please contact our technical support department by writing to the email&nbsp; <a href="mailto:suporte@kedasrd.com">suporte@kedasrd.com</a>&nbsp;</p>
+</div>
+</div>
+</div>
+                        <br>
+                                        <div class="card">
+                            <div class="card-header">
+                                <div class="row">
+                                    <a class="card-link col-sm-11" data-toggle="collapse" href="#faqcontent_1" aria-expanded="true">  Completing Company Information</a>
+                                </div>
+                            </div>
+                            
+                            <div id="faqcontent_1" class="collapse show" data-parent="#accordion" style="">
+                                <div class="card-body">
+                                    <p>Once the account has been validated, we proceed to&nbsp; <a href="" target="_blank"><strong>Login</strong></a> &nbsp;and then complete the company or business data as appropriate. The information provided in the form shown below is the information that will be reflected in the invoices issued to your customers, as well as information that will help the system decide what type of accounting will be handled in your profile and so on. that it is consistent with the commercial activity in which it is carried out</p>
+
+<p><img src="https://lh6.googleusercontent.com/KN3Us38xHs3McGLUf75QXcIO7hEkF31b4_wVVuo8gU8MQix3xhCcg-PVCsUu_K_SIkk13OoWEheS7ixUOdC5wEHNb1sAEvOoUECbkvFgWi6o_yFqopZmBRelzSWiak9eRyPf473E" style="height:276px; margin-left:0px; margin-top:0px; width:624px"></p>
+
+<p>We proceed to complete the <strong>Name of the Company</strong> if it is a legal person or the Name of the Holder if it is a natural person in the field illustrated below. ( <em>Ex: KEDAS Soft SRL</em> )</p>
+
+<p><img src="https://lh5.googleusercontent.com/x4bx1BI7POVktI29D4r9d_Sqscil8h3pqm-7fRxHIHGh1cQPbpO4WziTa9tvb8bdOfHSzOeWX4tHdBcmoOGJzVRyLh3NpMfsz_7SYbQ_VN7PbyFBlH20AIsigWIEkcigPDYL4liG" style="height:59px; margin-left:0px; margin-top:0px; width:486px"></p>
+
+<p>Then we enter the&nbsp; <strong>Position</strong> &nbsp;of the person who is authorized to manage the main profile or the person in charge of managing the company's accounting in which field that is illustrated in the following image. ( <em>Ex: Accountant</em> )</p>
+
+<p><img src="https://lh5.googleusercontent.com/BWVT_IqpwpMpVc55QTO6hhwroJlFy6Gjcb9y_uyWBlCJn4XHJ_5VPvHDUzNVQCPam5XVdxQaZATIAYM-CjNSTEtU7xwwuWrZxv53RVTE7Hn4n6DQsTH63R17eExsYA8RCYr5EaLP" style="height:48px; margin-left:0px; margin-top:0px; width:479px"></p>
+
+<p>Then we select the&nbsp; <strong>Business Sector</strong> &nbsp;related to the company we are registering. ( <em>Ex: Pharmacy</em> ).</p>
+
+<p><img src="https://lh6.googleusercontent.com/Jz3PFjdoWlEbvDAILpcB0jTxfRbeGg6vwm6NrwiW_yIud7dg24z7CYWYhwTIM64TTODb4pgO69LHEpeKkR4jifRdgewRObd3Q3RO4redoMIc2UAwK9XC828U5Otq0iN0X2dxgHQQ" style="height:50px; margin-left:0px; margin-top:0px; width:478px"></p>
+
+<p>Then we select the&nbsp; <strong>Currency</strong> &nbsp;in which we want the accounting process to be done, the system will take this selection as the default currency and it cannot be modified in the future, although you can sell in any currency but the accounting will be based on this currency. ( <em>Ex: DOP $ - Pesos</em> )</p>
+
+<p><img src="https://lh3.googleusercontent.com/dU1vxj7NVkLbHAKzV4vLcg4xHbUJZ98q9eLSGGc7qo17Ypa42d2m7AYDcqKRW_eiGOmFzW0YRG9fFivb1S1h72olomis3TXUGBaer7wTwrgcmlGAN6vUYeL0iALMqWvgpoJeNLgC" style="height:50px; margin-left:0px; margin-top:0px; width:488px"></p>
+
+<p>Then we introduce the&nbsp; <a href="https://dgii.gov.do/servicios/Catlogos%20completos/RNC.pdf?csf=1&amp;e=6pZ2jX" target="_blank"><strong>RNC (National Taxpayer Registry)</strong></a> &nbsp;this data is very important because if you do not have it, the&nbsp; <strong><a href="https://dgii.gov.do/publicacionesOficiales/bibliotecaVirtual/contribuyentes/facturacion/Documents/Comprobantes%20Fiscales/2-Guia-Informativa-NCF.pdf" target="_blank">NCF (Number of Tax Receipts)</a></strong> will &nbsp;not work properly. If you are not a company incorporated in the Dominican Republic, you can enter any number in this field or you can choose to formalize your company by requesting the service for free from one of our experts, send us an email to&nbsp; <strong><a href="mailto:negocios@kedasrd.com?subject=Servicio%20de%20Formalizacion">Negocios@kedasrd.com</a></strong> &nbsp;and one of our business advisors will contact you ( <em>Ex: 1-131-844-X</em> )</p>
+
+<p><img src="https://lh3.googleusercontent.com/5HufhxJ5o3inXJKT39SC_K7Gwle8Bfk6nUZGqZeO6GNWfDY2aUlreAtq9pINk52sts2V4pV_aCsoRcoPtLJwezD5nmLbsSW4i_c9LiIhqz1YuDBBhcG9YYTlixh3WR60o1r1YVTr" style="height:45px; margin-left:0px; margin-top:0px; width:486px"></p>
+
+<p>Next we are going to enter the&nbsp; physical <strong>address</strong> &nbsp;where the company operates or the address of the office that the client visits. This same address will be the one that will be reflected in the invoices and receipts that are issued to your clients. ( <em>Ex: Duarte Street # 21</em> )</p>
+
+<p><img src="https://lh6.googleusercontent.com/saZE99_a2WQA2IG-Bs8kK1YpDD3A09r-USjN-WnJz65BBkAZAgCZ8vWPifjILx1itsCbbDZVQvOgXTffZjUFhOEQuf43nXQ4HvDrpNfYraijp1FYe9cz-ex4MRMzsqlREqn2GUNH" style="height:51px; margin-left:0px; margin-top:0px; width:474px"></p>
+
+<p>Followed by the&nbsp; <strong>City&nbsp;</strong> where the company or business is located, ( <em>Ex: Santo Domingo Este</em> )<img src="https://lh4.googleusercontent.com/o7-PCz-L64DNT18Ls_t8PRFqZB3HVgM7kGxeZ4_Z9KXnWIDlZ71rTnL9cBrRWdDbEWhjXVAgQmNAJ0UmYUrT7c8JJnPNJ7R5Ql8J790QnACPXBZXfhrsP49XsVegdjWvt4WasCNu" style="height:47px; margin-left:0px; margin-top:0px; width:467px"></p>
+
+<p>The&nbsp; <strong>Province&nbsp;</strong> where the company or business is located ( <em>Ex: National District</em> )<img src="https://lh3.googleusercontent.com/MmkC1KaavyVqYfziqkvEQI1Q93rE8bDG8h92ApqoQaVLTSWKgiPfqJFB-m7Y3Jk8vEnaWa-2OuyWd5MpbQ9SVYToB81mvFHr_-IIzyD6bGJY6vFkQyrR4m4hRo-rplAHT5hd-8FD" style="height:46px; margin-left:0px; margin-top:0px; width:469px"></p>
+
+<p><br>
+&nbsp;</p>
+
+<p>And the&nbsp; <strong>Country&nbsp;</strong> where the company or business operates or where the software will be used so that the system adapts to accounting according to the standards of the selected country. ( <em>Ex: Dominican Republic</em> )</p>
+
+<p><img src="https://lh4.googleusercontent.com/MasCmL3GoenYHViHslxSH2zk0nE5UpuYspMmOCPZka7KXlqFrlNs8NBuWbm2y0ElZA82Jv-7aF1y8cCIA3vs87gJO5TC0tlRcNw5fPlKyZZz5boqobd9skZgNphdZUcMrrwu4LRK" style="height:47px; margin-left:0px; margin-top:0px; width:488px"></p>
+
+<p>Then you must enter the&nbsp; <strong>telephone&nbsp;</strong> number of the company or businesses that will be reflected in the invoices or receipts that will be issued to customers in numerical format and the accepted character limit is 19 and the field only admits special characters such as: +, -, (, ) . ( <em>Ex: 809-594-7790</em> )</p>
+
+<p><img src="https://lh3.googleusercontent.com/Lzr5JxgqLZJfLsWSq1SxBaiPwe6atwfhjTcPrBRI_nYpY5rMFk-p8NQU8IZt9Ui9GmIsnfDb9dTU_qJ90wMAXXQhwlIsfdJdM3kaf9ti2zS1lV3keXXydjVUrmt4LyJozy6wk7DT" style="height:49px; margin-left:0px; margin-top:0px; width:507px"></p>
+
+<p>Or the cell phone number&nbsp; <strong>from&nbsp;</strong> which text messages will be sent when an invoice is overdue as well as messages sent through Whatsapp, Telegram, Email, among others. ( <em>Ex: 849-342-8800</em> )</p>
+
+<p><img src="https://lh4.googleusercontent.com/3U8-58gDLw1LAo5phe0_gQeecmAbI_DKRaSxYLE3nsCF9fW2E8rvJN-xbpHxIY6dQXYqCaTrx4KwfACVsVpOKXgCf8KbSY1SEL02HtMW4ElRcDswiNR6XplmfzQc5LtGVEAdXcOa" style="height:52px; margin-left:0px; margin-top:0px; width:472px"></p>
+
+<p>Here is an instructional video on how to fill out this form correctly.</p>
+
+<p>&nbsp;</p>
+
+<p><strong><a href="https://youtu.be/3SJMNwVKoNQ" target="_blank">Click Here to see Video Demonstration</a></strong></p>
+
+<p>&nbsp;</p>
+
+<p><strong>Note</strong> : If you have any difficulty completing this form, please contact our technical support department by writing to the email&nbsp; <a href="mailto:suporte@innersbooks.com">support@kedasrd.com</a>&nbsp;</p>
+
+<p>&nbsp;</p>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+    <div class="card">
+                            <div class="card-header">
+                                <div class="row">
+                                    <a class="card-link col-sm-11" data-toggle="collapse" href="#faqcontent_2" aria-expanded="true">
+                                        <div class="col-sm-11">
+                                                                                        <b>  Products &amp; Services</b>
+                                                                                    </div>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div id="faqcontent_2" class="collapse show" data-parent="#accordion" style="">
+                                <div class="card-body">
+                                    <p>In order to create invoices and quotes, it is necessary to create the products and services offered by the company. To do this, we go to the Module <img src="https://lh3.googleusercontent.com/NrthgxqhLGqi_rRyzoKUNk3XViE9Ely0gbvZjBJcduR2UFIJkWL-nIDS6SebXdcd2Ddj6mdCUDhT_qeBxFmKxqjONDXktl_2ewKd9Z4oCFZTMB1cPOykjTc64rudawD7mZ72c8G8" style="height:44px; margin-left:0px; margin-top:0px; width:218px">and then click on the <a href="https://portal.kedasrd.com/inventories"><strong>Products and Services</strong></a> module that is illustrated below <img src="https://lh5.googleusercontent.com/bx83qi1RLA6QCXpAFm47-8IUmoZfM-ZDClUvYDDzOHnx-wuR51RKnp0_KOm69pBfgVOJofu24WWvdMtzdfZI0aRebPyUcOCWdoOGLBfCkycygS3XJoOAn98E2Fh_LlI-7abj3aT0" style="height:27px; margin-left:0px; margin-top:0px; width:164px">&nbsp; . Here we will be able to see the catalog of products and services that the company has created to make invoices and quotes to its customers.</p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://portal.kedasrd.com/inventories/create"><strong>Create Product or Service</strong></a></p>
+
+<p>To create a product or services, we click on the <a href="https://portal.kedasrd.com/inventories/create"><strong>+New Products and Services</strong></a> button : <img src="https://lh5.googleusercontent.com/EZ3SYs1zM-AayiZJ2EnJsherun7PN_pbA5IyOmuzqMD6J5Q_OfqqU2O_VtlsqYpSB0EuOUEUP8ceW1qdgJAIAC-7JuryJdEWV4--wCnDnv-xASUJypkUXMi0-MlDI4iGpm9wUQTW" style="height:52px; margin-left:0px; margin-top:0px; width:247px">and then we select one of the 3 options as illustrated below.</p>
+
+<p><img src="https://lh4.googleusercontent.com/Hj12Gl49hSS2pPTyjFuLlbGWjmcfz2vk3EW9ZbBe1vOu-jVpLSXRhcLxszQlbPeVHJE_N_wpNHkV3UhEZfhlTHcEpoACmpJEIZNC8raIUIbgIHmeM5twbVlmjdn1nWuk9oPWAZdB" style="height:277px; margin-left:0px; margin-top:0px; width:624px"></p>
+
+<p><a href="https://portal.kedasrd.com/inventories/create?type=inventory"><strong>Inventory</strong></a> : We will use this option to keep track of the inventory of stored physical products in order to know metrics such as: how much product is available in inventory, current inventory costs, expiration dates, depreciation, among others, that is, see in numbers what happens in the company's inventory, usually products that we buy from our suppliers to resell to our customers. When registering products with this option, we settle the initial balance of the inventory in the accounting. (<em> Ex: Milk Carton, Chairs, Computers</em> )</p>
+
+<p><br>
+<img src="https://lh4.googleusercontent.com/CR2fE8Fs-jqIXAIhuFmJYgPzSe1pT5KnR6T9sePy2LJbl4chIQcrRL1mbw0a7utnT8Pn8j0wQYthImtkhOt0w1MKOyKObMPnrpIyQIIaytIW1iJxkx4lh8w7NGC3_XDGNEdppbDC" style="height:120px; margin-left:0px; margin-top:0px; width:114px"></p>
+
+<p><a href="https://portal.kedasrd.com/inventories/create?type=services"><strong>Services</strong></a> : We will use this option to register the services that the company offers to its clients, these do not apply to keep track of the Availability of Service since it does not require this count and due to its nature of service they will be available without limits or can be sold As much as the company can offer, these can be services created by the company or that it pays a third party to offer to its customers. This option does not carry a sales count or limit. (<em> Ex: Legal Services, Property Management, Drafting of Contracts</em> )</p>
+
+<p><img src="https://lh3.googleusercontent.com/jGI_yixcVRAOyAcMfJn9rgezveNlF3f_3mibImwwZSV62zPV0ttlP_cySsI2rS-c8EGO6gujlYHe3vExdadeK-u7agy56fchJZeVWvfTEoNCVK0mQ1CnRxCQWDaVSB6kP6i4MRtp" style="height:117px; margin-left:0px; margin-top:0px; width:104px"></p>
+
+<p>When clicking on the <a href="https://portal.kedasrd.com/inventories/create?type=services"><strong>Services</strong></a> option we will see the form as illustrated in the following image.</p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://portal.kedasrd.com/inventories/create?type=non-inventory"><strong>Without Inventory</strong></a> : We will use this option to register Tangible (Physical) and Intangible (Non-Physical) products and that does not necessarily entail a count or sales limit, in addition to which we will not store, such as a tangible product to sell to our clients. and that we buy from our suppliers after we have sold it. (<strong> Ex: Materials for installation of metal doors</strong> )</p>
+
+<p>&nbsp;</p>
+
+<p><img src="https://lh4.googleusercontent.com/IYNnadveplhIfMFjc35Uav8CD0JtAMLbfIA-YXhl2hYcGSFd8dptpfXlJ2L_9tSBYyZY_E-SSNTxDJzoGqNnjz9eKlVG0P5nl9cQBI3QznotIsZlYhJBsf64QnfnUiUFoXJIqttV" style="height:109px; margin-left:0px; margin-top:0px; width:117px"></p>
+
+<p>&nbsp;</p>
+
+<p>By clicking on the <a href="https://portal.kedasrd.com/inventories/create?type=inventory"><strong>Inventory</strong></a> option we will see the form as illustrated in the following image.</p>
+
+<p><img src="https://lh3.googleusercontent.com/0_i26Y98iUrjTtT7SFltT1t9ON9PoQKtm421JtjKE6KbUhczTjQ0aG3I1drbi64gUcwBEjLegJPvhzcbgJxWr9iTP_Yf7VjRSeYjC582XB2uDxnQxpIZyYqCya9wpaL86SR2fDKy" style="height:351px; margin-left:0px; margin-top:0px; width:624px"></p>
+
+<p>In the <strong>Name</strong> field we are going to enter the name of the product that we are going to register ( <em>Ex: Winasorb Forte 500mg</em> ).<img src="https://lh5.googleusercontent.com/f_OsbBQQ38gVHdgnbNpVtWDWinivLE3I0mVvOv-LGH1QiBwuhw8eXVndo2LP2J6LqrmUFRqOkltCdM-6MHik5MMmwKtde8bNs_69TuyLpW83784kcEYzHcZrFP-e3l6toapZOPs3" style="height:46px; margin-left:0px; margin-top:0px; width:405px"></p>
+
+<p>Then we enter the product reference in the <strong>Reference field,</strong> this information helps us to differentiate one product from another that has the same name but the reference is different ( <em>Ex: Multisintomas 500mg</em> ).<img src="https://lh5.googleusercontent.com/F_-i36x8ox5nSU7omMUrxaEM6Mey_bnVYhXXVpd-DEeMsq_hnUFaqr6TuZJ3BvgVSxsPpFhTbhkdAke_lQ6GAEpeQTQc6u340PT-3twIb2IY_woUs_h92eBFaxnmhbyZ0HDBaBq1" style="height:48px; margin-left:0px; margin-top:0px; width:411px"></p>
+
+<p>Next we are going to enter the price of the product that we are creating, in the <strong>Sale Price</strong> field this field is mandatory <strong>. </strong>This would be the price that the customer pays for this product or service and must enter only numbers or points in this field and it is not necessary to write the currency symbol (Ex: 4500) or it can be (Ex: 4999.99). <strong>It is not correct</strong> to write in this field in the format (Ex: DOP$4500.00).<img src="https://lh3.googleusercontent.com/ffL_S_G5DY8mfjpgg_vrnkwI0B5YSmaLwX8aSKHQeuOek80xcdAejq1zMFoEn7QL4cRISQA-GUxnQF41nCspGmkiHs77sc8o6h0QLfIZN_LnLdGEFn3aedevAVRdm_QHcE3amul4" style="height:48px; margin-left:0px; margin-top:0px; width:404px"></p>
+
+<p>Then we select the category of this article from the list of available options in the <strong>Article Category</strong> field if the category you need is not in the list you can click on <a href="https://portal.kedasrd.com/item-categories/create"><strong>Create Category</strong></a> and then we create a new category, later we will see the form to create a new category when necessary (Ex: Groceries).<strong> </strong><strong><img src="https://lh3.googleusercontent.com/bNFEMl6EtJ2lNkMF1VQUWfjpRmOYYunF4RUTlCnuQkjBrv8zMblJUjHoSVGAoBo31dXLTBjhDYMELqtj96fAJaVF4qQELDxWfV3uTxy2-C3Gry5KJ_K-zvtPQyrFPr7YTzZCSjSy" style="height:31px; margin-left:0px; margin-top:0px; width:101px"></strong><strong> </strong><strong> </strong><img src="https://lh3.googleusercontent.com/eJlc4gwqzeLCaCO16hBX6PGrKd0hByZhoaYoEWaX1MOPIHIG8RsR9tLId3ongQ41OuMWl65SlO9AXZhMKdaBou_ED3cRus6vm-uk1jCsm6-pDs4naK1ojEPPxkBAd7TsnTHaj14U" style="height:52px; margin-left:0px; margin-top:0px; width:464px"></p>
+
+<p>Once we have selected the category we are going to mark the type of product that we are creating, for this, we have 3 options of which we can mark one: <strong>Regular</strong> <img src="https://lh4.googleusercontent.com/NiHv133p8zoZeRhM8ivIvCfnE-pKnJB1_EhuNIAp_QbnIIrSGdaLsfVh-98KypZ4TVFkDyrdxpWWAEipcJkZ9nS362ku8_QAv4mRGHeM_7XoRG8tX2mRZ7YfKcJEd4Sgnm3gPQfd" style="height:27px; margin-left:0px; margin-top:0px; width:85px"> for simple products and services that do not have any variation and that are unique in the product catalog and services (Ex: Green Banana). <strong>Kit (Combo)</strong><img src="https://lh6.googleusercontent.com/mczbgo8xn2E6lbuoi3ugHrQ4v2lXVsOoffuk15NLrBtBxghM1X2y6YnK0YI-Uq6DDbYQTkVbwoP_mK0V_2wcZI1tpRMDbt2bNH0TQYxYuq-W8jQMDG3dTr1Yb-7TzP4jgj8xdtz-" style="height:30px; margin-left:0px; margin-top:0px; width:107px"> for products and services combined with other previously registered products and that together have a single sale price (Ex: Hamburger + Fries + Soft Drinks, Christmas Basket, Desktop Computer with Monitor). <strong>Variants</strong><strong><img src="https://lh3.googleusercontent.com/YcA8_8V6j1fMnXPJx3sYyYXoSYCqh0rLxT0RVX931jTc4ZYAWg_c1RRA_Wk5eOMamCrkQaKYQjVcY0vlsYLs1NSq2ehFrMsEo4QN1a2hFkajBUC2XJrNpKScYVVnEhiqA7LHiGOm" style="height:39px; margin-left:0px; margin-top:0px; width:238px"></strong> These are products that have the same name but that have variations or that their sale price varies according to their reference (Ex: White Polo Shirt [Small, Medium, Large]).</p>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                                        <div class="card">
+                            <div class="card-header">
+                                <div class="row">
+                                    <a class="card-link col-sm-11" data-toggle="collapse" href="#faqcontent_3" aria-expanded="true">Role</a>
+                                </div>
+                            </div>
+                            
+                            <div id="faqcontent_3" class="collapse show" data-parent="#accordion" style="">
+                                <div class="card-body">
+                                    <p>Create Role</p>
+                                </div>
+                                        
+                            </div>
+                            </div>
+<br/>
+                            <div class="card">
+                            <div class="card-header">
+                                <div class="row">
+                                    <a class="card-link col-sm-11" data-toggle="collapse" href="#faqcontent_4" aria-expanded="true">Users</a>
+                                </div>
+                            </div>
+                            
+                            <div id="faqcontent_4" class="collapse show" data-parent="#accordion" style="">
+                                <div class="card-body">
+                                    <p>Create User</p>
+                                </div>
+                                        
+                            </div>
+                            </div>
+                            
+                        <br>
+                                        <div class="card">
+                            <div class="card-header">
+                                <div class="row">
+                                    <a class="card-link col-sm-11" data-toggle="collapse" href="#faqcontent_5" aria-expanded="true">Clients</a>
+                                </div>
+                            </div>
+                            
+                            <div id="faqcontent_5" class="collapse show" data-parent="#accordion" style="">
+                                <div class="card-body">
+                                    <p>Create Clients</p>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                                        <div class="card">
+                            <div class="card-header">
+                                <div class="row">
+                                    <a class="card-link col-sm-11" data-toggle="collapse" href="#faqcontent_6" aria-expanded="true">
+                                        <div class="col-sm-11">
+                                                                                        <b>  Suppliers</b>
+                                                                                    </div>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div id="faqcontent_6" class="collapse show" data-parent="#accordion" style="">
+                                <div class="card-body">
+                                    <p>Create Suppliers</p>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                                        <div class="card">
+                            <div class="card-header">
+                                <div class="row">
+                                    <a class="card-link col-sm-11" data-toggle="collapse" href="#faqcontent_7" aria-expanded="true">
+                                        <div class="col-sm-11">
+                                                                                        <b>  NCFs</b>
+                                                                                    </div>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div id="faqcontent_7" class="collapse show" data-parent="#accordion" style="">
+                                <div class="card-body">
+                                    <p>Create Vouchers</p>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                                        <div class="card">
+                            <div class="card-header">
+                                <div class="row">
+                                    <a class="card-link col-sm-11" data-toggle="collapse" href="#faqcontent_8" aria-expanded="true">
+                                        <div class="col-sm-11">
+                                                                                        <b>  Taxes</b>
+                                                                                    </div>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div id="faqcontent_8" class="collapse show" data-parent="#accordion" style="">
+                                <div class="card-body">
+                                    <p>Create Taxes</p>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                                        <div class="card">
+                            <div class="card-header">
+                                <div class="row">
+                                    <a class="card-link col-sm-11" data-toggle="collapse" href="#faqcontent_9" aria-expanded="true">
+                                        <div class="col-sm-11">
+                                                                                        <b>  Quote Loan</b>
+                                                                                    </div>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div id="faqcontent_9" class="collapse show" data-parent="#accordion" style="">
+                                <div class="card-body">
+                                    <p>To quote a loan <img src="https://lh4.googleusercontent.com/AiMLdTYLeUwxerpkb_s8BNnC3HqONCJWHNdualJkjS8qTwQ3Z8yz2rLt0kLQmxlTbHMbW7HbDPMfBdOTkaGm5tWk8-Xp99wARsdwDf4F3DRC7LzI15tlgHZK2L6H-oKq9HuPO8uW" style="height:48px; margin-left:0px; margin-top:0px; width:192px">, we display the tab and click on <a href="https://portal.kedasrd.com/loan/quote"><strong>Loan Quote.</strong></a> <img src="https://lh3.googleusercontent.com/lh2x-hcbmNCg45hH_Jp3dXRsk-S9jqRkUrwbbsNvvfKr_dbagMDQlK03ZbiLRMPN0YECfwYqHrlFBGKa_sJHPQAsiXDKPXlKDNh2Z5h9HE-YzYTzbF2hTV0DUJNs50qCYSQ4DCbx" style="height:23px; margin-left:0px; margin-top:0px; width:148px"> Here we will see a screen where all previous quote records are as illustrated below.</p>
+
+<p><img src="https://lh3.googleusercontent.com/bcCIDLNZVGLyJrE-hdtDxi6Qe9kKu_m2t1e8Iper6sB5Fjxgl7GZ9a__KdTWiVPg3HAEhkYHEl7xO4TKuLhcqaBKxtunjxUWp8wBLZnGLUHwmiTvCTFwBgmeNCBWKbvYdZuZeV-_" style="height:351px; margin-left:0px; margin-top:0px; width:624px"></p>
+
+<p>Next, we click on the <a href="https://portal.kedasrd.com/loan/create/quote"><strong>+ Create Loan</strong></a> <img src="https://lh6.googleusercontent.com/yB4hhAWns6ysneIviJvoQ1MGiLK4ip02JAKlBO12UUeaAnLEpJmaw6f71RmKxu4oNs2KpylIPwDcX_NhBz6RjHGOq2jwFrf4dkGbza2f2A7Dk8-M_B966mX5xFwRFrSAhc7Rj_cd" style="height:52px; margin-left:0px; margin-top:0px; width:164px"> button and we will see a form like the one shown below.</p>
+
+<p><img src="https://lh4.googleusercontent.com/pLQG1y0kn4YqQaytGS3yiRJtTnDZ0-b9NtlxnXi1o4CZ2kPWQK93TUwu4SU6R9ySxy9uZs_DGQ_ALBxY5boHxXOL6o3TdqhJW3Qc-utcSoQWpn8PI1fGMoCSG-4RMSJlyvYo6lQw" style="height:528px; margin-left:0px; margin-top:0px; width:624px"></p>
+
+<p>&nbsp;</p>
+
+<p>First we select the contact of the person to whom the loan is going to be quoted from the client list found in the <strong>Contact field *</strong></p>
+
+<p><strong><img src="https://lh3.googleusercontent.com/KF7qxwidZMgR4L9PnPIFMTIdsObZH_77jjL_4S4gHZnruxLgtvSX4BUbYb9IPpge_VwCquPP7tZQ9JdT2J6JhYs3M-IV14GlL1egwNCGXdFtyltMRvGQKlNEQIWSNRDrxTelZaqj" style="height:81px; margin-left:0px; margin-top:0px; width:624px"></strong></p>
+
+<p>&nbsp;</p>
+
+<p>esta lista de contacto se carga con el listado de clientes que creamos posteriormente si el contacto no se encuentra en esta lista entonces podemos hacer clic en <a href="https://portal.kedasrd.com/clients/create"><strong>Crear Contacto</strong></a> <img src="https://lh5.googleusercontent.com/35Qk4PClV4Ec-JYouTNb-xdaz_3CIO07t-EqEdCnhzuDEz_dosZb3cQWchj2yw5zqA2UQ0fCWTnOgQAF8b5cprOLJmsK0j962LaorwZ12c0kzAkZSTAlc7X-Swwvs84wi8EoKYcl" style="height:38px; margin-left:0px; margin-top:0px; width:92px"> y a continuación podemos crear el contacto a quien le vamos a cotizar el préstamo que crearemos. Si no deseamos crear un contacto por el formulario de crear contacto, entonces podemos escribir el nombre del cliente en el campo <img src="https://lh5.googleusercontent.com/sgjqRbeabpL3mE6S8Mzo0n1NKLb3EEJ9l4Cgvr-FdLmqWKVp-4_HmxfSDwyHBveHsLrBY9do33o75Ok1f5rkptkR8zmvz-X837g5-YWS7RcLcPfR2JJi4vDuHC5mElJjOR665C9d" style="height:47px; margin-left:0px; margin-top:0px; width:623px">y el sistema creará un contacto automáticamente con el nombre que escribimos en el campo <strong>Nombre de Contacto</strong> y utilizara el mismo nombre como correo electrónico. Si desea enviar esta cotización por correo electrónico le recomendamos que modifique el contacto con un correo electrónico válido. O descarga la cotización en PDF y enviar cotización adjunta usando el correo electrónico de la empresa o de el colaborador que asistió el cliente.</p>
+
+<p>&nbsp;</p>
+
+<p>La fecha de esta cotización será la del día en que se esté haciendo, pero si desea hacerla de una fecha en específico podemos indicar la fecha en el campo <strong>Fecha * </strong><strong><img src="https://lh5.googleusercontent.com/cv3IKJI3aqN5cM3GCE4OTO7PxJ_KpmV2dAN8WYOzSj98_CmQ3oka2AQ-7dk7kjNt7RKdxWhna7AP_RCHWNK5h4VwMZMh_K4oHBHIn3gu2uyy3Dn1NoA90rdoxq9GG6c6qNtfA_NA" style="height:46px; margin-left:0px; margin-top:0px; width:623px"></strong>luego seleccionamos la fecha en la que se cancela en el préstamos en caso de ser aprobado si no seleccionamos una fecha en específico el sistema tomará como referencia la fecha de la última cuota automáticamente esta fecha la vamos a seleccionar el campo <strong>Fecha Límite de Pago * </strong><strong><img src="https://lh6.googleusercontent.com/w7x_M90RAE_YexBVWpC8U6n2QFyOfnzB2WXemgE1oxj_KPXPbi6uFpCLsGmralB_xKgCFl8Knc3U63kS4NKHZ-RmNCwfVLUujrMB2ge8ogXTNvhiMoP1__3Oz-HbBmG-8O5SUUll" style="height:46px; margin-left:0px; margin-top:0px; width:623px"></strong></p>
+
+<p>Luego seleccionamos el método de amortización con el cual vamos a calcular el prestamos que estamos creando en el campo <strong>Tipo de Amortización *</strong><img src="https://lh4.googleusercontent.com/yBWldSJGn-h84B1DhA5aP-nQXUPw8G46HPkHKlT49TuuPKxwJG3u6yxb2E6kJkTCMGJSKrp3otiFYTw-wz9P2c32bTR8O5a6KT3DSfp0Lg4lYIwyPuhaK3OSnlHur4w7_pYxnxQJ" style="height:43px; margin-left:0px; margin-top:0px; width:623px"></p>
+
+<p>&nbsp;</p>
+
+<p>Si es un préstamo que incluye el financiamiento de un seguro introducimos el monto total a financiar del seguro en el campo <strong>Seguro</strong><strong><img src="https://lh6.googleusercontent.com/j7GV-T_ZIoydnLEYVCdcZfSdNdqo7YT_UwYqR1GU0WW5p5MrhVbC-U9lt3tVveu0l_zzl3q_exmRV-_5akUaiHTd-8aS3PSbDGVOfPinO4q3P0rdrtz009I8zBJz99jG11lpMCgj" style="height:45px; margin-left:0px; margin-top:0px; width:623px"></strong><strong> </strong>también podemos definir las condiciones de pago del costo de seguro en caso de que se vaya a financiar sin intereses aplicables al costo del seguro entonces por ejemplo si el costo del seguro se pagar en 3 cuotas escribimos el número 3 en el campo <strong>Seguro Condiciones </strong><strong><img src="https://lh5.googleusercontent.com/cBMfrCxqP52u-CawDvQYmkoyjgu9Q_8UKJsR4gxcoD0FgkWkRQGCpCG2wO--C351qBomNhDoRdgmETy-yY7IpC0fNlwpXjR0xwJScT9NtbKwYOxB9OwkkuF6EM-XzPGuf-vf-VON" style="height:49px; margin-left:0px; margin-top:0px; width:624px"></strong>Esto indica que el cliente pagará 39,000 divido por 3 que se reflejarán en los primeros pagos de préstamos sumándose al monto de la cuota del préstamo que estamos creando.</p>
+
+<p>Es el mismo proceso para el GPS si el costo del Servicio de <strong>GPS </strong>se va a incluir dentro del préstamo introducimos en el Campo <strong>GPS </strong>el monto total a financiar por Servicio GPS.</p>
+
+<p><img src="https://lh5.googleusercontent.com/ug3b8uVIvTUKKAZSxWfWivFw-aPnqw9oSCL7WwxvaBaIjq-pwfnrrII99ERxGmZbeIcwMo7JrKSrZjSm4AvQaj1oHSwg9isPFUni9rK2jIZKXVpNPOktJrBA-3Cz1pIW0_C7Pcbg" style="height:43px; margin-left:0px; margin-top:0px; width:624px"></p>
+
+<p>Además podemos definir las condiciones de pago del costo de GPS en caso de que se vaya a financiar sin intereses aplicables al costo del Servicio de GPS, por ejemplo si el costo del GPS se paga en 2 cuotas escribimos el número 2 en el campo <strong>Seguro Condiciones</strong>&nbsp;</p>
+
+<p><strong><img src="https://lh6.googleusercontent.com/nd2B8bxCNmC-XxjhrrYu0lKBIpoZp8DaUzGU0AhLn3lqNV3K0g0KT1As-C86Rq2LPTKs5e3wKm9ehjbaxwfj59qO95zhmzG9r3jnn1qWNSNbMajaH0PZ607WvoyfDjutJ26dy1lt" style="height:47px; margin-left:0px; margin-top:0px; width:619px"></strong></p>
+
+<p>Esto indica que el cliente pagará 12,000 dividido por 2 que se reflejarán en los primeros pagos de préstamos sumándose al monto de la cuota del préstamo que estamos creando.</p>
+
+<p>A continuación introducimos el porcentaje del <strong>Gasto de Cierre %</strong> que aplica para este préstamo por ejemplo para el 10% escribimos así en el campo <strong>Gasto de Cierre %</strong>:&nbsp;</p>
+
+<p><img src="https://lh3.googleusercontent.com/J8OKfCPZjMJA5AMCv-VRa4z1VKXC4OwuItENFZTOZq_zTEUXwQjdtZ9r9264t2YXSTY5frdqV-C0niniUoGH0gqb_NfZoc6ykcQwwHj1BJN0UDf-2y6m-WnwCoT6ekTRqFUByFu_" style="height:49px; margin-left:0px; margin-top:0px; width:623px"></p>
+
+<p>Esto indica que el 10% del total del préstamo sería el monto del gasto de cierre a pagar por parte del deudor. Esto significa que al momento del desembolso el monto del cheque sería del total del préstamo menos el 10% de dicho monto. Si el <strong>Gastos de Cierre</strong> va incluido en el préstamos marcamos la opción&nbsp; <img src="https://lh6.googleusercontent.com/yKz3O9ywEpbTw2QdgeDZfar6G0eVqJmlVde2OprL_7f311ra2PaQmYvpO4szzyz5x6KUgqGJvbnEL4aeBK3NtDjXqVg56RM3oGnhhddiRrD0lOyQkUU_OJaD_QkolftnHVYuKrd6" style="height:35px; margin-left:0px; margin-top:0px; width:300px"> entonces este se sumará al total del préstamo y se resta al momento del desembolso, es decir, el desembolso sería el total del préstamo menos el Gasto de Cierre y este sería el monto del cheque a desembolsar.</p>
+
+<p>A continuación vamos a calcular el préstamos para poder visualizar la tabla de amortización, para ello, vamos a introducir los datos del préstamos. Primero introducimos el monto del préstamo en el campo <strong>Monto del Préstamo *</strong>. (<em>Ej: 400000; si fuera un préstamo de cuatrocientos mil</em>)<img src="https://lh5.googleusercontent.com/mby7Z24j2gj_Wk4MVht3G6ape8bbKLDg-4bazSXGeMFm4RdTa1Jz1ZCGuVPUL0J9bYMQhWHI-Flzyh-LBDt-4eGasRDb2wl4cg-gNAAph28xq-ytjD6ZIHIy22hmFfiqfgGc643i" style="height:48px; margin-left:0px; margin-top:0px; width:619px"></p>
+
+<p>Luego introducimos el plazo del préstamo en años en el campo <strong>Plazo del Préstamo en Años * </strong>(Ej: 3; para 3 años)<strong><img src="https://lh6.googleusercontent.com/giY3HSCEsBG5cXGcVEAWw5nQxgFYoI-TaWVZVg0Iq1rYXK1TW0w2PRWo1UxzvQEtTQm65vNI840kmbx-72qs8Iqv6wq_aLqemw7OlSKvPIBTOrssiArzWvg1wm26l4q_h7OwMtMa" style="height:45px; margin-left:0px; margin-top:0px; width:620px"></strong></p>
+
+<p>O podemos introducir la cantidad de meses que durará el préstamo en el campo <strong>Plazo del Préstamo en Meses * </strong>(Ej: 36; para treinta y seis meses)<img src="https://lh6.googleusercontent.com/SCz1dvAMW1Fmw-RwN5HLQVNP1PH2j8zTM5mMkLFMYKHx03uPvK2NPqGuvd7jAwPOsVI9un8JMcEmqMj2hg4j4nXDb3pCZd6ishKHkXHfIiKGc52Q6WZAe9E2ETznDsUv7w-yiNzx" style="height:46px; margin-left:0px; margin-top:0px; width:621px"></p>
+
+<p>Luego vamos a introducir la tasa en valor numérico que representa el porcentaje aplicable al préstamo que se está creando, en el campo <strong>Tasa de Interés * </strong>(Ej: 3; para un 3% mensual) <img src="https://lh3.googleusercontent.com/8Tcdcj3uFmpeFMZYrV_CwipwxZ3YaJImtgSp4HAgN1rHTCYEXmFeCRlfAmR_uwqHcGBabK4160oLV9KdyNPBbfVbjEjdw0mq88bmbxC2Nk1Kl9v43N-uvGV626xfxgMeiH7fXIUT" style="height:48px; margin-left:0px; margin-top:0px; width:622px"></p>
+
+<p>Podemos además definir si el porcentaje es anual, mensual, quincenal, Semanal o diario seleccionando una opción como se indica en la siguiente ilustración</p>
+
+<p><img src="https://lh4.googleusercontent.com/Gcu8n77Cx1M42_ukMjyMI4xbrlSYJ6e4eITkdP6kr5uP3fStB38iIn9-uUOZzsKS6R1Bp8hohTMkY9KfadQPjqDpOzs4z7VH8R5LJpBlzxraZPRNVwuWMMXEBFZ0PgMo1mHsgTSi" style="height:197px; margin-left:0px; margin-top:0px; width:624px"></p>
+
+<p>También podemos adjuntar archivos que sirvan de soporte para la cotización o que sean relevantes para su posterior aprobación, hacemos clic en el botón que se ilustra a continuación (Ej: Cédula de Identidad; Una foto).</p>
+
+<p><img src="https://lh6.googleusercontent.com/324Cenc1N-7qal7DAW_a0oiwdCEvk-9hjYv-LHrWpJxKXL98LmlGh9M6vBa7bixC48sRyyIxzPEmLm9o7jFmciGwwOpnMx9twz2PDrWk2GYooGcjY607KobuGohgoYXVl8cnEWRR" style="height:199px; margin-left:0px; margin-top:0px; width:624px"></p>
+
+<p>A continuación seleccionamos el archivo que se encuentra almacenado en nuestro ordenador o dispositivo móvil.</p>
+
+<p>Una vez hemos completado el formulario con el mismo formato que hemos explicado anteriormente podemos visualizar la tabla de amortización con los datos del préstamo que hemos suministrado como se ilustra en la siguiente imagen.</p>
+
+<p><img src="https://lh6.googleusercontent.com/Fl9WZNZ_itofY3Zk1RWui_v1KPDmpirM_q37SexEj3MREACW3Dv7B6Pv1Aex7Q5Ys2HE4L0g2mfQ_NyEleloHJEWbQboZcGQUEcOibznZk51p0Ghe9Kc7vyCKmatVM0HScJZ8qwc" style="height:415px; margin-left:0px; margin-top:0px; width:624px"></p>
+
+<p>Podemos Seleccionar la cantidad de registro que queremos visualizar en la tabla haciendo clic en el botón <img src="https://lh5.googleusercontent.com/WaKRt3gF62bRwlyL2eQrGMHxoUxh9FFRXUiIZz80rGEhm34X3toi8XifX9B3hCQ_gSWILS62cpgTqR0z5xpwodpWzB__O_B-0UxIKm9A__44VNLnsiWjzxbKM2k_N7dGmvREongu" style="height:41px; margin-left:0px; margin-top:0px; width:227px"></p>
+
+<p><strong>ID </strong>es el número de pagos a realizar durante el periodo del préstamos <img src="https://lh6.googleusercontent.com/clTDU5FV7AuBiQebxcnF0ljwjocX-XwriT4Xw4tLUgzKq2-u-qg5Mlclz0cdpmPwIvKdFuywD6uR_mKKXyx8oACVTj-rDkUaePpa8Xk8UxraS0gE7bzyL3uhVapWUwtyvxYdzGcP" style="height:45px; margin-left:0px; margin-top:0px; width:56px">.</p>
+
+<p><strong>Fecha de Pago </strong>son las fechas en la que corresponde realizar cada pago <img src="https://lh3.googleusercontent.com/-D4712FGAPnD5PTwrNHLUfPKzIU0iRvPgBQHwuHTPP-veZX9PVS4B3VsVExHQu9BhGC8hCtnPy09yXBJ9zE-P1jsB73qt1MvHAa2NUgAyuCVr3Jtyx7_fBvKpyHQqRc23n8CuvXJ" style="height:32px; margin-left:0px; margin-top:0px; width:154px"></p>
+
+<p><strong>Interés </strong>es el monto de interés a pagar en cada cuota según la tasa de interés, el monto del préstamo y el plazo del préstamo previamente definido&nbsp; <img src="https://lh6.googleusercontent.com/iBNHikvj5yT3B54ZslQIGIzRvbvyWI9eY3sqLSypUx0dOVtfNZL7x--IWHhTzEcJpMZATujZUxUQQpVBEKOsQV1OaOEKSUYRLD7AL6kdyxcPZQPby9OMOG4am6d-iduLBilHgLy0" style="height:45px; margin-left:0px; margin-top:0px; width:152px"></p>
+
+<p><strong>Capital </strong>es el monto de capital a pagar en cada Cuota según la tasa de interés, el monto del préstamo y el plazo del préstamo previamente definido <img src="https://lh4.googleusercontent.com/BGWQNXl8BNT4tfILw-pH18m5zI-rykwHGwNkI41VAUVs1uFT817Cb6Vh6doKcP53qlAf37VdlVJkycZljYYCgY5VduS_If_tVCckddolW3s_Jh7OaZUuupRtkt_DoAZaxgbJMffk" style="height:47px; margin-left:0px; margin-top:0px; width:150px"></p>
+
+<p><strong>Pagos </strong>es el monto de cada según corresponda es la sumatoria del Interes + Capital + Seguro + GPS <img src="https://lh4.googleusercontent.com/B7zcl4BYcqqFxN5xeIkp0jKxNPLCdwBaBAjsyQNWvP48Bs_dpdv3xBZ_D1XXzyO6nVroYVz90dW3KUyD097MyTUC5NTMai_ORUrXcRaQknEOhiv80266k5NFOXIHCaVxuV3atN7t" style="height:45px; margin-left:0px; margin-top:0px; width:109px"></p>
+
+<p><strong>Seguro </strong>es el monto a pagar por concepto de Seguro de acuerdo a las condiciones definidas previamente en el formulario. <img src="https://lh4.googleusercontent.com/SajYd_0H8eoSd21dhIpWjPBnYq386sdXEKZlAnEaP2qruo-p97I3BDUJUFUOxyjR3W0kk4mOAbrDz-mKEAL9kf_Y-vrtuUMq0VuAQTw3vi-RNvCxKlZ_geBCdC99kDby_yocu_Uy" style="height:45px; margin-left:0px; margin-top:0px; width:117px"></p>
+
+<p><strong>GPS </strong>es el monto a pagar por concepto de Servicio de GPS de acuerdo a las condiciones definidas previamente en el formulario. <img src="https://lh3.googleusercontent.com/j9CODdQE1PasjRE9GI1OrmGv7_Lm6eF0S9qreicVMoJhTlUnAciRXMQasm4A9uY5dJdOaBzzkWX0ttRgGcFoJIitn8zs_uPHSR5Iii9ZbPdsoMX8EXcLrfiv7s9mtLNEH_htbgLc" style="height:42px; margin-left:0px; margin-top:0px; width:102px"></p>
+
+<p><strong>Balance </strong>es el balance del préstamo antes de realizarse la cuota que corresponde al pago en cuestión. <img src="https://lh4.googleusercontent.com/NCikCzJbkyfj3myaYEcjAkIKlTbGj69MG_Nn3oNiKcHUVzdQpk_r7BEJq7pLM6bDv2fXaSaRfv4ngXAr7oX0wuLEbwizIINxTGabweLm6KPOtG4wPdcJqWN95zxS1QPZniZeeGZy" style="height:43px; margin-left:0px; margin-top:0px; width:129px"></p>
+
+<p>A continuación hacemos clic sobre el botón <strong><img src="https://lh4.googleusercontent.com/V6lvbF3vDn8iREMARv9JyFM3fsmqlj9r1XcAkL1wjhPuQcvftHRN2F5Ah-VPSwxGQhnDZnkNP-nV5nJPM8tEgxjIiQiqgdRz3Koyg0BZnsLkR9LmhoixmxbtiEPqgJHncbu4EZ_1" style="height:50px; margin-left:0px; margin-top:0px; width:95px"></strong><strong> </strong>y veremos el préstamo que hemos creado como se ilustra en la siguiente imagen</p>
+
+<p><img src="https://lh6.googleusercontent.com/TvKFDNq9gSvo2W6dznfdW0Tz8x_-Kxx4DtNWlzUmHVtXeXta25-ZJfj8I_wedfSY7wTRkh0x-sir1vePXdPHylJaXXW509jVHCdMRI8JIWM4FxQvprRmL71wQnDjwa2xnBjN0wbg" style="height:351px; margin-left:0px; margin-top:0px; width:624px"></p>
+
+<p>&nbsp;</p>
+
+<p>A continuación te presentamos un video instructivo de como llenar el formulario correctamente.</p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://kedasdoc.s3.us-west-002.backblazeb2.com/Videos/Cotizar+Prestamo.mp4">Hacer Clic Aquí para ver el video Instructivo</a></p>
+
+<p>&nbsp;</p>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                                                    </div>
+        </div>
+        <div class="tab-content" id="new_userguide" style="display:none;">
+        </div>
+        <div class="tab-content" id="blank_userguide" style="display:none;">
+            <div class="card ">
+                <div class="card-header">
+                    <div class="row">
+                            <div class="col-sm-11" style="text-align: center;">
+                            <b>There is no records were found.</b>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+</div>
+                    
+</div>
+
+<div class="clearfix"></div>
+            </div>
+        </section>
+
+            </div>  
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdn.ckeditor.com/4.4.7/standard-all/ckeditor.js"></script>
+</body>
+</html>

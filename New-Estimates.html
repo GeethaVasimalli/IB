@@ -1,0 +1,508 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.98.0">
+    <title>INNERS BOOKS</title>
+    
+
+    
+
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+<!-- <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" rel="stylesheet"> -->
+    
+<!-- Custom styles for this template -->
+<link href="css/customstyles.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+
+  
+</head>
+<body>
+<div class="main-wrapper">
+        <section>
+            <header>
+    <div class="header-left">
+        <div class="logo-sec h-100">
+            <a href="">Inners Books</a>
+        </div>
+        <div class="primary-sec">            
+            <a href="" class="dropdown-toggle" data-toggle="dropdown">Create A New</a>
+            <div class="dropdown-menu">
+                <ul>
+                    <li><a href="">Quotation</a></li>
+                    <li><a href="">Bills</a></li>
+                    <li><a href="">Supplier Invoice</a></li>
+                    <li><a href="">Receipt of Payments</a></li>
+                    <li><a href="">Client</a></li>
+                    <li><a href="">Supplier</a></li>
+                    <li><a href="">Products and services</a></li>
+                </ul>
+            </div>
+        </div>
+            </div>
+    <div class="header-right h-100">
+        <div class="help-center">
+            <ul>
+                <li>
+                    <div class="wh-chat-btn">
+                        <a target="_blank" href="https://wa.me/+18492697581">
+                            <img src="images/whatsup-icon.png" alt="WA">
+                            <span>Need help? Speak with us </span>
+                        </a>
+                    </div>
+    
+                    <div class="wh-chat-btn wa-float">
+                        <a target="_blank" href="https://wa.me/+18492697581">
+                            <img src="images/whatsup-icon.png" alt="WA">
+                            <span>Need help? Speak with us</span>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="john-sec">
+            <a href="" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+            <span>
+              <img src="images/john-sec.png" alt="Sachin Kumar">
+            </span>
+            <span class="username">Sachin Kumar</span>
+            </a>
+            <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(1084px, 40px, 0px);">
+                <ul>
+                    <li class="user-name-li"><a href="javascript:void(0);"><span>Sachin Kumar</span></a></li>
+                    <li><a href="">sachin@yopmail.com</a></li>
+                    <li><a href="">Settings</a></li>
+                    <li class="signout"><a href="">Leave</a></li>
+                    <form id="logout-form" action="" method="POST" style="display: none;">
+                        <input type="hidden" name="_token" value="7G3XAM0JjY11fWnsHQx77WmgviX1k3xXrTFTWwhV">
+                    </form>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</header>        </section>
+
+        <section id="dashboard">
+            <div id="react-app"></div>
+            <div class="blue-sec">
+              <div class="side-blue-sec">
+    <div id="accordion">
+        <div class="card">
+            <div class="card-header">
+                <a id="dashboard_link" class="active" href="http://127.0.0.1:8000/dashboard">
+                <span><img src="http://127.0.0.1:8000/images/dashboard-icon.png"></span>Start
+                </a>
+            </div>
+        </div>
+
+        
+                <div class="card">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#sales">
+                <span><img src="http://127.0.0.1:8000/images/sales-icon.png"></span>Income
+                </a>
+            </div>
+            <div id="sales" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    <ul>
+                      <li><a href="" data-resource_slug="invoices">Bills</a></li>
+                      <li><a href="">Recurring bills</a></li>
+                      <li><a href="">Receipt of Payments</a></li>
+                      <li><a href="">Cuenta por Cobrar</a></li>
+                                                <li><a href="http://127.0.0.1:8000/credit-notes" data-resource_slug="credit-notes">Notas de Credito</a></li>
+                                                                        <li><a href="http://127.0.0.1:8000/estimates" data-resource_slug="estimates">Cotizaciones</a></li>
+                                                                        <li><a href="http://127.0.0.1:8000/remissions" data-resource_slug="remissions">Conduces</a></li>
+                                                                        <li><a href="http://127.0.0.1:8000/pos" data-resource_slug="pos" target="_blank">Punto de Venta</a></li>
+                                                <li><a href="http://127.0.0.1:8000/production" data-resource_slug="production">Ordenes de Producción</a></li>
+                                                <li><a href="http://127.0.0.1:8000/restaurant-table" data-resource_slug="restaurant-table">Mesas</a></li>
+                                                <li><a href="http://127.0.0.1:8000/shipping" data-resource_slug="shipping">Ordenes de Envío</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        
+                <div class="card">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#expenses">
+                <span><img src="http://127.0.0.1:8000/images/cart.png"></span>Bills
+                </a>
+            </div>
+            <div id="expenses" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    <ul>
+                                                <li><a href="http://127.0.0.1:8000/transactions/out" data-resource_slug="transactions-out">Pagos</a></li>
+                                                                        <li><a href="http://127.0.0.1:8000/invoices/supplier" data-resource_slug="invoices-supplier">Factura de Proveedor</a></li>
+                                                <!-- <li><a href="javascript:void(0);">Quotations</a></li>
+                        <li><a href="javascript:void(0);">Provider List</a></li> -->
+                                                <li><a href="http://127.0.0.1:8000/transactions/recurring" data-resource_slug="transactions-recurring">Pagos Recurrentes</a></li>
+                                                                        <li><a href="http://127.0.0.1:8000/debit-notes" data-resource_slug="debit-notes">Notas de Débito</a></li>
+                                                                        <li><a href="http://127.0.0.1:8000/purchase-orders" data-resource_slug="purchase-orders">Orden de Compra</a></li>
+                                                <li><a href="http://127.0.0.1:8000/app/coming-soon">Nómina</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        
+                <div class="card">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#contacts">
+                <span><img src="http://127.0.0.1:8000/images/contact-icon.png"></span>Contacts
+                </a>
+            </div>
+            <div id="contacts" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    <ul>
+                                                <li><a href="http://127.0.0.1:8000/clients" data-resource_slug="clients">Clientes</a></li>
+                                                                        <li><a href="http://127.0.0.1:8000/suppliers" data-resource_slug="suppliers">Proveedores</a></li>
+                                                <li><a href="http://127.0.0.1:8000/employees" data-resource_slug="employees">Empleados</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+                
+                <div class="card" style="display: block;">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#payroll">
+                    <span><img src="http://127.0.0.1:8000/images/sales-icon.png"></span>PAYROLL
+                </a>
+            </div>
+            <div id="payroll" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    <ul>
+                        <li><a href="http://127.0.0.1:8000/benefits" data-resource_slug="benefits">Benefits</a></li>
+                        <li><a href="http://127.0.0.1:8000/with-holdings" data-resource_slug="with-holdings">Withholdings</a></li>
+                        <li><a href="http://127.0.0.1:8000/discounts" data-resource_slug="discounts">Discounts</a></li>
+                        <li><a href="http://127.0.0.1:8000/extra-hours" data-resource_slug="extra-hours">Extra Hours</a></li>
+                        <li><a href="http://127.0.0.1:8000/leaves" data-resource_slug="leaves">Ausencias</a></li>
+                     <!--    <li><a href="" data-resource_slug="commissions">Commissions</a></li> -->
+                        <li><a href="http://127.0.0.1:8000/app/coming-soon" data-resource_slug="unemployment">Unemployment</a></li>
+                        <li><a href="http://127.0.0.1:8000/payroll-reports" data-resource_slug="payroll-reports">Payroll Reports</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        
+                <div class="card">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#inventory">
+                    <span><img src="http://127.0.0.1:8000/images/inventry-icon.png"></span>Inventory
+                </a>
+            </div>
+            <div id="inventory" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    <ul>
+                                                <li><a href="http://127.0.0.1:8000/inventories" data-resource_slug="inventories">Productos y Servicios</a></li>
+                                                                        <li><a href="http://127.0.0.1:8000/inventory-adjustments" data-resource_slug="inventory-adjustments">Rectificación de Inventario</a></li>
+                                                <!-- <li><a href="javascript:void(0);">Inventory Value</a></li>
+                        <li><a href="javascript:void(0);">Item Management</a></li>
+                        <li><a href="javascript:void(0);">Find Order</a></li>
+                        <li><a href="javascript:void(0);">Price Lists</a></li>
+                        <li><a href="javascript:void(0);">Warehouse</a></li> -->
+                                                <li><a href="http://127.0.0.1:8000/taxes" data-resource_slug="taxes">Impuestos</a></li>
+                                                                        <li><a href="http://127.0.0.1:8000/item-categories" data-resource_slug="item-categories">Categorías de Artículos</a></li>
+                                                                        <li><a href="http://127.0.0.1:8000/units" data-resource_slug="units">Unidad de Medida</a></li>
+                                            </ul>
+                </div>
+            </div>
+        </div>
+                
+                <div class="card">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#accounting">
+                <span><img src="http://127.0.0.1:8000/images/account-btn.png"></span>Accounting
+                </a>
+            </div>
+            <div id="accounting" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    <ul>
+                        <li><a href="http://127.0.0.1:8000/accounting/charts" data-resource_slug="chart-of-accounts">Catálogo de Cuentas</a></li>
+                        <li><a href="http://127.0.0.1:8000/accounting/adjustments" data-resource_slug="account-adjustments">Ajustes Contables</a></li>
+                        <li><a href="http://127.0.0.1:8000/accounting/journals" data-resource_slug="account-journals">Diarios Contables</a></li>
+                        <li><a href="http://127.0.0.1:8000/accounting/reports" data-resource_slug="account-reports">Informes Contables</a></li>
+
+                                                
+                        <li><a href="http://127.0.0.1:8000/fixed-assets" data-resource_slug="fixed-assets">Activos Fijos</a></li>
+                                                
+                        <li><a href="http://127.0.0.1:8000/app/coming-soon">Centro de Costo</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+                
+        
+                <div class="card">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#setting">
+                <span><img src="http://127.0.0.1:8000/images/setting-icon.png"></span>Settings
+                </a>
+            </div>
+            <div id="setting" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    <ul>
+                        <li><a href="http://127.0.0.1:8000/settings/user" data-resource_slug="settings-user">Perfil del Usuario</a></li>
+                        <li><a href="http://127.0.0.1:8000/settings/company" data-resource_slug="settings-company">Perfil de la Compañía</a></li>
+                        <li><a href="http://127.0.0.1:8000/ncfs" data-resource_slug="ncfs">Comprobantes</a></li>
+                        <li><a href="http://127.0.0.1:8000/currency-exchange-rates" data-resource_slug="currency-exchange-rates">Tasa de Cambio</a></li>
+                        <li><a href="http://127.0.0.1:8000/memberships" data-resource_slug="memberships">Membresías</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#users_management">
+                <span><img src="http://127.0.0.1:8000/images/user-management-icon.png"></span>User Management
+                </a>
+            </div>
+            <div id="users_management" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    <ul>
+                        <li><a href="http://127.0.0.1:8000/user-management/users" data-resource_slug="users-list">Usuarios</a></li>
+                        <li><a href="http://127.0.0.1:8000/roles" data-resource_slug="roles-list">Roles</a></li>
+                        <li><a href="http://127.0.0.1:8000/history" data-resource_slug="history-list">Registros</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="dashboard-right">
+    <div class="menu-icon">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <div class="invoice-container">
+        <h2>New Estimate</h2>
+        <div class="default-form add-invoice-form">
+            <form method="POST" action="https://portal.kedasrd.com/estimates" id="add-edit-estimates-form" enctype="multipart/form-data" novalidate="novalidate">
+                <input type="hidden" name="_token" value="ZT0uniFvgC2OiIYzpkRr6WZvJ8aSdHp0PntK7zvr">                <div class="generate-invoice">
+                    <div class="row no-margin">
+                        <div class="col-lg-4">
+                            <div class="form-group file-input file-input-medium position-relative">
+                                <input type="file" id="company-logo" name="logo" class="file-upload-preview" accept="image/*" data-img_id="image-preview" data-msg-accept="Please select only jpeg, bmp, png, jpg file." data-label_id="image-preview-label">
+                                <a class="upload-button" data-preview_section="company-logo"><i class="fa fa-pencil" aria-hidden="true"></i> Edit</a>
+                                                            </div>
+                        </div>
+                        <div class="col-lg-8 text-center company-data">
+                            <div class="add-cell">
+                                <div class="consumption-box">
+                                    <div class="consumption-bottom">
+                                        <span>No.</span>
+                                        <div class="consumption-number">5</div>
+                                    </div>
+                                </div>
+                                <div class="add-cell-center">
+                                    <h2>Sk spare parts</h2>
+                                                                        <span>
+                                        <p class="address-block">1047 KAITH MAJRI.</p>
+                                    </span>
+                                                                                                            <span>
+                                        <p class="address-block">AMBALA CITY, haryana, India.</p>
+                                    </span>
+                                                                        <span>
+                                        <h3>Phone:</h3> <p>1212121212</p>
+                                                                                    <h3>Mobile Phone:</h3> <p>4561378</p>
+                                                                            </span>
+                                                                            <span>
+                                            <h3>Email:</h3>
+                                            <p><a href="mailto:support@kedas.com"> support@kedas.com </a></p>
+                                        </span>
+                                                                                                                <span>
+                                            <h3>Tax ID:</h3>
+                                            <p><span>123456 </span></p>
+                                        </span>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="add-form row">
+                        <div class="form-group col-sm-6">
+                            <label for="contact">Contact <span>*</span></label>
+                            <select class="form-control single-search-selection select2-hidden-accessible" id="contact_id" name="contact_id" data-select2-id="select2-data-contact_id" tabindex="-1" aria-hidden="true"><option value="" selected="selected" data-select2-id="select2-data-2-uze0">Select Contact</option><optgroup label="Clients"><option value="client-40358" data-phone="" data-tax_id="">aaaa</option><option value="client-40338" data-phone="7898767876" data-tax_id="asdada12345">aaaaaaaaaa</option><option value="client-9361" data-phone="" data-tax_id="">Sachin</option><option value="client-828" data-phone="90343245678" data-tax_id="">Ska</option><option value="client-748" data-phone="" data-tax_id="">John Smith 242</option><option value="client-747" data-phone="" data-tax_id="654321">John Smith 121</option><option value="client-746" data-phone="1234567890" data-tax_id="123456">John Smith</option><option value="client-745" data-phone="0987654321" data-tax_id="654321">John Deo(client)</option><option value="client-744" data-phone="0987654321" data-tax_id="123456">Jk Motors Client</option><option value="client-743" data-phone="1234567890" data-tax_id="123456">John Smith(client)</option><option value="client-740" data-phone="" data-tax_id="">Sachin</option><option value="client-716" data-phone="2222223556" data-tax_id="123804">Maria Del Carmen Awad Vazquez</option><option value="client-715" data-phone="2222223555" data-tax_id="123803">Francisco Pacheco Herrera</option><option value="client-714" data-phone="2222223554" data-tax_id="123802">Juana Bautista Pariente Garcia</option><option value="client-713" data-phone="2222223553" data-tax_id="123801">Victor Manuel Arreola Miguel</option><option value="client-712" data-phone="2222223552" data-tax_id="123800">Maria Eugenia Arnau Vadillo</option><option value="client-711" data-phone="2222223551" data-tax_id="123799">Martha Moreno Duran</option><option value="client-710" data-phone="2222223550" data-tax_id="123798">Daniel Cobos Escudero</option><option value="client-709" data-phone="2222223549" data-tax_id="123797">Gilberto Collins Ledezma</option><option value="client-708" data-phone="2222223548" data-tax_id="123796">Obdulio Pelayo Perez</option><option value="client-707" data-phone="2222223547" data-tax_id="123795">Rebeca Parra Wong De Pacheco</option><option value="client-706" data-phone="2222223546" data-tax_id="123794">Jose Luis Avalos Lira</option><option value="client-705" data-phone="2222223545" data-tax_id="123793">Dolores Eugenia Arredondo Calvo</option><option value="client-704" data-phone="2222223544" data-tax_id="123792">Juan Jose Coble Herrera</option><option value="client-703" data-phone="2222223543" data-tax_id="123791">Carlos Alberto Avila PeÑa</option><option value="client-702" data-phone="2222223542" data-tax_id="123790">Aurora Gil Gonzalez</option><option value="client-701" data-phone="2222223541" data-tax_id="123789">Gerardo Jesus Moreno Leal</option><option value="client-700" data-phone="2222223540" data-tax_id="123788">Jose Luis Pavageau Mendez</option><option value="client-699" data-phone="2222223539" data-tax_id="123787">Jacinto Avila Mejia</option><option value="client-698" data-phone="2222223538" data-tax_id="123786">Pedro Castro Sanchez</option><option value="client-697" data-phone="2222223537" data-tax_id="123785">Eduardo Morales Palma</option><option value="client-696" data-phone="2222223536" data-tax_id="123784">Gabriel Salvador Mendez Lugo</option><option value="client-695" data-phone="2222223535" data-tax_id="123783">Jorge Alfredo Mendez Balderas</option><option value="client-694" data-phone="2222223534" data-tax_id="123782">Cuauhtemoc Moreno Flores</option><option value="client-693" data-phone="2222223533" data-tax_id="123781">Enrique Gomez Herrera</option><option value="client-691" data-phone="2222223531" data-tax_id="123779">Maria Lourdes Moreno Goldaracena</option><option value="client-690" data-phone="2222223530" data-tax_id="123778">Rene Palma Jacome</option><option value="client-689" data-phone="2222223529" data-tax_id="123777">Fernando Abreu Aguilar</option><option value="client-688" data-phone="2222223528" data-tax_id="123776">Jose Carlos Mena Sanchez</option><option value="client-687" data-phone="2222223527" data-tax_id="123775">Jose Antonio Gallo Reyna</option><option value="client-686" data-phone="2222223526" data-tax_id="123774">Concepcion Mota Castillo</option><option value="client-685" data-phone="2222223525" data-tax_id="123773">Gloria AvendaÑo Y Mejia</option><option value="client-684" data-phone="2222223524" data-tax_id="123772">Pablo Arturo Colmenares OrduÑa</option><option value="client-683" data-phone="2222223523" data-tax_id="123771">Jorge Paredes Limon</option><option value="client-682" data-phone="2222223522" data-tax_id="123770">Magda Alicia Garza Morales</option><option value="client-681" data-phone="2222223521" data-tax_id="123769">Mercedes Avalos Alexander</option><option value="client-680" data-phone="2222223520" data-tax_id="123768">Ramon Parra Santana</option><option value="client-679" data-phone="2222223519" data-tax_id="123767">Josefa Benitez Guevara</option><option value="client-678" data-phone="2222223518" data-tax_id="123766">Jesus Abimael Gonzalez Contreras</option><option value="client-677" data-phone="2222223517" data-tax_id="123765">Maria Del Socorro Camargo Torres</option><option value="client-676" data-phone="2222223516" data-tax_id="123764">Saul Dominguez Gonzalez</option><option value="client-675" data-phone="2222223515" data-tax_id="123763">Raul Ivan Dominguez Coronel</option><option value="client-674" data-phone="2222223514" data-tax_id="123762">Flora Perez Marin</option><option value="client-673" data-phone="2222223513" data-tax_id="123761">Pedro Cortazar Lopez</option><option value="client-672" data-phone="2222223512" data-tax_id="123760">Jorge Ramirez Castillo</option><option value="client-671" data-phone="2222223511" data-tax_id="123759">Jose Daniel Contreras Monforte Brito</option><option value="client-670" data-phone="2222223510" data-tax_id="123758">Jose Fernando Gonzalez Perez</option><option value="client-669" data-phone="2222223509" data-tax_id="123757">Marta Elena Puron Santos</option><option value="client-668" data-phone="2222223508" data-tax_id="123756">Norma Rebolledo Flores</option><option value="client-667" data-phone="2222223507" data-tax_id="123755">Antonio Ramirez Astillero</option><option value="client-666" data-phone="2222223506" data-tax_id="123754">Jorge Alberto Carrera Cetina</option><option value="client-665" data-phone="2222223505" data-tax_id="123753">Luis Humberto Resendiz Ortiz</option><option value="client-664" data-phone="2222223504" data-tax_id="123752">Gerardo Guerrero Cruz</option><option value="client-663" data-phone="2222223503" data-tax_id="123751">Guadalupe De Leon Guerrero</option><option value="client-662" data-phone="2222223502" data-tax_id="123750">Francisco Javier Gonzalez Almazan</option><option value="client-661" data-phone="2222223501" data-tax_id="123749">Antonio Cabrera Canales</option><option value="client-660" data-phone="2222223500" data-tax_id="123748">Mayra Rahme Gutierrez</option><option value="client-659" data-phone="2222223499" data-tax_id="123747">Martha Gonzalez Suarez</option><option value="client-658" data-phone="2222223498" data-tax_id="123746">Jose Angel PiÑeiro Yopihua</option><option value="client-657" data-phone="2222223497" data-tax_id="123745">Maria Mercedes Pereda Ramos</option><option value="client-656" data-phone="2222223496" data-tax_id="123744">Debbi Gonzalez Bueno</option><option value="client-655" data-phone="2222223495" data-tax_id="123743">Benito Baez Gonzalez</option><option value="client-654" data-phone="2222223494" data-tax_id="123742">Maria Dolores Bravo Loredo</option><option value="client-653" data-phone="2222223493" data-tax_id="123741">Jesus R BaÑuelos Gongora</option><option value="client-652" data-phone="2222223492" data-tax_id="123740">Jose Antonio Rafful Loredo</option><option value="client-651" data-phone="2222223491" data-tax_id="123739">Patricia Victoria Butron Lira</option><option value="client-650" data-phone="2222223490" data-tax_id="123738">Alberto Armando Perez Becerra</option><option value="client-649" data-phone="2222223489" data-tax_id="123737">Juan Manuel Canto Castillo</option><option value="client-648" data-phone="2222223488" data-tax_id="123736">Luisa Idalia Cortes Baldemar</option><option value="client-647" data-phone="2222223487" data-tax_id="123735">Oscar Wilberth Perez Borde</option><option value="client-646" data-phone="2222223486" data-tax_id="123734">Luz Maria Gonzalez Verano</option><option value="client-645" data-phone="2222223485" data-tax_id="123733">Maria Elena Carmona Cardos</option><option value="client-644" data-phone="2222223484" data-tax_id="123732">Angel Ramirez Jimenez</option><option value="client-643" data-phone="2222223483" data-tax_id="123731">Raul Gonzalez Diaz</option><option value="client-642" data-phone="2222223482" data-tax_id="123730">Guadalupe Canche Rodriguez</option><option value="client-641" data-phone="2222223481" data-tax_id="123729">Pedro Alejandro Ramirez Sanchez</option><option value="client-640" data-phone="2222223480" data-tax_id="123728">Rogelio Cuellar Sanchez</option><option value="client-639" data-phone="2222223479" data-tax_id="123727">Concepcion Picaso Moncada</option><option value="client-638" data-phone="2222223478" data-tax_id="123726">Maria Esther Gonzalez Perez</option><option value="client-637" data-phone="2222223477" data-tax_id="123725">Alberto Gustavo Gonzalez Tapia</option><option value="client-636" data-phone="2222223476" data-tax_id="123724">Maria De Las Mercedes Pino Wesche</option><option value="client-635" data-phone="2222223475" data-tax_id="123723">Irving Abelardo Resendez Martinez</option><option value="client-634" data-phone="2222223474" data-tax_id="123722">Ramon Marco Antonio Ramirez Vargas</option><option value="client-633" data-phone="2222223473" data-tax_id="123721">Guadalupe Juan J Cardenas Franco</option><option value="client-632" data-phone="2222223472" data-tax_id="123720">Celia Malice Perez Velez</option><option value="client-631" data-phone="2222223471" data-tax_id="123719">Jose Antonio Azamar Gonzalez</option><option value="client-630" data-phone="2222223470" data-tax_id="123718">Felix Gonzalez Barcenas</option><option value="client-629" data-phone="2222223469" data-tax_id="123717">Marcos De Leon Chong</option><option value="client-628" data-phone="2222223468" data-tax_id="123716">Jeronimo Ramos Cabrera</option><option value="client-627" data-phone="2222223467" data-tax_id="123715">Miguel Grajales Mendez</option><option value="client-626" data-phone="2222223466" data-tax_id="123714">Elisa Camarena Juarez</option><option value="client-625" data-phone="2222223465" data-tax_id="123713">Raul Benitez Flota</option><option value="client-624" data-phone="2222223464" data-tax_id="123712">Raul Cruz Arguello</option><option value="client-623" data-phone="2222223463" data-tax_id="123711">Carlos Manuel Cadena Barrientos</option><option value="client-622" data-phone="2222223462" data-tax_id="123710">Porfirio Ramirez Beltran</option><option value="client-621" data-phone="2222223461" data-tax_id="123709">Guadalupe Correa Valdez</option><option value="client-620" data-phone="2222223460" data-tax_id="123708">Midela Gonzalez Hernandez</option><option value="client-619" data-phone="2222223459" data-tax_id="123707">Antonio Cagnant Sandoval</option><option value="client-618" data-phone="2222223458" data-tax_id="123706">Jorge Horacio BurgueÑo Rodriguez</option><option value="client-617" data-phone="2222223457" data-tax_id="123705">Elia Elizabeth Cosio Lazcari</option><option value="client-616" data-phone="2222223456" data-tax_id="123704">Angel Badillo Vazquez</option><option value="client-615" data-phone="2222223455" data-tax_id="123703">Luz Maria Davalos Pozos</option><option value="client-614" data-phone="2222223454" data-tax_id="123702">Eduardo Luis Pescador TreviÑo</option><option value="client-612" data-phone="2222223452" data-tax_id="123700">Maria Isela Pineyro Reyes</option><option value="client-611" data-phone="2222223451" data-tax_id="123699">Alejandro Baez Aguayo</option><option value="client-610" data-phone="2222223450" data-tax_id="123698">Marco Antonio Bernal Cortes</option><option value="client-609" data-phone="2222223449" data-tax_id="123697">Maria Teresa Gongora Rojas</option><option value="client-608" data-phone="2222223448" data-tax_id="123696">Blanca Azucena Perez De La Garza</option><option value="client-607" data-phone="2222223447" data-tax_id="123695">Aida Barrios Salazar</option><option value="client-606" data-phone="2222223446" data-tax_id="123694">Jose Alberto Pinedo Cervantes</option><option value="client-605" data-phone="2222223445" data-tax_id="123693">Jorge Luis Cardenas Nieto</option><option value="client-604" data-phone="2222223444" data-tax_id="123692">Javier Cruz Lozano</option><option value="client-603" data-phone="2222223443" data-tax_id="123691">Gonzalo Briones Alvarado</option><option value="client-602" data-phone="2222223442" data-tax_id="123690">Imelda Ballesteros Lazo</option><option value="client-601" data-phone="2222223441" data-tax_id="123689">Maria Eugenia Perez Cortes</option><option value="client-600" data-phone="2222223440" data-tax_id="123688">Julian Pichardo Guarneros</option><option value="client-599" data-phone="2222223439" data-tax_id="123687">Nicandro Azuela Morelos</option><option value="client-598" data-phone="2222223438" data-tax_id="123686">Rosa Guadalupe Berrones Caballero</option><option value="client-597" data-phone="2222223437" data-tax_id="123685">Jorge Eusebio Saleh Berros</option><option value="client-596" data-phone="2222223436" data-tax_id="123684">Olga Lucia Esparza Gonzalez</option><option value="client-595" data-phone="2222223435" data-tax_id="123683">Mario Luis Fernandez Santiago</option><option value="client-594" data-phone="2222223434" data-tax_id="123682">Fernando Roque Jerez</option><option value="client-593" data-phone="2222223433" data-tax_id="123681">Miguel Ferro Gonzalez</option><option value="client-592" data-phone="2222223432" data-tax_id="123680">Jose Luis Fraustro Santillan</option><option value="client-591" data-phone="2222223431" data-tax_id="123679">Martin Ruiz Gonzalez</option><option value="client-590" data-phone="2222223430" data-tax_id="123678">Maurilio Reyes Lagunes</option><option value="client-589" data-phone="2222223429" data-tax_id="123677">Isabel Cristina Castillo Diaz</option><option value="client-588" data-phone="2222223428" data-tax_id="123676">Juana Hernandez Fragoso</option><option value="client-587" data-phone="2222223427" data-tax_id="123675">Maria Concepcion San Miguel Salomon</option><option value="client-586" data-phone="2222223426" data-tax_id="123674">Juan Ramon Hernandez Miguel</option><option value="client-585" data-phone="2222223425" data-tax_id="123673">Jorge Saleh Mejia</option><option value="client-584" data-phone="2222223424" data-tax_id="123672">Pedro Ines Hernandez Obregon</option><option value="client-583" data-phone="2222223423" data-tax_id="123671">Sonia SaldaÑa Guzman</option><option value="client-582" data-phone="2222223422" data-tax_id="123670">Juan Manuel Flores Vera</option><option value="client-581" data-phone="2222223421" data-tax_id="123669">Julio Hernandez Platas</option><option value="client-580" data-phone="2222223420" data-tax_id="123668">Rommel Ramon Ruiz Herrera</option><option value="client-579" data-phone="2222223419" data-tax_id="123667">Juan Ruiz Saldivar</option><option value="client-578" data-phone="2222223418" data-tax_id="123666">Rosa Elena Hernandez Perez</option><option value="client-577" data-phone="2222223417" data-tax_id="123665">Alejandro Trinidad Ruiz Delgado</option><option value="client-576" data-phone="2222223416" data-tax_id="123664">Estela C Romero Torres</option><option value="client-575" data-phone="2222223415" data-tax_id="123663">Rafael Castillo Campillo</option><option value="client-574" data-phone="2222223414" data-tax_id="123662">Jose Emilio Casares CarreÑo</option><option value="client-573" data-phone="2222223413" data-tax_id="123661">Arturo Manuel Resendiz VillaseÑor</option><option value="client-572" data-phone="2222223412" data-tax_id="123660">Rodrigo Salas Gonzalez</option><option value="client-571" data-phone="2222223411" data-tax_id="123659">Dulce Maria Rodriguez Santiesteban</option><option value="client-570" data-phone="2222223410" data-tax_id="123658">Victor Flores Gomez</option><option value="client-569" data-phone="2222223409" data-tax_id="123657">Gloria Isela Ruiz Hernandez</option><option value="client-568" data-phone="2222223408" data-tax_id="123656">Francisco Etienne Gonzalez</option><option value="client-567" data-phone="2222223407" data-tax_id="123655">Raul Castillo Acevedo</option><option value="client-566" data-phone="2222223406" data-tax_id="123654">Oscar Rodriguez Alonso</option><option value="client-565" data-phone="2222223405" data-tax_id="123653">Cuauhtemoc Salas Lara</option><option value="client-564" data-phone="2222223404" data-tax_id="123652">Irma Fernandez AcuÑa De Juarez</option><option value="client-563" data-phone="2222223403" data-tax_id="123651">Irma Ruiz Talavera</option><option value="client-562" data-phone="2222223402" data-tax_id="123650">Gabriel Antonio Gerardo Rodriguez Santos</option><option value="client-561" data-phone="2222223401" data-tax_id="123649">Luz Del Carmen Rodriguez Mezquita</option><option value="client-560" data-phone="2222223400" data-tax_id="123648">Luis F Roa Castillo</option><option value="client-559" data-phone="2222223399" data-tax_id="123647">Ramon Espinosa Zentella</option><option value="client-558" data-phone="2222223398" data-tax_id="123646">Lourdes Guadalupe Dominguez Del Campo</option><option value="client-557" data-phone="2222223397" data-tax_id="123645">Everardo Jacinto Galicia Aviles</option><option value="client-556" data-phone="2222223396" data-tax_id="123644">Jaime Hipolito Castillo Ramirez</option><option value="client-555" data-phone="2222223395" data-tax_id="123643">Hilario Sanchez Vazquez</option><option value="client-554" data-phone="2222223394" data-tax_id="123642">Alicia Castillo Castillo</option><option value="client-553" data-phone="2222223393" data-tax_id="123641">Alejandra Hernandez Zavala</option><option value="client-552" data-phone="2222223392" data-tax_id="123640">Ruben Isidro Guzman Carmona</option><option value="client-551" data-phone="2222223391" data-tax_id="123639">Vicente Guzman Camarero</option><option value="client-550" data-phone="2222223390" data-tax_id="123638">Martha Elva Hernandez Lopez</option><option value="client-549" data-phone="2222223389" data-tax_id="123637">Enrique Rodriguez Lopez</option><option value="client-548" data-phone="2222223388" data-tax_id="123636">Sergio Saldivar Gaona</option><option value="client-547" data-phone="2222223387" data-tax_id="123635">Rosalia Rodriguez Cano</option><option value="client-546" data-phone="2222223386" data-tax_id="123634">German Carrillo Valdivieso</option><option value="client-545" data-phone="2222223385" data-tax_id="123633">Leopoldo Gutierrez Vargas</option><option value="client-544" data-phone="2222223384" data-tax_id="123632">Alfonso Castillo Marin</option><option value="client-543" data-phone="2222223383" data-tax_id="123631">Irene Margarita Hernandez Herrera</option><option value="client-542" data-phone="2222223382" data-tax_id="123630">Victor Manuel Saleh Navarrete</option><option value="client-541" data-phone="2222223381" data-tax_id="123629">Loris Fernandez Mendez</option><option value="client-540" data-phone="2222223380" data-tax_id="123628">Eduardo Rodriguez Castilleja</option><option value="client-539" data-phone="2222223379" data-tax_id="123627">Alfonso Rosales Dominguez</option><option value="client-538" data-phone="2222223378" data-tax_id="123626">Cesar Javier Salomon Acevedo</option><option value="client-537" data-phone="2222223377" data-tax_id="123625">Miguel Rodriguez Terrones</option><option value="client-536" data-phone="2222223376" data-tax_id="123624">Sonia Estela Fernandez De Anda</option><option value="client-535" data-phone="2222223375" data-tax_id="123623">Abel Eduardo Ruz Prieto</option><option value="client-534" data-phone="2222223374" data-tax_id="123622">Irma Guadalupe SaldaÑa Sequera</option><option value="client-533" data-phone="2222223373" data-tax_id="123621">Irma Hernandez Alcocer</option><option value="client-532" data-phone="2222223372" data-tax_id="123620">Maria Del Carmen Casares Cerna</option><option value="client-531" data-phone="2222223371" data-tax_id="123619">Apolinaria Castillo Gonzalez</option><option value="client-530" data-phone="2222223370" data-tax_id="123618">Antonio Gutierrez Teran</option><option value="client-529" data-phone="2222223369" data-tax_id="123617">Fernando Guevara Aguilar</option><option value="client-528" data-phone="2222223368" data-tax_id="123616">Ana Lilia CastaÑeda Gomez</option><option value="client-527" data-phone="2222223367" data-tax_id="123615">German Hernandez Morales</option><option value="client-526" data-phone="2222223366" data-tax_id="123614">Evencio Rodriguez Correa</option><option value="client-525" data-phone="2222223365" data-tax_id="123613">Ludivina Gutierrez Rodriguez</option><option value="client-524" data-phone="2222223364" data-tax_id="123612">Andres Alberto Guerrero Ornelas</option><option value="client-523" data-phone="2222223363" data-tax_id="123611">Gregorio Espinoza Romo</option><option value="client-522" data-phone="2222223362" data-tax_id="123610">Martin Esparza Diaz</option><option value="client-521" data-phone="2222223361" data-tax_id="123609">Sergio Castillo Gonzalez</option><option value="client-520" data-phone="2222223360" data-tax_id="123608">Patricia Estudillo Rodriguez</option><option value="client-519" data-phone="2222223359" data-tax_id="123607">Nohemi Rosas Arias</option><option value="client-518" data-phone="2222223358" data-tax_id="123606">Maria Del Pilar Rodriguez Tovar</option><option value="client-517" data-phone="2222223357" data-tax_id="123605">Felix Martinez Garcia</option><option value="client-516" data-phone="2222223356" data-tax_id="123604">Maximo Villar Duran</option><option value="client-515" data-phone="2222223355" data-tax_id="123603">Jorge Armando Lopez Lopez</option><option value="client-514" data-phone="2222223354" data-tax_id="123602">Maria Ethel Lozada Herrera</option><option value="client-513" data-phone="2222223353" data-tax_id="123601">Dora Elva Loyo Gamboa</option><option value="client-512" data-phone="2222223352" data-tax_id="123600">Roberto Vidales Rendon</option><option value="client-511" data-phone="2222223351" data-tax_id="123599">Juan Manuel Mellado Ventura</option><option value="client-510" data-phone="2222223350" data-tax_id="123598">Raul Esteban Marcos Garcia</option><option value="client-509" data-phone="2222223349" data-tax_id="123597">Dora Alicia Melo Solis</option><option value="client-508" data-phone="2222223348" data-tax_id="123596">Dante Martinez Huerta</option><option value="client-507" data-phone="2222223347" data-tax_id="123595">Mariano Ramon Martinez Soto</option><option value="client-506" data-phone="2222223346" data-tax_id="123594">Jorge S Martinez Barranco</option><option value="client-505" data-phone="2222223345" data-tax_id="123593">Hector David Marrufo Dominguez</option><option value="client-504" data-phone="2222223344" data-tax_id="123592">Jose Luis Medina Coronado</option><option value="client-503" data-phone="2222223343" data-tax_id="123591">Tito Ariel Martinez Rojas</option><option value="client-502" data-phone="2222223342" data-tax_id="123590">Jerrie Ann Vital Chavarria</option><option value="client-501" data-phone="2222223341" data-tax_id="123589">Juan Antonio Luna Azuara</option><option value="client-500" data-phone="2222223340" data-tax_id="123588">Jesus Antonio Lopez Hernandez</option><option value="client-499" data-phone="2222223339" data-tax_id="123587">Fernando Virgen Rodriguez</option><option value="client-498" data-phone="2222223338" data-tax_id="123586">Andrea Luna Badillo</option><option value="client-497" data-phone="2222223337" data-tax_id="123585">Marisela Martinez Astorga</option><option value="client-496" data-phone="2222223336" data-tax_id="123584">Carlos Madera Diaz</option><option value="client-495" data-phone="2222223335" data-tax_id="123583">Jose De Jesus Martinez MuÑoz</option><option value="client-494" data-phone="2222223334" data-tax_id="123582">Gustavo VillaseÑor Alonzo</option><option value="client-493" data-phone="2222223333" data-tax_id="123581">Carlos Zapata Castro</option><option value="client-492" data-phone="2222223332" data-tax_id="123580">Simon Martinez Reyes</option><option value="client-491" data-phone="2222223331" data-tax_id="123579">Omar Manriquez Zavala</option><option value="client-490" data-phone="2222223330" data-tax_id="123578">Carlos Vorrath Chavez</option><option value="client-489" data-phone="2222223329" data-tax_id="123577">Guillermo Melo Celis</option><option value="client-488" data-phone="2222223328" data-tax_id="123576">Maria Yolanda Vera Martinez</option><option value="client-487" data-phone="2222223327" data-tax_id="123575">Joel MagaÑa Carranco</option><option value="client-486" data-phone="2222223326" data-tax_id="123574">Felipe Zarrabal Barrios</option><option value="client-485" data-phone="2222223325" data-tax_id="123573">Alma Delia Wong Casazza</option><option value="client-484" data-phone="2222223324" data-tax_id="123572">Mario Medina Hernandez</option><option value="client-483" data-phone="2222223323" data-tax_id="123571">Hector Joel Marquez Garces</option><option value="client-482" data-phone="2222223322" data-tax_id="123570">Leobardo Lugo Hernandez</option><option value="client-481" data-phone="2222223321" data-tax_id="123569">Constantino Martinez Orozco</option><option value="client-480" data-phone="2222223320" data-tax_id="123568">Elsy Noemi Garcia Villa</option><option value="client-479" data-phone="2222223319" data-tax_id="123567">Roberto A Mora Ocampo</option><option value="client-478" data-phone="2222223318" data-tax_id="123566">Miguel Angel Molina Cantu</option><option value="client-477" data-phone="2222223317" data-tax_id="123565">Jose Luis NuÑez Gil</option><option value="client-476" data-phone="2222223316" data-tax_id="123564">Juan Carlos Cetina Bringas</option><option value="client-475" data-phone="2222223315" data-tax_id="123563">Gumaro Garcia Romero</option><option value="client-474" data-phone="2222223314" data-tax_id="123562">Carmen Antonio Castellanos</option><option value="client-473" data-phone="2222223313" data-tax_id="123561">Pedro Pablo Ochoa Segovia</option><option value="client-472" data-phone="2222223312" data-tax_id="123560">Raul Alberto Montoya Padilla</option><option value="client-471" data-phone="2222223311" data-tax_id="123559">Jorge Luis Montiel Hernandez</option><option value="client-470" data-phone="2222223310" data-tax_id="123558">Carlos Chale Navarro</option><option value="client-469" data-phone="2222223309" data-tax_id="123557">Julian Javier Montelongo Moreno</option><option value="client-468" data-phone="2222223308" data-tax_id="123556">Jesus Alberto Ontiveros Urazandi</option><option value="client-467" data-phone="2222223307" data-tax_id="123555">Maria Isabel Cervera Toriz</option><option value="client-466" data-phone="2222223306" data-tax_id="123554">Benito Aguilera Ornelas</option><option value="client-465" data-phone="2222223305" data-tax_id="123553">Guillermo Antonio Amador Perea</option><option value="client-464" data-phone="2222223304" data-tax_id="123552">Julio Cesar Ontiveros Oliveros</option><option value="client-463" data-phone="2222223303" data-tax_id="123551">Adolfo Morales Castillo</option><option value="client-462" data-phone="2222223302" data-tax_id="123550">Jose Maria Garcia Pereda</option><option value="client-461" data-phone="2222223301" data-tax_id="123549">Enriqueta Montero Jorge</option><option value="client-460" data-phone="2222223300" data-tax_id="123548">Fernando Negrete Aguilar</option><option value="client-459" data-phone="2222223299" data-tax_id="123547">Manuel Tomas Chaparro PeÑa</option><option value="client-458" data-phone="2222223298" data-tax_id="123546">Sergio Nill Garcia</option><option value="client-457" data-phone="2222223297" data-tax_id="123545">Bernabe Antonio Obil Pinzon</option><option value="client-456" data-phone="2222223296" data-tax_id="123544">Anita Navarro Santos</option><option value="client-455" data-phone="2222223295" data-tax_id="123543">Francisco Alvarez Gonzalez</option><option value="client-454" data-phone="2222223294" data-tax_id="123542">Bulmaro Navarro Rosario</option><option value="client-453" data-phone="2222223293" data-tax_id="123541">Jesus Daniel Aguilera Rodriguez</option><option value="client-452" data-phone="2222223292" data-tax_id="123540">Catalina Alvarez Balam</option><option value="client-451" data-phone="2222223291" data-tax_id="123539">Nazario Aleman Mendez</option><option value="client-450" data-phone="2222223290" data-tax_id="123538">Carlos Enrique Morales Rosas</option><option value="client-449" data-phone="2222223289" data-tax_id="123537">Jose Enrique Aguirre Silva</option><option value="client-448" data-phone="2222223288" data-tax_id="123536">Mariano Montes De Oca Montano</option><option value="client-447" data-phone="2222223287" data-tax_id="123535">Arturo Alejos Mendez</option><option value="client-446" data-phone="2222223286" data-tax_id="123534">Miguel Gustavo Gamboa Sanchez</option><option value="client-445" data-phone="2222223285" data-tax_id="123533">Carmen Alicia Aguirre Alvarez</option><option value="client-444" data-phone="2222223284" data-tax_id="123532">Sergio Mendoza Guzman</option><option value="client-443" data-phone="2222223283" data-tax_id="123531">Carlos Manuel Aguilar Mocarzel De PeÑa</option><option value="client-442" data-phone="2222223282" data-tax_id="123530">Benigno Cepero Villar</option><option value="client-441" data-phone="2222223281" data-tax_id="123529">Jose Santiago Fernando Murillo Villareal</option><option value="client-440" data-phone="2222223280" data-tax_id="123528">Francisco Javier Ceja Beltran</option><option value="client-439" data-phone="2222223279" data-tax_id="123527">Ana Elvia Mijares Rodriguez</option><option value="client-438" data-phone="2222223278" data-tax_id="123526">Santiago Fernando Galvez Tom</option><option value="client-437" data-phone="2222223277" data-tax_id="123525">Marco Teodoro Naranjo Vargas</option><option value="client-436" data-phone="2222223276" data-tax_id="123524">Francisco MuÑoz Bravo</option><option value="client-435" data-phone="2222223275" data-tax_id="123523">Porfirio Aburto Pattatuchi</option><option value="client-434" data-phone="2222223274" data-tax_id="123522">Ma Del Carmen Torres Alanis</option><option value="client-433" data-phone="2222223273" data-tax_id="123521">Ana Irma Herrera Valero</option><option value="client-432" data-phone="2222223272" data-tax_id="123520">Fernando Baltazar Sauri Zarate</option><option value="client-431" data-phone="2222223271" data-tax_id="123519">Luis Sepulveda Herrera</option><option value="client-430" data-phone="2222223270" data-tax_id="123518">Victor M Hernandez Tapia</option><option value="client-429" data-phone="2222223269" data-tax_id="123517">Maria Del Rosario Juarez Cervantes</option><option value="client-428" data-phone="2222223268" data-tax_id="123516">Alfonso LiaÑo Bazan</option><option value="client-427" data-phone="2222223267" data-tax_id="123515">Luis Alberto Lascurain Alanis</option><option value="client-426" data-phone="2222223266" data-tax_id="123514">Gonzalo Trujillo Acosta</option><option value="client-425" data-phone="2222223265" data-tax_id="123513">Anabella Torres Rodriguez</option><option value="client-424" data-phone="2222223264" data-tax_id="123512">Francisco Javier Sustaita MuÑoz</option><option value="client-423" data-phone="2222223263" data-tax_id="123511">Maria Macaria Landa Ahumada</option><option value="client-422" data-phone="2222223262" data-tax_id="123510">Alberto Soto Moreno</option><option value="client-421" data-phone="2222223261" data-tax_id="123509">Jose Daniel Hindman Soldevilla</option><option value="client-420" data-phone="2222223260" data-tax_id="123508">Leonardo Hernandez Martinez</option><option value="client-419" data-phone="2222223259" data-tax_id="123507">Consuelo Santorum Juarez</option><option value="client-418" data-phone="2222223258" data-tax_id="123506">Rafael Lavin Sanchez</option><option value="client-417" data-phone="2222223257" data-tax_id="123505">Rosaura Valderrama Guillen</option><option value="client-416" data-phone="2222223256" data-tax_id="123504">Alma Arecely Silva Longoria</option><option value="client-415" data-phone="2222223255" data-tax_id="123503">Ernesto Alan Solis Cervantes</option><option value="client-414" data-phone="2222223254" data-tax_id="123502">Ignacio Antonio Trueba Gattas</option><option value="client-413" data-phone="2222223253" data-tax_id="123501">Maria Del Carmen Velazquez Cruz</option><option value="client-412" data-phone="2222223252" data-tax_id="123500">Maria Jose Lopez Mendieta</option><option value="client-411" data-phone="2222223251" data-tax_id="123499">Morelos Ivan Velazquez Vasquez</option><option value="client-410" data-phone="2222223250" data-tax_id="123498">Francisco Javier Vazquez Arroyo</option><option value="client-409" data-phone="2222223249" data-tax_id="123497">Elvira Llanas Gattas</option><option value="client-408" data-phone="2222223248" data-tax_id="123496">Maria Esther Trinidad Gattas</option><option value="client-407" data-phone="2222223247" data-tax_id="123495">Ma De Lourdes Balbina Sifuentes Puente</option><option value="client-406" data-phone="2222223246" data-tax_id="123494">Ernesto Sanchez Morales</option><option value="client-405" data-phone="2222223245" data-tax_id="123493">Patricia Eugenia Lara Jimenez</option><option value="client-404" data-phone="2222223244" data-tax_id="123492">Hector Manuel Sanchez Estudillo</option><option value="client-403" data-phone="2222223243" data-tax_id="123491">Porfirio Siqueff De La Garza</option><option value="client-402" data-phone="2222223242" data-tax_id="123490">Pedro Sanchez PeÑa</option><option value="client-401" data-phone="2222223241" data-tax_id="123489">Jose Tiburcio Hernandez Castro</option><option value="client-400" data-phone="2222223240" data-tax_id="123488">Jesus Antonio Tiburcio Sarabia</option><option value="client-399" data-phone="2222223239" data-tax_id="123487">Porfirio Toscano Anaya</option><option value="client-398" data-phone="2222223238" data-tax_id="123486">Arturo Velazquez Amaya</option><option value="client-397" data-phone="2222223237" data-tax_id="123485">Eugenio Lopez Chalche</option><option value="client-396" data-phone="2222223236" data-tax_id="123484">Laura Rocio Vazquez Gonzalez</option><option value="client-395" data-phone="2222223235" data-tax_id="123483">Fernando Toledano Diaz</option><option value="client-394" data-phone="2222223234" data-tax_id="123482">Julio Cesar Saucedo Silva</option><option value="client-393" data-phone="2222223233" data-tax_id="123481">Jose Felipe Lliteras Abramson</option><option value="client-392" data-phone="2222223232" data-tax_id="123480">Maria De Lourdes Jimenez Lara</option><option value="client-391" data-phone="2222223231" data-tax_id="123479">Juan Jose Serna Romero</option><option value="client-390" data-phone="2222223230" data-tax_id="123478">Maria Del Carmen Sosa Basilakis</option><option value="client-389" data-phone="2222223229" data-tax_id="123477">Irma Concepcion Silva Marquez</option><option value="client-388" data-phone="2222223228" data-tax_id="123476">Alejandro Torres Gatica</option><option value="client-387" data-phone="2222223227" data-tax_id="123475">Javier Jacobo Navarro</option><option value="client-386" data-phone="2222223226" data-tax_id="123474">Hugo Alejandro Torres Mendez</option><option value="client-385" data-phone="2222223225" data-tax_id="123473">Rosario Del Carmen Silva Perez</option><option value="client-384" data-phone="2222223224" data-tax_id="123472">Eloisa Zaida Torres Arroyo</option><option value="client-383" data-phone="2222223223" data-tax_id="123471">Quirino Morales Alonso</option><option value="client-382" data-phone="2222223222" data-tax_id="123470">Jesus Ricardo Oropeza Rodriguez</option><option value="client-381" data-phone="2222223221" data-tax_id="123469">Rosa Ines Appedole Flores</option><option value="client-380" data-phone="2222223220" data-tax_id="123468">Barbara Estela Arellano Torres</option><option value="client-379" data-phone="2222223219" data-tax_id="123467">Andres Chipuli Perez</option><option value="client-378" data-phone="2222223218" data-tax_id="123466">Hugo Manuel Garcia Salinas</option><option value="client-377" data-phone="2222223217" data-tax_id="123465">Marco Antonio Garza Garza</option><option value="client-376" data-phone="2222223216" data-tax_id="123464">Dolores Morales Martinez</option><option value="client-375" data-phone="2222223215" data-tax_id="123463">Guadalupe De La Paz Antuna Murillo</option><option value="client-374" data-phone="2222223214" data-tax_id="123462">Javier Morales Lopez</option><option value="client-373" data-phone="2222223213" data-tax_id="123461">Pablo Clemente Vega</option><option value="client-372" data-phone="2222223212" data-tax_id="123460">Angel Osorio Euan</option><option value="client-371" data-phone="2222223211" data-tax_id="123459">Greta Morales Avila</option><option value="client-370" data-phone="2222223210" data-tax_id="123458">Maria De Carmen Orta Juarez</option><option value="client-369" data-phone="2222223209" data-tax_id="123457">Oscar Ortiz Rojas</option></optgroup><optgroup label="Suppliers"><option value="supplier-215" data-phone="" data-tax_id="">Shekh Supplier</option><option value="supplier-214" data-phone="" data-tax_id="">Gupta Supplier</option><option value="supplier-202" data-phone="" data-tax_id="">Adfasf</option><option value="supplier-3" data-phone="" data-tax_id="">John Smith 242</option><option value="supplier-2" data-phone="" data-tax_id="654321">John Smith 121</option><option value="supplier-1" data-phone="1234567890" data-tax_id="123456">John Smith</option></optgroup>
+                            </select>
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label for="numbering">Contact Name</label>
+                            <input class="form-control" type="text" name="contact_name" placeholder="Contact Name" autocomplete="off">
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label for="date">Date <span>*</span></label>
+                            <input id="estimate_start_date" class="form-control" name="estimate_start_date" required="required" value="2022-07-18" autocomplete="off" aria-required="true">
+                            <input type="hidden" name="currency_symbol" id="currency_symbol" value="₹">
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label for="contact-tax-id">Tax ID</label>
+                            <input type="text" class="form-control" name="contact-tax-id" id="contact-tax-id">
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label for="invoice_expiration_date">Expiration Date <span>*</span></label>
+                            <input id="estimate_expiration_date" name="estimate_expiration_date" class="form-control" required="required" value="2022-07-18" autocomplete="off" aria-required="true">
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label for="contact-phone">Phone</label>
+                            <input type="text" class="form-control" name="contact-phone" id="contact-phone">
+                        </div>
+                        <div class="form-group col-lg-6 custom-select-controller">
+                            <label for="message_id">Messages</label>
+                            <select class="form-control single-search-selection select2-hidden-accessible" id="message_id" name="message_id" data-select2-id="select2-data-message_id" tabindex="-1" aria-hidden="true"><option value="" selected="selected" data-select2-id="select2-data-4-6gae">Select Message</option></select>
+
+                        </div>
+                        <div class="currency_exchange_cnt col-lg-6">
+                            <div class="row flex-column">
+                                <div class="form-group col">
+                                    <label for="currency">Currency Local</label>
+                                    <input type="text" name="currency" class="form-control" value="Rupees (₹)" readonly="">
+                                </div>
+                                <div class="form-group col custom-select-controller">
+                                    <label for="currency">Exchange Currency</label>
+                                    <select class="form-control single-search-selection select2-hidden-accessible" id="exchange-currency" name="exchange_currency" data-select2-id="select2-data-exchange-currency" tabindex="-1" aria-hidden="true"><option value="" selected="selected" data-select2-id="select2-data-6-ax4z">Select Currency</option><option value="1" data-code="ALL" data-symbol="Lek" data-rate="">Leke - ALL (Lek)</option><option value="2" data-code="USD" data-symbol="USD $" data-rate="80.987634">Dollars - USD (USD $)</option><option value="3" data-code="AFN" data-symbol="؋" data-rate="20.987600">Afghanis - AFN (؋)</option><option value="4" data-code="ARS" data-symbol="$" data-rate="">Pesos - ARS ($)</option><option value="5" data-code="AWG" data-symbol="ƒ" data-rate="">Guilders - AWG (ƒ)</option><option value="6" data-code="AUD" data-symbol="$" data-rate="">Dollars - AUD ($)</option><option value="7" data-code="AZN" data-symbol="ман" data-rate="">New Manats - AZN (ман)</option><option value="8" data-code="BSD" data-symbol="$" data-rate="">Dollars - BSD ($)</option><option value="9" data-code="BBD" data-symbol="$" data-rate="">Dollars - BBD ($)</option><option value="10" data-code="BYR" data-symbol="p." data-rate="">Rubles - BYR (p.)</option><option value="11" data-code="EUR" data-symbol="€" data-rate="">Euro - EUR (€)</option><option value="12" data-code="BZD" data-symbol="BZ$" data-rate="">Dollars - BZD (BZ$)</option><option value="13" data-code="BMD" data-symbol="$" data-rate="">Dollars - BMD ($)</option><option value="14" data-code="BOB" data-symbol="$b" data-rate="">Bolivianos - BOB ($b)</option><option value="15" data-code="BAM" data-symbol="KM" data-rate="">Convertible Marka - BAM (KM)</option><option value="16" data-code="BWP" data-symbol="P" data-rate="">Pula - BWP (P)</option><option value="17" data-code="BGN" data-symbol="лв" data-rate="">Leva - BGN (лв)</option><option value="18" data-code="BRL" data-symbol="R$" data-rate="">Reais - BRL (R$)</option><option value="19" data-code="GBP" data-symbol="£" data-rate="">Pounds - GBP (£)</option><option value="20" data-code="BND" data-symbol="$" data-rate="">Dollars - BND ($)</option><option value="21" data-code="KHR" data-symbol="៛" data-rate="">Riels - KHR (៛)</option><option value="22" data-code="CAD" data-symbol="$" data-rate="">Dollars - CAD ($)</option><option value="23" data-code="KYD" data-symbol="$" data-rate="">Dollars - KYD ($)</option><option value="24" data-code="CLP" data-symbol="$" data-rate="">Pesos - CLP ($)</option><option value="25" data-code="CNY" data-symbol="¥" data-rate="">Yuan Renminbi - CNY (¥)</option><option value="26" data-code="COP" data-symbol="$" data-rate="">Pesos - COP ($)</option><option value="27" data-code="CRC" data-symbol="₡" data-rate="">Colón - CRC (₡)</option><option value="28" data-code="HRK" data-symbol="kn" data-rate="">Kuna - HRK (kn)</option><option value="29" data-code="CUP" data-symbol="₱" data-rate="">Pesos - CUP (₱)</option><option value="30" data-code="CZK" data-symbol="Kč" data-rate="">Koruny - CZK (Kč)</option><option value="31" data-code="DKK" data-symbol="kr" data-rate="">Kroner - DKK (kr)</option><option value="32" data-code="DOP" data-symbol="DOP $" data-rate="">Pesos - DOP (DOP $)</option><option value="33" data-code="XCD" data-symbol="$" data-rate="">Dollars - XCD ($)</option><option value="34" data-code="EGP" data-symbol="£" data-rate="">Pounds - EGP (£)</option><option value="35" data-code="SVC" data-symbol="$" data-rate="">Colones - SVC ($)</option><option value="36" data-code="FKP" data-symbol="£" data-rate="">Pounds - FKP (£)</option><option value="37" data-code="FJD" data-symbol="$" data-rate="">Dollars - FJD ($)</option><option value="38" data-code="GHC" data-symbol="¢" data-rate="">Cedis - GHC (¢)</option><option value="39" data-code="GIP" data-symbol="£" data-rate="">Pounds - GIP (£)</option><option value="40" data-code="GTQ" data-symbol="Q" data-rate="">Quetzales - GTQ (Q)</option><option value="41" data-code="GGP" data-symbol="£" data-rate="">Pounds - GGP (£)</option><option value="42" data-code="GYD" data-symbol="$" data-rate="">Dollars - GYD ($)</option><option value="43" data-code="HNL" data-symbol="L" data-rate="">Lempiras - HNL (L)</option><option value="44" data-code="HKD" data-symbol="$" data-rate="">Dollars - HKD ($)</option><option value="45" data-code="HUF" data-symbol="Ft" data-rate="">Forint - HUF (Ft)</option><option value="46" data-code="ISK" data-symbol="kr" data-rate="">Kronur - ISK (kr)</option><option value="47" data-code="INR" data-symbol="Rp" data-rate="">Rupees - INR (Rp)</option><option value="48" data-code="IDR" data-symbol="Rp" data-rate="">Rupiahs - IDR (Rp)</option><option value="49" data-code="IRR" data-symbol="﷼" data-rate="">Rials - IRR (﷼)</option><option value="50" data-code="IMP" data-symbol="£" data-rate="">Pounds - IMP (£)</option><option value="51" data-code="ILS" data-symbol="₪" data-rate="">New Shekels - ILS (₪)</option><option value="52" data-code="JMD" data-symbol="J$" data-rate="">Dollars - JMD (J$)</option><option value="53" data-code="JPY" data-symbol="¥" data-rate="">Yen - JPY (¥)</option><option value="54" data-code="JEP" data-symbol="£" data-rate="">Pounds - JEP (£)</option><option value="55" data-code="KZT" data-symbol="лв" data-rate="">Tenge - KZT (лв)</option><option value="56" data-code="KPW" data-symbol="₩" data-rate="">Won - KPW (₩)</option><option value="57" data-code="KRW" data-symbol="₩" data-rate="">Won - KRW (₩)</option><option value="58" data-code="KGS" data-symbol="лв" data-rate="">Soms - KGS (лв)</option><option value="59" data-code="LAK" data-symbol="₭" data-rate="">Kips - LAK (₭)</option><option value="60" data-code="LVL" data-symbol="Ls" data-rate="">Lati - LVL (Ls)</option><option value="61" data-code="LBP" data-symbol="£" data-rate="">Pounds - LBP (£)</option><option value="62" data-code="LRD" data-symbol="$" data-rate="">Dollars - LRD ($)</option><option value="63" data-code="Francs" data-symbol="CHF" data-rate="">Switzerland Francs - Francs (CHF)</option><option value="64" data-code="LTL" data-symbol="Lt" data-rate="">Litai - LTL (Lt)</option><option value="65" data-code="MKD" data-symbol="ден" data-rate="">Denars - MKD (ден)</option><option value="66" data-code="MYR" data-symbol="RM" data-rate="">Ringgits - MYR (RM)</option><option value="67" data-code="MUR" data-symbol="₨" data-rate="">Rupees - MUR (₨)</option><option value="68" data-code="MXN" data-symbol="$" data-rate="">Pesos - MXN ($)</option><option value="69" data-code="MNT" data-symbol="₮" data-rate="">Tugriks - MNT (₮)</option><option value="70" data-code="MZN" data-symbol="MT" data-rate="">Meticais - MZN (MT)</option><option value="71" data-code="NAD" data-symbol="$" data-rate="">Dollars - NAD ($)</option><option value="72" data-code="NPR" data-symbol="₨" data-rate="">Rupees - NPR (₨)</option><option value="73" data-code="ANG" data-symbol="ƒ" data-rate="">Guilders - ANG (ƒ)</option><option value="74" data-code="NZD" data-symbol="$" data-rate="">Dollars - NZD ($)</option><option value="75" data-code="NIO" data-symbol="C$" data-rate="">Cordobas - NIO (C$)</option><option value="76" data-code="NGN" data-symbol="₦" data-rate="">Nairas - NGN (₦)</option><option value="77" data-code="NOK" data-symbol="kr" data-rate="">Krone - NOK (kr)</option><option value="78" data-code="OMR" data-symbol="﷼" data-rate="">Rials - OMR (﷼)</option><option value="79" data-code="PKR" data-symbol="₨" data-rate="">Rupees - PKR (₨)</option><option value="80" data-code="PAB" data-symbol="B/." data-rate="">Balboa - PAB (B/.)</option><option value="81" data-code="PYG" data-symbol="Gs" data-rate="">Guarani - PYG (Gs)</option><option value="82" data-code="PEN" data-symbol="S/." data-rate="">Nuevos Soles - PEN (S/.)</option><option value="83" data-code="PHP" data-symbol="Php" data-rate="">Pesos - PHP (Php)</option><option value="84" data-code="PLN" data-symbol="zł" data-rate="">Zlotych - PLN (zł)</option><option value="85" data-code="QAR" data-symbol="﷼" data-rate="">Rials - QAR (﷼)</option><option value="86" data-code="RON" data-symbol="lei" data-rate="">New Lei - RON (lei)</option><option value="87" data-code="RUB" data-symbol="руб" data-rate="">Rubles - RUB (руб)</option><option value="88" data-code="SHP" data-symbol="£" data-rate="">Pounds - SHP (£)</option><option value="89" data-code="SAR" data-symbol="﷼" data-rate="">Riyals - SAR (﷼)</option><option value="90" data-code="RSD" data-symbol="Дин." data-rate="">Dinars - RSD (Дин.)</option><option value="91" data-code="SCR" data-symbol="₨" data-rate="">Rupees - SCR (₨)</option><option value="92" data-code="SGD" data-symbol="$" data-rate="">Dollars - SGD ($)</option><option value="93" data-code="SBD" data-symbol="$" data-rate="">Dollars - SBD ($)</option><option value="94" data-code="SOS" data-symbol="S" data-rate="">Shillings - SOS (S)</option><option value="95" data-code="ZAR" data-symbol="R" data-rate="">Rand - ZAR (R)</option><option value="96" data-code="LKR" data-symbol="₨" data-rate="">Rupees - LKR (₨)</option><option value="97" data-code="SEK" data-symbol="kr" data-rate="">Kronor - SEK (kr)</option><option value="98" data-code="SRD" data-symbol="$" data-rate="">Dollars - SRD ($)</option><option value="99" data-code="SYP" data-symbol="£" data-rate="">Pounds - SYP (£)</option><option value="100" data-code="TWD" data-symbol="NT$" data-rate="">New Dollars - TWD (NT$)</option><option value="101" data-code="THB" data-symbol="฿" data-rate="56.890123">Baht - THB (฿)</option><option value="102" data-code="TTD" data-symbol="TT$" data-rate="">Dollars - TTD (TT$)</option><option value="103" data-code="TRY" data-symbol="₺" data-rate="">Lira - TRY (₺)</option><option value="104" data-code="TRL" data-symbol="£" data-rate="">Liras - TRL (£)</option><option value="105" data-code="TVD" data-symbol="$" data-rate="">Dollars - TVD ($)</option><option value="106" data-code="UAH" data-symbol="₴" data-rate="">Hryvnia - UAH (₴)</option><option value="107" data-code="UYU" data-symbol="$U" data-rate="">Pesos - UYU ($U)</option><option value="108" data-code="UZS" data-symbol="лв" data-rate="">Sums - UZS (лв)</option><option value="109" data-code="VEF" data-symbol="Bs" data-rate="">Bolivares Fuertes - VEF (Bs)</option><option value="110" data-code="VND" data-symbol="₫" data-rate="">Dong - VND (₫)</option><option value="111" data-code="YER" data-symbol="﷼" data-rate="">Rials - YER (﷼)</option><option value="112" data-code="ZWD" data-symbol="Z$" data-rate="">Zimbabwe Dollars - ZWD (Z$)</option></select>
+                                                                    </div>
+                                <div class="form-group col">
+                                    <label for="currency">Exchange Rate</label>
+                                    <input type="number" id="exchange_rate" name="exchange_rate" class="form-control" value="" autocomplete="off" min="0.01" step="any">
+                                    <span class="error_exchange_rate" style="font-size: 13px;
+                                    font-weight: 500;
+                                    color: red;
+                                    display: block;
+                                    font-style: italic;
+                                    text-align: left;
+                                    padding-left: 19px;
+                                    padding-top: 5px; display:none;">The exchange rate field is required when exchange currency is present.</span>
+                                    <label class="currency_exchange_inner" style="display:none">1 <span class="exchange_currency_label"></span> =
+                                    INR
+                                    (₹) <span class="exchange_currency_rate"></span> </label>
+                                    <label class="currency_exchange_inner" style="display:none">1
+                                    INR
+                                    (₹) = <span class="exchange_currency_label"></span>
+                                    <span id="total_with_exchange">0</span> </label>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="notes">Notes</label>
+                            <textarea class="form-control ckeditor" name="notes" id="notes" style="visibility: hidden; display: none;"></textarea>
+</div>
+                        <div class="form-group col-md-6">
+                            <label for="notes">Reference</label>
+                            <textarea class="form-control ckeditor" name="reference" id="reference" style="visibility: hidden; display: none;"></textarea>                     
+                        </div>
+                    <div class="default-table add-invoice-table">
+                        <div class="list-table-custom">
+                            <table class="table table-striped" id="invoice_items">
+                                <thead>
+                                    <tr>
+                                        <th class="th-item">Item</th>
+                                        <th class="th-reference">Reference</th>
+                                        <th class="th-price">Price</th>
+                                        <th class="th-disc">Disc %</th>
+                                        <th class="th-tax">Tax</th>
+                                        <th class="th-tax_amount">Taxes</th>
+                                        <!-- <th class="th-description">Description</th> -->
+                                        <th class="th-quantity">Quantity</th>
+                                        <th class="th-total">Total</th>
+                                        <th> </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    
+                                    <tr>
+                                        <td class="td-item">
+                                            <select class="form-control small-single-search-selection select2-hidden-accessible" id="products[0][item]" required="required" name="products[0][item]" data-select2-id="select2-data-products[0][item]" tabindex="-1" aria-hidden="true" aria-required="true"><option value="" selected="selected" data-select2-id="select2-data-8-3isk">Select item</option><optgroup label="Products and Services"><option value="4" data-reference="" data-description="" data-sale_price="500.00" data-unit_cost="100.00" data-tax_id="3" data-quantity="-287" data-id="0" data-value="Reebok shoes">Reebok shoes</option><option value="196" data-reference="" data-description="" data-sale_price="12.00" data-unit_cost="0" data-tax_id="6" data-quantity="" data-id="0" data-value="test">test</option><option value="1110" data-reference="" data-description="" data-sale_price="99.99" data-unit_cost="99.99" data-tax_id="" data-quantity="" data-id="0" data-value="Test">Test</option><option value="1244" data-reference="" data-description="" data-sale_price="120.00" data-unit_cost="0" data-tax_id="" data-quantity="" data-id="0" data-value="pp test">pp test</option><option value="1246" data-reference="Cupidatat quo ea rep" data-description="Deserunt sunt volupt" data-sale_price="250.00" data-unit_cost="227.27" data-tax_id="3" data-quantity="" data-id="0" data-value="Ulysses Pollard">Ulysses Pollard - (Cupidatat quo ea rep)</option></optgroup></select>
+                                        </td>
+                                        <td class="td-reference">
+                                            <input type="text" placeholder="Reference" name="products[0][reference]" id="reference" class="form-control reference_0" value="">
+                                        </td>
+                                        <td class="td-price">
+                                            <td class="td-disc" style="text-align: center;">
+                                            <input type="number" min="0" max="99" pattern="^\d*(\.\d{0,2})?$" data-msg="The Discount format is invalid." placeholder="%" name="products[0][discount]" id="discount" class="form-control" value="0">
+                                        </td>
+                                        <td class="td-tax">
+                                            <select class="form-control small-single-search-selection select2-hidden-accessible" id="products[0][tax]" name="products[0][tax]" data-select2-id="select2-data-products[0][tax]" tabindex="-1" aria-hidden="true"><option value="0" data-percentage="0" data-select2-id="select2-data-10-pvo2">None (0%)</option><option value="6" data-percentage="9">CGST (9%)</option><option value="3" data-percentage="18">GST (18%)</option></select>
+                                        </td>
+                                        <td class="td-tax_amount">
+                                            <input type="text" placeholder="Taxes" name="products[0][tax_amount]" id="products[0][tax_amount]" class="form-control" readonly="" value="">
+                                        </td>
+                                        <td class="td-quantity">
+                                            <input type="number" placeholder="1" name="products[0][quantity]" id="quantity" class="form-control " min="1" value="1">
+                                        </td>
+                                        <td class="td-total">
+                                            <span class="exchange_currency_symbol">₹</span><span id="products[0][total]">0.00</span>
+                                        </td>
+                                        <input type="hidden" name="products_old_qty" id="products_old_qty" value="">
+                                        <input type="hidden" name="products_select_id" id="products_select_id" value="">
+                                        <input type="hidden" name="products_new_qty" id="products_new_qty" value="">
+                                        <input type="hidden" name="products_itemName" id="products_itemName" value="">
+                                        <td></td>
+                                    </tr>
+                                                                                                        </tbody>
+                            </table>
+                        </div>
+                        <a class="btn-custom add-row"><i class="fa fa-plus" aria-hidden="true"></i> Add Row</a>
+                    </div>
+                    <div class="row no-margin">
+                        <div class="col-sm-4">
+                            <div class="form-group file-input file-input-medium position-relative">
+                                <input type="file" id="company-sign" name="signature" class="file-upload-preview" accept="image/*" data-img_id="signature-preview" data-msg-accept="Please select only jpeg, bmp, png, jpg file." data-label_id="signature-preview-label">
+                                <a class="upload-button" data-preview_section="company-sign"><i class="fa fa-pencil" aria-hidden="true"></i> Edit</a>
+                                                            </div>
+                        </div>
+                        <div class="col-sm-8 total-table">
+                            <div class="total-table">
+                                <table>
+                                    <tbody><tr>
+                                        <th>Subtotal</th>
+                                        <td id="invoice_basetotal">₹0.00</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Discount</th>
+                                        <td id="invoice_discount">₹0.00</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Sub Total</th>
+                                        <td id="invoice_subtotal">₹0.00</td>
+                                    </tr>
+                                    <tr class="tax_row"><th> Tax </th><td>₹0.00</td></tr><tr>
+                                        <th>Total</th>
+                                        <td id="invoice_total">₹0.00</td>
+                                    </tr>
+                                    
+                                </tbody></table>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group popup-btns">
+                    <button type="submit" name="submit" class="btn-custom" value="save_and_view">Save and View</button>
+                    <button type="submit" name="submit" class="btn-custom" value="save_and_print">Save and Print</button>
+                    <a href="https://portal.kedasrd.com/estimates"><button type="button" name="cancel" class="btn-custom cancel-btn">Cancel</button></a>
+                    <button type="submit" name="submit" class="btn-custom">Save</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+</div>
+<div class="clearfix"></div>
+            </div>
+        </section>
+
+            </div>  
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdn.ckeditor.com/4.4.7/standard-all/ckeditor.js"></script>
+</body>
+</html>

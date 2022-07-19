@@ -1,0 +1,1127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta
+      name="author"
+      content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
+    />
+    <meta name="generator" content="Hugo 0.98.0" />
+    <title>INNERS BOOKS</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" rel="stylesheet"> -->
+
+    <!-- Custom styles for this template -->
+    <!-- <link href="css/customstyles.css" rel="stylesheet"> -->
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/app.css" rel="stylesheet" />
+    <link href="css/regular_pos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="app" class="main-wrapper">
+      <div>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+          <span class="main-menu"
+            ><a
+              href="javascript:void(0)"
+              id="open-menu"
+              class="d-flex align-items-center"
+              ><i class="fa fa-bars mr-4"></i></a
+          ></span>
+          <div class="logo-sec h-100">
+            <a href="">Inners Books</a>
+          </div>
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a
+                href="#"
+                id="navbar-profile-dropdown"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                class="nav-link dropdown-toggle hide-dropdown-icon"
+                ><img
+                  src="https://portal.kedasrd.com/storage/profile-pics/3-d53842c88dfc69c.jpg"
+                  alt=""
+                  class="rounded-circle avatar"
+              /></a>
+              <div
+                aria-labelledby="navbar-profile-dropdown"
+                class="dropdown-menu dropdown-menu-right animated bounceInDown profile-dropdown border-0 p-0"
+              >
+                <div class="ticker"></div>
+                <img
+                  src="images/john-sec.png"
+                  alt=""
+                  class="rounded-circle avatar-large"
+                />
+                <div class="user-name"><div>sachin</div></div>
+                <div class="dropdown-divider m-0"></div>
+                <a
+                  href=""
+                  class="dropdown-item d-flex align-items-center p-2"
+                  ><i class="fa fa-sign-out la-2x pr-3"></i>
+                  Logout
+                </a>
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <main id="app">
+        <div>
+          <div>
+            <nav role="navigation" class="real-menu">
+              <h5 class="text-center pt-2 mb-3 side-heading">
+                <a href="javascript:void(0)"
+                  ><button
+                    data-toggle="modal"
+                    data-target="#openshift"
+                    class="shift-btn-sidebar"
+                  >
+                    Open shift
+                  </button></a
+                >
+              </h5>
+              <hr class="mt-4" />
+              <ul class="side_item p-0">
+                <li>
+                  <a
+                    href="javascript:void(0)"
+                    data-toggle="modal"
+                    data-target="#shifts"
+                    ><i class="fa fa-side fa-first-order"></i> Shifts</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="javascript:void(0)"
+                    data-toggle="modal"
+                    data-target="#setting"
+                    ><i class="fa fa-cogs"></i> setting</a
+                  >
+                </li>
+                <li>
+                  <a href=""
+                    ><i class="fa fa-side fa-sign-out"></i> Exit</a
+                  >
+                </li>
+              </ul>
+            </nav>
+            <div id="openshift" role="dialog" class="modal fade">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header bb-none pb-1">
+                    <button type="button" data-dismiss="modal" class="close">
+                      ×
+                    </button>
+                  </div>
+                  <div class="modal-body pt-2">
+                    <div class="row d-block">
+                      <h5 class="cash-heading">Open shift</h5>
+                    </div>
+                    <div>
+                      <div class="row">
+                        <div class="col-lg-10 col-md-10 m-auto">
+                          <p class="text-center">
+                            With the shifts you will have better cash management
+                            at your point of sale.
+                          </p>
+                          <form class="search-form">
+                            <div class="form-group mb-4">
+                              <input
+                                type="number"
+                                min="0"
+                                placeholder="Initial base"
+                                class="form-control items-control"
+                              />
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                      <div class="modal-footer bt-none">
+                        <button
+                          type="button"
+                          data-dismiss="modal"
+                          class="shift-btn cancel back-cart"
+                        >
+                          Cancel
+                        </button>
+                        <button type="button" class="shift-btn back-cart">
+                          Submit
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              id="setting"
+              tabindex="-1"
+              role="dialog"
+              aria-labelledby="exampleModalCenterTitle"
+              aria-hidden="true"
+              class="modal fade"
+            >
+              <div
+                role="document"
+                class="modal-dialog modal-dialog-centered modal-lg"
+              >
+                <div class="modal-content">
+                  <div
+                    class="modal-header cash-header d-flex justify-content-end pb-1"
+                    style="border-bottom: 1px solid rgb(255, 255, 255);"
+                  >
+                    <button
+                      data-dismiss="modal"
+                      aria-label="Close"
+                      class="close-btn"
+                      style="border: 1px solid rgb(31, 108, 151); background: none; color: rgb(31, 108, 151); padding: 0.15rem 0.2rem; border-radius: 50px; line-height: 19px; font-size: 0.8rem; width: 25px; height: 25px; cursor: pointer;"
+                    >
+                      ✖
+                    </button>
+                  </div>
+                  <div class="modal-body pt-0">
+                    <div class="row d-block">
+                      <h5
+                        class="cash-heading-1"
+                        style="font-size: 22px; text-align: center; color: rgb(31, 108, 151); font-weight: 600;"
+                      >
+                        setting
+                      </h5>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-8 m-auto">
+                        <div class="row mt-3 form-group mb-2">
+                          <div class="col-lg-3 col-form-label">
+                            <label style="font-size: 15px; font-weight: 600;"
+                              >NCF</label
+                            >
+                          </div>
+                          <div class="col-lg-9">
+                            <div class="form-group">
+                              <div
+                                class="dropdown bootstrap-select form-control"
+                              >
+                                <select
+                                  data-live-search="true"
+                                  class="form-control"
+                                >
+                                  <option value="">Select NCF</option>
+                                  <option value="14">ANOTHER</option></select
+                                ><button
+                                  type="button"
+                                  tabindex="-1"
+                                  class="btn dropdown-toggle btn-light bs-placeholder"
+                                  data-toggle="dropdown"
+                                  role="combobox"
+                                  aria-owns="bs-select-4"
+                                  aria-haspopup="listbox"
+                                  aria-expanded="false"
+                                  title="Select NCF"
+                                >
+                                  <div class="filter-option">
+                                    <div class="filter-option-inner">
+                                      <div class="filter-option-inner-inner">
+                                        Select NCF
+                                      </div>
+                                    </div>
+                                  </div>
+                                </button>
+                                <div class="dropdown-menu">
+                                  <div class="bs-searchbox">
+                                    <input
+                                      type="search"
+                                      class="form-control"
+                                      autocomplete="off"
+                                      role="combobox"
+                                      aria-label="Search"
+                                      aria-controls="bs-select-4"
+                                      aria-autocomplete="list"
+                                    />
+                                  </div>
+                                  <div
+                                    class="inner show"
+                                    role="listbox"
+                                    id="bs-select-4"
+                                    tabindex="-1"
+                                  >
+                                    <ul
+                                      class="dropdown-menu inner show"
+                                      role="presentation"
+                                    ></ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row mt-2 form-group mb-2">
+                          <div class="col-lg-3 col-form-label">
+                            <label style="font-size: 15px; font-weight: 600;"
+                              >Bank Account</label
+                            >
+                          </div>
+                          <div class="col-lg-9">
+                            <div class="form-group">
+                              <div
+                                class="dropdown bootstrap-select form-control"
+                              >
+                                <select
+                                  data-live-search="true"
+                                  class="form-control"
+                                >
+                                  <option value="">
+                                    Please select account
+                                  </option></select
+                                ><button
+                                  type="button"
+                                  tabindex="-1"
+                                  class="btn dropdown-toggle btn-light bs-placeholder"
+                                  data-toggle="dropdown"
+                                  role="combobox"
+                                  aria-owns="bs-select-5"
+                                  aria-haspopup="listbox"
+                                  aria-expanded="false"
+                                  title="Please select account"
+                                >
+                                  <div class="filter-option">
+                                    <div class="filter-option-inner">
+                                      <div class="filter-option-inner-inner">
+                                        Please select account
+                                      </div>
+                                    </div>
+                                  </div>
+                                </button>
+                                <div class="dropdown-menu">
+                                  <div class="bs-searchbox">
+                                    <input
+                                      type="search"
+                                      class="form-control"
+                                      autocomplete="off"
+                                      role="combobox"
+                                      aria-label="Search"
+                                      aria-controls="bs-select-5"
+                                      aria-autocomplete="list"
+                                    />
+                                  </div>
+                                  <div
+                                    class="inner show"
+                                    role="listbox"
+                                    id="bs-select-5"
+                                    tabindex="-1"
+                                  >
+                                    <ul
+                                      class="dropdown-menu inner show"
+                                      role="presentation"
+                                    ></ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row mt-2 form-group mb-2">
+                          <div class="col-lg-3 col-form-label">
+                            <label style="font-size: 15px; font-weight: 600;"
+                              >Wallet Bank Account</label
+                            >
+                          </div>
+                          <div class="col-lg-9">
+                            <div class="form-group">
+                              <div
+                                class="dropdown bootstrap-select form-control"
+                              >
+                                <select
+                                  data-live-search="true"
+                                  class="form-control"
+                                >
+                                  <option value="">
+                                    Please select account
+                                  </option></select
+                                ><button
+                                  type="button"
+                                  tabindex="-1"
+                                  class="btn dropdown-toggle btn-light bs-placeholder"
+                                  data-toggle="dropdown"
+                                  role="combobox"
+                                  aria-owns="bs-select-6"
+                                  aria-haspopup="listbox"
+                                  aria-expanded="false"
+                                  title="Please select account"
+                                >
+                                  <div class="filter-option">
+                                    <div class="filter-option-inner">
+                                      <div class="filter-option-inner-inner">
+                                        Please select account
+                                      </div>
+                                    </div>
+                                  </div>
+                                </button>
+                                <div class="dropdown-menu">
+                                  <div class="bs-searchbox">
+                                    <input
+                                      type="search"
+                                      class="form-control"
+                                      autocomplete="off"
+                                      role="combobox"
+                                      aria-label="Search"
+                                      aria-controls="bs-select-6"
+                                      aria-autocomplete="list"
+                                    />
+                                  </div>
+                                  <div
+                                    class="inner show"
+                                    role="listbox"
+                                    id="bs-select-6"
+                                    tabindex="-1"
+                                  >
+                                    <ul
+                                      class="dropdown-menu inner show"
+                                      role="presentation"
+                                    ></ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="m-auto d-block text-center pt-4 pb-2">
+                          <a
+                            href="#"
+                            class="proceed-btn text-center mb-4"
+                            style="background: rgb(31, 108, 151); padding: 8px 35px; color: rgb(255, 255, 255); border: 1px solid rgb(31, 108, 151); font-weight: 500; text-decoration: none; font-size: 15px;"
+                            >Proceed
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="closeshift" role="dialog" class="modal fade">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header bb-none pb-1">
+                    <button type="button" data-dismiss="modal" class="close">
+                      ×
+                    </button>
+                  </div>
+                  <hr class="mt-2" />
+                  <div class="modal-body pt-2">
+                    <div class="row d-block">
+                      <h5 class="cash-heading">Close shift</h5>
+                    </div>
+                    <div>
+                      <div class="row">
+                        <div class="col-lg-10 col-md-10 m-auto">
+                          <div class="card card-body"><!----></div>
+                        </div>
+                        <div class="col-lg-10 col-md-10 m-auto">
+                          <form class="search-form">
+                            <div class="form-group mb-4">
+                              <textarea
+                                name=""
+                                cols="30"
+                                rows="1"
+                                placeholder="Observations"
+                                class="form-control items-control"
+                              ></textarea>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                      <div class="modal-footer bt-none">
+                        <button
+                          type="button"
+                          data-dismiss="modal"
+                          class="shift-btn cancel back-cart"
+                        >
+                          Cancel
+                        </button>
+                        <button type="button" class="shift-btn back-cart">
+                          Submit
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="shifts" role="dialog" class="modal fade">
+              <div
+                class="modal-dialog modal-dialog-centered biggest-modal-dialog2"
+              >
+                <div class="modal-content">
+                  <div class="modal-header bb-none pb-1">
+                    <button type="button" data-dismiss="modal" class="close">
+                      ×
+                    </button>
+                  </div>
+                  <div class="modal-body pt-3">
+                    <section>
+                      <div class="container-fluid">
+                        <div class="row height-vh-row">
+                          <div class="col-xl-3 col-lg-12 right-details p-0">
+                            <div
+                              class="mb-3 pl-3 pr-3 pt-3 pb-3 d-flex justify-content-between align-items-center box-shadow"
+                            >
+                              <h6 class="mb-0 text-primary">
+                                Shift in progress
+                              </h6>
+                              <a href="javascript:void(0)"
+                                ><button class="shift-btn pl-3 pr-3">
+                                  Closed
+                                </button></a
+                              >
+                            </div>
+                            <div class="pl-3 pr-3 side-scroll">
+                              <div class="side-lists mb-3">
+                                <h6 class="mb-1 text-center">Empty shift</h6>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-xl-9 col-lg-12 pb-2">
+                            <div>
+                              <!---->
+                              <div>
+                                <div
+                                  class="mb-1 pt-3 pb-3 d-flex justify-content-between align-items-center"
+                                >
+                                  <h6 class="mb-0">Shift in progress</h6>
+                                </div>
+                                <div class="card card-body">
+                                  <div class="row">
+                                    <div class="col-lg-12 col-md-12">
+                                      <div
+                                        class="h-100 w-100 d-flex flex-column align-items-center justify-content-center"
+                                      >
+                                        <p
+                                          class="text-capitalize-first text-center"
+                                        >
+                                          Open a new shift and continue managing
+                                          your business cash
+                                        </p>
+                                        <button
+                                          type="button"
+                                          class="btn btn-submit text-nowrap shift-btn"
+                                        >
+                                          Open shift
+                                        </button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                  <div class="modal-footer bt-none"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="main-layout-wrapper sales-recieve-block">
+            <div class="container-fluid">
+              
+              <div class="d-flex row" style="height: calc(100vh - 6rem);">
+                <div class="col-xl-8 col-lg-7">
+                  <div style="flex: 1 0 0%;">
+                    <div class="main-layout-card mb-75">
+                      <div class="main-layout-card-content">
+                        <div class="row mx-0">
+                          <div class="col-md-12 p-0">
+                            <div class="input-group custom-search-block">
+                              <div class="input-group-prepend">
+                                <span class="input-group-text"
+                                  ><i class="fa fa-search"></i
+                                ></span>
+                              </div>
+                              <input
+                                id="search"
+                                type="text"
+                                placeholder="Search Product"
+                                aria-label="Search"
+                                aria-describedby="search"
+                                class="form-control pr-4 rounded-right"
+                              />
+                              <!---->
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="row all-products mr-0 product-cells-wrap">
+                        <div
+                          class="col-md-6 col-xl-3 col-lg-6 pr-0 mb-75 pl-75 standard-product"
+                        >
+                          <a href="#" data-toggle="modal" class="app-color-text"
+                            ><div
+                              class="product-card-font position-absolute rounded-right app-color text-white product-price price-section"
+                            >
+                              ₹500.00
+                            </div>
+                            <div class="product-card bg-white rounded">
+                              <div
+                                class="product-img-container image-property"
+                                style='background-image: url("https://portal.kedasrd.com/storage/items/3-item-dec9861ff3df3ed.jpg");'
+                              ></div>
+                              <div
+                                class="product-card-content product-content"
+                                style="height: 43.1979px;"
+                              >
+                                <div class="position-relative h-100">
+                                  <div class="h-100">
+                                    <div class="h-100">
+                                      <div
+                                        class="p-2 h-100 d-flex align-items-center product-card-font font-weight-bold text-center justify-content-center"
+                                      >
+                                        <span class="limit">
+                                          Reebok shoes
+                                        </span>
+                                      </div>
+                                    </div>
+                                    <!---->
+                                  </div>
+                                </div>
+                              </div>
+                            </div></a
+                          >
+                        </div>
+                        <div
+                          class="col-md-6 col-xl-3 col-lg-6 pr-0 mb-75 pl-75 standard-product"
+                        >
+                          <a href="#" data-toggle="modal" class="app-color-text"
+                            ><div
+                              class="product-card-font position-absolute rounded-right app-color text-white product-price price-section"
+                            >
+                              ₹12.00
+                            </div>
+                            <div class="product-card bg-white rounded">
+                              <div
+                                class="product-img-container image-property"
+                                style='background-image: url("https://portal.kedasrd.com/storage/items/3-item-10ac5f1026beefd.jpg");'
+                              ></div>
+                              <div
+                                class="product-card-content product-content"
+                                style="height: 43.1979px;"
+                              >
+                                <div class="position-relative h-100">
+                                  <div class="h-100">
+                                    <div class="h-100">
+                                      <div
+                                        class="p-2 h-100 d-flex align-items-center product-card-font font-weight-bold text-center justify-content-center"
+                                      >
+                                        <span class="limit"> test </span>
+                                      </div>
+                                    </div>
+                                    <!---->
+                                  </div>
+                                </div>
+                              </div>
+                            </div></a
+                          >
+                        </div>
+                        <div
+                          class="col-md-6 col-xl-3 col-lg-6 pr-0 mb-75 pl-75 standard-product"
+                        >
+                          <a href="#" data-toggle="modal" class="app-color-text"
+                            ><div
+                              class="product-card-font position-absolute rounded-right app-color text-white product-price price-section"
+                            >
+                              ₹99.99
+                            </div>
+                            <div class="product-card bg-white rounded">
+                              <div
+                                class="product-img-container image-property"
+                              ></div>
+                              <div
+                                class="product-card-content product-content"
+                                style="height: 43.1979px;"
+                              >
+                                <div class="position-relative h-100">
+                                  <div class="h-100">
+                                    <div class="h-100">
+                                      <div
+                                        class="p-2 h-100 d-flex align-items-center product-card-font font-weight-bold text-center justify-content-center"
+                                      >
+                                        <span class="limit"> Test </span>
+                                      </div>
+                                    </div>
+                                    <div
+                                      class="product-card-font warning-message text-white sold-out"
+                                    >
+                                      Out Of Stock
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div></a
+                          >
+                        </div>
+                        <div
+                          class="col-md-6 col-xl-3 col-lg-6 pr-0 mb-75 pl-75 standard-product"
+                        >
+                          <a href="#" data-toggle="modal" class="app-color-text"
+                            ><div
+                              class="product-card-font position-absolute rounded-right app-color text-white product-price price-section"
+                            >
+                              ₹120.00
+                            </div>
+                            <div class="product-card bg-white rounded">
+                              <div
+                                class="product-img-container image-property"
+                              ></div>
+                              <div
+                                class="product-card-content product-content"
+                                style="height: 43.1979px;"
+                              >
+                                <div class="position-relative h-100">
+                                  <div class="h-100">
+                                    <div class="h-100">
+                                      <div
+                                        class="p-2 h-100 d-flex align-items-center product-card-font font-weight-bold text-center justify-content-center"
+                                      >
+                                        <span class="limit"> pp test </span>
+                                      </div>
+                                    </div>
+                                    <!---->
+                                  </div>
+                                </div>
+                              </div>
+                            </div></a
+                          >
+                        </div>
+                        <div
+                          class="col-md-6 col-xl-3 col-lg-6 pr-0 mb-75 pl-75 standard-product"
+                        >
+                          <a href="#" data-toggle="modal" class="app-color-text"
+                            ><div
+                              class="product-card-font position-absolute rounded-right app-color text-white product-price price-section"
+                            >
+                              ₹250.00
+                            </div>
+                            <div class="product-card bg-white rounded">
+                              <div
+                                class="product-img-container image-property"
+                              ></div>
+                              <div
+                                class="product-card-content product-content"
+                                style="height: 43.1979px;"
+                              >
+                                <div class="position-relative h-100">
+                                  <div class="h-100">
+                                    <div class="h-100">
+                                      <div
+                                        class="p-2 h-100 d-flex align-items-center product-card-font font-weight-bold text-center justify-content-center"
+                                      >
+                                        <span class="limit">
+                                          Ulysses Pollard
+                                        </span>
+                                      </div>
+                                    </div>
+                                    <div
+                                      class="product-card-font warning-message text-white sold-out"
+                                    >
+                                      Out Of Stock
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div></a
+                          >
+                        </div>
+                        <!---->
+                        <!---->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-4 col-lg-5">
+                  <div id="layoutTop" style="position: relative;">
+                    <div class="main-layout-card">
+                      <span
+                        ><div id="cart-section-1" class="col-md-12 modal-layout-header p-2">
+                          <div class="sales-search">
+                            <div class="row">
+                              <div class="col-lg-9 col-md-9 col-9 pr-2">
+                                <div class="input-group custom-search-block">
+                                  <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="fas fa-user"></i></span>
+                                  </div>
+                                  <input
+                                    type="text"
+                                    placeholder="Search Customers"
+                                    aria-label="Search"
+                                    aria-describedby="search"
+                                    class="form-control pr-4 rounded-right"
+                                  />
+                                  <!---->
+                                  <div
+                                    class="dropdown-menu dropdown-menu-right w-100"
+                                  >
+                                    <div class="px-3 py-1 text-center">
+                                      No result found
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-3 col-md-3 col-3 text-center">
+                                <div
+                                  data-toggle="modal"
+                                  data-target="#add-customer"
+                                  class="input-group custom-search-block cursor-pointer rounded-right">
+                                  <i class=""></i>
+                                  <i class="fa fa-plus p-3 bg-white rounded border"></i>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          id="cart-section-2"
+                          class="cart-items-wrapper col-md-12 cart-items-regular-pos"
+                          style="max-height: 228.25px;"
+                        >
+                          <div class="cart-item-container py-1">
+                            <div class="form-row mx-0 px-1 cart-item">
+                              <div class="cart-item-btn col-4">
+                                <div class="row mx-0 my-auto">
+                                  <div class="cart-product-row">
+                                    <div class="row mx-0 cart-item-title">
+                                      <div class="col-12 pl-1 p-0 my-auto mx-0">
+                                        test
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="side-right-cart">
+                                <div
+                                  class="d-flex justify-content-between cart-quantity"
+                                >
+                                  <div class="pl-0 mx-0">
+                                    <a href="#"
+                                      ><i
+                                        class="fa fa-minus-circle la-2x cart-icon-color"
+                                      ></i
+                                    ></a>
+                                  </div>
+                                  <div class="align-self-center">1</div>
+                                  <div>
+                                    <a href="#" class=""
+                                      ><i
+                                        class="fa fa-plus-circle la-2x cart-icon-color"
+                                      ></i
+                                    ></a>
+                                  </div>
+                                </div>
+                                <div class="d-flex cart-calculatedPrice">
+                                  <div class="align-self-center ml-auto">
+                                    <span>₹12.00</span>
+                                  </div>
+                                  <div class="align-self-center ml-2">
+                                    <a href="#" class="red-text"
+                                      ><i class="fa fa-trash del-icon-color"></i
+                                    ></a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="cart-item-container py-1">
+                            <div class="form-row mx-0 px-1 cart-item">
+                              <div class="cart-item-btn col-4">
+                                <div class="row mx-0 my-auto">
+                                  <div class="cart-product-row">
+                                    <div class="row mx-0 cart-item-title">
+                                      <div class="col-12 pl-1 p-0 my-auto mx-0">
+                                        Test
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="side-right-cart">
+                                <div
+                                  class="d-flex justify-content-between cart-quantity"
+                                >
+                                  <div class="pl-0 mx-0">
+                                    <a href="#"
+                                      ><i
+                                        class="fa fa-minus-circle la-2x cart-icon-color"
+                                      ></i
+                                    ></a>
+                                  </div>
+                                  <div class="align-self-center">1</div>
+                                  <div>
+                                    <a href="#" class=""
+                                      ><i
+                                        class="fa fa-plus-circle la-2x cart-icon-color"
+                                      ></i
+                                    ></a>
+                                  </div>
+                                </div>
+                                <div class="d-flex cart-calculatedPrice">
+                                  <div class="align-self-center ml-auto">
+                                    <span>₹99.99</span>
+                                  </div>
+                                  <div class="align-self-center ml-2">
+                                    <a href="#" class="red-text"
+                                      ><i class="fa fa-trash del-icon-color"></i
+                                    ></a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          id="cart-section-3"
+                          class="position-absolute fixed-bottom product-card-font col-md-12"
+                        >
+                          <div class="row mx-0 px-3 py-2 font-weight-bold">
+                            <div class="col-6 p-0">Sub Total</div>
+                            <div class="col-6 p-0 text-right">₹111.99</div>
+                          </div>
+                          <div class="row mx-0 px-3 py-2 font-weight-bold">
+                            <div class="col-6 p-0">Tax</div>
+                            <div class="col-6 p-0 text-right">₹0.00</div>
+                          </div>
+                          <div class="row mx-0 px-3 py-2 font-weight-bold">
+                            <div class="col-6 p-0">
+                              Discount
+                              <!---->
+                            </div>
+                            <div class="col-6 p-0 text-right">
+                              <span><i class="fa fa-edit myicon1"></i>0% </span>
+                            </div>
+                          </div>
+                          <div class="row mx-0 px-3 py-2">
+                            <div class="col-6 p-0">
+                              <span class="font-weight-bold"> Total </span>
+                            </div>
+                            <div class="col-3 p-0 text-center">
+                              <div
+                                role="group"
+                                class="btn-group dropright"
+                              ></div>
+                            </div>
+                            <div class="col-3 p-0 text-right">
+                              <span
+                                class="col-6 p-0 font-weight-bold text-right"
+                              >
+                                ₹111.99
+                              </span>
+                            </div>
+                          </div>
+                          <div class="p-3 pt-5">
+                            <button
+                              href="#"
+                              disabled="disabled"
+                              class="btn pay-btn app-color"
+                            >
+                              Pay
+                            </button>
+                          </div>
+                          <div class="row mx-0">
+                            <a
+                              href="#"
+                              data-toggle="modal"
+                              data-target="#clear-cart-modal"
+                              class="col-12 p-0 text-center clear-cart"
+                              ><i
+                                class="fa fa-times-circle la-2x p-2 text-danger"
+                              ></i
+                            ></a>
+                          </div>
+                        </div>
+                        <div
+                          id="add-customer"
+                          tabindex="-1"
+                          role="dialog"
+                          aria-labelledby="exampleModalCenterTitle"
+                          aria-hidden="true"
+                          class="modal fade f-w-700"
+                        >
+                          <div
+                            role="document"
+                            class="modal-dialog modal-dialog-centered modal-md"
+                          >
+                            <div class="modal-content">
+                              <div
+                                class="modal-header cash-header d-flex justify-content-end"
+                              >
+                                <a
+                                  data-dismiss="modal"
+                                  aria-label="Close"
+                                  class="close-btn cursor-pointer"
+                                  ><i class="fa fa-times"></i
+                                ></a>
+                              </div>
+                              <div class="modal-body pt-1 text-center">
+                                <div class="row d-block">
+                                  <h5 class="cash-heading">
+                                    <b class="text-uppercase">Add customer</b>
+                                  </h5>
+                                </div>
+                                <div class="row">
+                                  <div class="col-lg-10 m-auto">
+                                    <div class="row mt-3 form-group">
+                                      <div class="col-lg-3 col-form-label">
+                                        <label>Name</label>
+                                      </div>
+                                      <div class="col-lg-9">
+                                        <div class="form-group">
+                                          <input
+                                            type="text"
+                                            placeholder="Name"
+                                            class="form-control"
+                                          />
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="row mt-3 form-group">
+                                      <div class="col-lg-3 col-form-label">
+                                        <label>Tax ID</label>
+                                      </div>
+                                      <div class="col-lg-9">
+                                        <div class="form-group">
+                                          <input
+                                            type="text"
+                                            placeholder="Tax ID"
+                                            class="form-control"
+                                          />
+                                          <!---->
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="row mt-3 form-group">
+                                      <div class="col-lg-3 col-form-label">
+                                        <label>Phone Number</label>
+                                      </div>
+                                      <div class="col-lg-9">
+                                        <div class="form-group">
+                                          <input
+                                            type="text"
+                                            placeholder="Phone Number"
+                                            class="form-control"
+                                          />
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div
+                                      class="m-auto d-block text-center pt-2 pb-2"
+                                    >
+                                      <div class="row form-group">
+                                        <div
+                                          class="col-lg-6 col-form-label m-auto"
+                                        >
+                                          <a
+                                            href="#"
+                                            class="btn btn-block bg-blue payment-button proceed-btn text-center mb-4"
+                                            >Proceed
+                                          </a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div></span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              tabindex="-1"
+              role="dialog"
+              aria-hidden="true"
+              class="modal fade"
+              id="clear-cart-modal"
+            >
+              <div
+                role="document"
+                class="modal-dialog modal-dialog-centered confirm-delete-modal"
+              >
+                <div class="modal-content">
+                  <div class="modal-center-wrap text-center">
+                    <button
+                      type="button"
+                      data-dismiss="modal"
+                      aria-label="Close"
+                      class="close position-absolute absolute-right p-3"
+                    >
+                      <span aria-hidden="true"
+                        ><i class="fa fa-close"></i
+                      ></span>
+                    </button>
+                    <h5>Are you sure?</h5>
+                    <h6>This order will be cancelled.</h6>
+                    <div class="mt-4">
+                      <button type="submit" class="btn btn-danger mobile-btn">
+                        Yes
+                      </button>
+                      <button
+                        data-dismiss="modal"
+                        class="btn btn-secondary cancel-btn mobile-btn"
+                      >
+                        No
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              id="cart-payment-modal"
+              tabindex="-1"
+              role="dialog"
+              aria-hidden="true"
+              class="modal fade modal-hide"
+            >
+              <div
+                role="document"
+                class="modal-dialog modal-dialog-centered biggest-modal-dialog"
+              >
+                <!---->
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/sidemenu.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.ckeditor.com/4.4.7/standard-all/ckeditor.js"></script>
+  </body>
+</html>

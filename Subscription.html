@@ -1,0 +1,541 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.98.0">
+    <title>INNERS BOOKS</title>
+    
+
+    
+
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+<!-- <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" rel="stylesheet"> -->
+    
+<!-- Custom styles for this template -->
+<link href="css/customstyles.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<style type="text/css">
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color:#6765AC;
+}
+.nav-link {
+    color:#6765AC;
+}
+.tag{
+    /*transform: rotate(-45deg);*/
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.tag:after {
+    position: absolute;
+    content: " ";
+    width: 0;
+    height: 0;
+    border-top: 37px solid #0dcaf0;
+    border-right: 30px solid transparent;
+    left: 100%;
+    top: 0;
+}
+.tab-content>.active {
+    display: flex;
+}
+</style>
+  
+</head>
+<body>
+<div class="main-wrapper">
+        <section>
+            <header>
+    <div class="header-left">
+        <div class="logo-sec h-100">
+            <a href="">Inners Books</a>
+        </div>
+        <div class="primary-sec">            
+            <a href="" class="dropdown-toggle" data-toggle="dropdown">Create A New</a>
+            <div class="dropdown-menu">
+                <ul>
+                    <li><a href="">Quotation</a></li>
+                    <li><a href="">Bills</a></li>
+                    <li><a href="">Supplier Invoice</a></li>
+                    <li><a href="">Receipt of Payments</a></li>
+                    <li><a href="">Client</a></li>
+                    <li><a href="">Supplier</a></li>
+                    <li><a href="">Products and services</a></li>
+                </ul>
+            </div>
+        </div>
+            </div>
+    <div class="header-right h-100">
+        <div class="help-center">
+            <ul>
+                <li>
+                    <div class="wh-chat-btn">
+                        <a target="_blank" href="https://wa.me/+18492697581">
+                            <img src="images/whatsup-icon.png" alt="WA">
+                            <span>Need help? Speak with us </span>
+                        </a>
+                    </div>
+    
+                    <div class="wh-chat-btn wa-float">
+                        <a target="_blank" href="https://wa.me/+18492697581">
+                            <img src="images/whatsup-icon.png" alt="WA">
+                            <span>Need help? Speak with us</span>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="john-sec">
+            <a href="" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+            <span>
+              <img src="images/john-sec.png" alt="Sachin Kumar">
+            </span>
+            <span class="username">Sachin Kumar</span>
+            </a>
+            <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(1084px, 40px, 0px);">
+                <ul>
+                    <li class="user-name-li"><a href="javascript:void(0);"><span>Sachin Kumar</span></a></li>
+                    <li><a href="">sachin@yopmail.com</a></li>
+                    <li><a href="">Settings</a></li>
+                    <li class="signout"><a href="">Leave</a></li>
+                    <form id="logout-form" action="" method="POST" style="display: none;">
+                        <input type="hidden" name="_token" value="7G3XAM0JjY11fWnsHQx77WmgviX1k3xXrTFTWwhV">
+                    </form>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</header>        </section>
+
+        <section id="dashboard">
+            <div id="react-app"></div>
+            <div class="blue-sec">
+              <div class="side-blue-sec">
+    <div id="accordion">
+        <div class="card">
+            <div class="card-header">
+                <a id="dashboard_link" class="active" href="http://127.0.0.1:8000/dashboard">
+                <span><img src="http://127.0.0.1:8000/images/dashboard-icon.png"></span>Start
+                </a>
+            </div>
+        </div>
+
+        
+                <div class="card">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#sales">
+                <span><img src="http://127.0.0.1:8000/images/sales-icon.png"></span>Income
+                </a>
+            </div>
+            <div id="sales" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    <ul>
+                      <li><a href="" data-resource_slug="invoices">Bills</a></li>
+                      <li><a href="">Recurring bills</a></li>
+                      <li><a href="">Receipt of Payments</a></li>
+                      <li><a href="">Cuenta por Cobrar</a></li>
+                                                <li><a href="http://127.0.0.1:8000/credit-notes" data-resource_slug="credit-notes">Notas de Credito</a></li>
+                                                                        <li><a href="http://127.0.0.1:8000/estimates" data-resource_slug="estimates">Cotizaciones</a></li>
+                                                                        <li><a href="http://127.0.0.1:8000/remissions" data-resource_slug="remissions">Conduces</a></li>
+                                                                        <li><a href="http://127.0.0.1:8000/pos" data-resource_slug="pos" target="_blank">Punto de Venta</a></li>
+                                                <li><a href="http://127.0.0.1:8000/production" data-resource_slug="production">Ordenes de Producción</a></li>
+                                                <li><a href="http://127.0.0.1:8000/restaurant-table" data-resource_slug="restaurant-table">Mesas</a></li>
+                                                <li><a href="http://127.0.0.1:8000/shipping" data-resource_slug="shipping">Ordenes de Envío</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        
+                <div class="card">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#expenses">
+                <span><img src="http://127.0.0.1:8000/images/cart.png"></span>Bills
+                </a>
+            </div>
+            <div id="expenses" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    <ul>
+                                                <li><a href="http://127.0.0.1:8000/transactions/out" data-resource_slug="transactions-out">Pagos</a></li>
+                                                                        <li><a href="http://127.0.0.1:8000/invoices/supplier" data-resource_slug="invoices-supplier">Factura de Proveedor</a></li>
+                                                <!-- <li><a href="javascript:void(0);">Quotations</a></li>
+                        <li><a href="javascript:void(0);">Provider List</a></li> -->
+                                                <li><a href="http://127.0.0.1:8000/transactions/recurring" data-resource_slug="transactions-recurring">Pagos Recurrentes</a></li>
+                                                                        <li><a href="http://127.0.0.1:8000/debit-notes" data-resource_slug="debit-notes">Notas de Débito</a></li>
+                                                                        <li><a href="http://127.0.0.1:8000/purchase-orders" data-resource_slug="purchase-orders">Orden de Compra</a></li>
+                                                <li><a href="http://127.0.0.1:8000/app/coming-soon">Nómina</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        
+                <div class="card">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#contacts">
+                <span><img src="http://127.0.0.1:8000/images/contact-icon.png"></span>Contacts
+                </a>
+            </div>
+            <div id="contacts" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    <ul>
+                                                <li><a href="http://127.0.0.1:8000/clients" data-resource_slug="clients">Clientes</a></li>
+                                                                        <li><a href="http://127.0.0.1:8000/suppliers" data-resource_slug="suppliers">Proveedores</a></li>
+                                                <li><a href="http://127.0.0.1:8000/employees" data-resource_slug="employees">Empleados</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+                
+                <div class="card" style="display: block;">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#payroll">
+                    <span><img src="http://127.0.0.1:8000/images/sales-icon.png"></span>PAYROLL
+                </a>
+            </div>
+            <div id="payroll" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    <ul>
+                        <li><a href="http://127.0.0.1:8000/benefits" data-resource_slug="benefits">Benefits</a></li>
+                        <li><a href="http://127.0.0.1:8000/with-holdings" data-resource_slug="with-holdings">Withholdings</a></li>
+                        <li><a href="http://127.0.0.1:8000/discounts" data-resource_slug="discounts">Discounts</a></li>
+                        <li><a href="http://127.0.0.1:8000/extra-hours" data-resource_slug="extra-hours">Extra Hours</a></li>
+                        <li><a href="http://127.0.0.1:8000/leaves" data-resource_slug="leaves">Ausencias</a></li>
+                     <!--    <li><a href="" data-resource_slug="commissions">Commissions</a></li> -->
+                        <li><a href="http://127.0.0.1:8000/app/coming-soon" data-resource_slug="unemployment">Unemployment</a></li>
+                        <li><a href="http://127.0.0.1:8000/payroll-reports" data-resource_slug="payroll-reports">Payroll Reports</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        
+                <div class="card">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#inventory">
+                    <span><img src="http://127.0.0.1:8000/images/inventry-icon.png"></span>Inventory
+                </a>
+            </div>
+            <div id="inventory" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    <ul>
+                        <li><a href="http://127.0.0.1:8000/inventories" data-resource_slug="inventories">Productos y Servicios</a></li>
+                        <li><a href="http://127.0.0.1:8000/inventory-adjustments" data-resource_slug="inventory-adjustments">Rectificación de Inventario</a></li>
+                                                <!-- <li><a href="javascript:void(0);">Inventory Value</a></li>
+                        <li><a href="javascript:void(0);">Item Management</a></li>
+                        <li><a href="javascript:void(0);">Find Order</a></li>
+                        <li><a href="javascript:void(0);">Price Lists</a></li>
+                        <li><a href="javascript:void(0);">Warehouse</a></li> -->
+                                                <li><a href="http://127.0.0.1:8000/taxes" data-resource_slug="taxes">Impuestos</a></li>
+                                                                        <li><a href="http://127.0.0.1:8000/item-categories" data-resource_slug="item-categories">Categorías de Artículos</a></li>
+                                                                        <li><a href="http://127.0.0.1:8000/units" data-resource_slug="units">Unidad de Medida</a></li>
+                                            </ul>
+                </div>
+            </div>
+        </div>
+                
+                <div class="card">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#accounting">
+                <span><img src="http://127.0.0.1:8000/images/account-btn.png"></span>Accounting
+                </a>
+            </div>
+            <div id="accounting" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    <ul>
+                        <li><a href="http://127.0.0.1:8000/accounting/charts" data-resource_slug="chart-of-accounts">Catálogo de Cuentas</a></li>
+                        <li><a href="http://127.0.0.1:8000/accounting/adjustments" data-resource_slug="account-adjustments">Ajustes Contables</a></li>
+                        <li><a href="http://127.0.0.1:8000/accounting/journals" data-resource_slug="account-journals">Diarios Contables</a></li>
+                        <li><a href="http://127.0.0.1:8000/accounting/reports" data-resource_slug="account-reports">Informes Contables</a></li>
+
+                                                
+                        <li><a href="http://127.0.0.1:8000/fixed-assets" data-resource_slug="fixed-assets">Activos Fijos</a></li>
+                                                
+                        <li><a href="http://127.0.0.1:8000/app/coming-soon">Centro de Costo</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+                
+        
+                <div class="card">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#setting">
+                <span><img src="http://127.0.0.1:8000/images/setting-icon.png"></span>Settings
+                </a>
+            </div>
+            <div id="setting" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    <ul>
+                        <li><a href="http://127.0.0.1:8000/settings/user" data-resource_slug="settings-user">Perfil del Usuario</a></li>
+                        <li><a href="http://127.0.0.1:8000/settings/company" data-resource_slug="settings-company">Perfil de la Compañía</a></li>
+                        <li><a href="http://127.0.0.1:8000/ncfs" data-resource_slug="ncfs">Comprobantes</a></li>
+                        <li><a href="http://127.0.0.1:8000/currency-exchange-rates" data-resource_slug="currency-exchange-rates">Tasa de Cambio</a></li>
+                        <li><a href="http://127.0.0.1:8000/memberships" data-resource_slug="memberships">Membresías</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#users_management">
+                <span><img src="http://127.0.0.1:8000/images/user-management-icon.png"></span>User Management
+                </a>
+            </div>
+            <div id="users_management" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    <ul>
+                        <li><a href="http://127.0.0.1:8000/user-management/users" data-resource_slug="users-list">Usuarios</a></li>
+                        <li><a href="http://127.0.0.1:8000/roles" data-resource_slug="roles-list">Roles</a></li>
+                        <li><a href="http://127.0.0.1:8000/history" data-resource_slug="history-list">Registros</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+   <div class="dashboard-right">
+  <div class="invoice-container">
+    <div class="row no-margin">
+        <div class="form-group col-lg-4">
+          <h2 style="font-size: 25px; ">Subscription</h2>
+        </div>
+    </div>
+    <div class="row no-margin">
+    <ul class="nav nav-pills my-4 mx-auto w-auto bg-white p-2 rounded-1" id="pills-tab" role="tablist" style="column-gap: 15px;">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="pills-basic-tab" data-bs-toggle="pill" data-bs-target="#pills-basic" type="button" role="tab" aria-controls="pills-basic" aria-selected="true">Basic</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="pills-medium-tab" data-bs-toggle="pill" data-bs-target="#pills-medium" type="button" role="tab" aria-controls="pills-medium" aria-selected="false">Medium</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="pills-advance-tab" data-bs-toggle="pill" data-bs-target="#pills-advance" type="button" role="tab" aria-controls="pills-advance" aria-selected="false">Advanced</button>
+  </li>
+</ul>
+<div class="tab-content" id="pills-tabContent">
+
+<!--Basic-->
+<div class="tab-pane fade show active justify-content-center row" id="pills-basic" role="tabpanel" aria-labelledby="pills-basic-tab" tabindex="0">
+    <div class="col-md-5 col-lg-4">
+        <div class="generate-invoice overflow-hidden position-relative">
+            <div class="d-flex tag bg-info px-5 py-2">
+              <h4 class="text-uppercase text-center m-0 text-white">Basic</h4>
+            </div>
+          
+          <div class="text-center">
+              <h2 class="text-center m-0">&#8377; 500 </h2>
+              <span class="form-text m-0"> / Month</span>
+          </div>
+          <ul class="list-group my-4 mx-2">
+            <li class="d-flex align-items-center list-group-item">
+                <i class="far fa-check-circle text-success fs-5 me-2"></i> Lorem ipsum dorneto
+            </li>
+            <li class="d-flex align-items-center list-group-item">
+                <i class="far fa-check-circle text-success fs-5 me-2"></i> Lorem ipsum dorneto
+            </li>
+            <li class="d-flex align-items-center list-group-item">
+                <i class="far fa-times-circle text-danger fs-5 me-2"></i> Lorem ipsum dorneto
+            </li>
+            <li class="d-flex align-items-center list-group-item">
+                <i class="far fa-times-circle text-danger fs-5 me-2"></i> Lorem ipsum dorneto
+            </li>
+            <li class="d-flex align-items-center list-group-item">
+                <i class="far fa-times-circle text-danger fs-5 me-2"></i> Lorem ipsum dorneto
+            </li>
+          </ul>
+          <button class="btn btn-success bg-gradient mx-auto d-flex px-3 text-uppercase">Upgrade</button>
+        </div>
+    </div>
+    <div class="col-md-5 col-lg-4">
+        <div class="generate-invoice overflow-hidden position-relative">
+            <div class="d-flex tag bg-info px-5 py-2">
+              <h4 class="text-uppercase text-center m-0 text-white">Basic</h4>
+            </div>
+          
+          <div class="text-center">
+              <h2 class="text-center m-0">&#8377; 6000 </h2>
+              <span class="form-text m-0"> / Year</span>
+          </div>
+          <ul class="list-group my-4 mx-2">
+            <li class="d-flex align-items-center list-group-item">
+                <i class="far fa-check-circle text-success fs-5 me-2"></i> Lorem ipsum dorneto
+            </li>
+            <li class="d-flex align-items-center list-group-item">
+                <i class="far fa-check-circle text-success fs-5 me-2"></i> Lorem ipsum dorneto
+            </li>
+            <li class="d-flex align-items-center list-group-item">
+                <i class="far fa-times-circle text-danger fs-5 me-2"></i> Lorem ipsum dorneto
+            </li>
+            <li class="d-flex align-items-center list-group-item">
+                <i class="far fa-times-circle text-danger fs-5 me-2"></i> Lorem ipsum dorneto
+            </li>
+            <li class="d-flex align-items-center list-group-item">
+                <i class="far fa-times-circle text-danger fs-5 me-2"></i> Lorem ipsum dorneto
+            </li>
+          </ul>
+          <button class="btn btn-success bg-gradient mx-auto d-flex px-3 text-uppercase">Upgrade</button>
+        </div>
+    </div>
+</div>
+<!--Basic Ends-->
+<!--Medium-->
+<div class="tab-pane fade justify-content-center row" id="pills-medium" role="tabpanel" aria-labelledby="pills-medium-tab" tabindex="0">
+    <div class="col-md-5 col-lg-4">
+        <div class="generate-invoice overflow-hidden position-relative">
+            <div class="d-flex tag bg-info px-5 py-2 text-center d-inline-block">
+              <h4 class="text-uppercase text-center m-0 text-white">Medium</h4>
+            </div>
+          
+          <div class="text-center">
+              <h2 class="text-center m-0">&#8377; 800 </h2>
+              <span class="form-text m-0"> / Month</span>
+          </div>
+          <ul class="list-group my-4 mx-2">
+            <li class="d-flex align-items-center list-group-item">
+                <i class="far fa-check-circle text-success fs-5 me-2"></i> Lorem ipsum dorneto
+            </li>
+            <li class="d-flex align-items-center list-group-item">
+                <i class="far fa-check-circle text-success fs-5 me-2"></i> Lorem ipsum dorneto
+            </li>
+            <li class="d-flex align-items-center list-group-item">
+                <i class="far fa-check-circle text-success fs-5 me-2"></i> Lorem ipsum dorneto
+            </li>
+            <li class="d-flex align-items-center list-group-item">
+                <i class="far fa-times-circle text-danger fs-5 me-2"></i> Lorem ipsum dorneto
+            </li>
+            <li class="d-flex align-items-center list-group-item">
+                <i class="far fa-times-circle text-danger fs-5 me-2"></i> Lorem ipsum dorneto
+            </li>
+          </ul>
+          <button class="btn btn-success bg-gradient mx-auto d-flex px-3 text-uppercase">Upgrade</button>
+        </div>
+    </div>
+    <div class="col-md-5 col-lg-4">
+        <div class="generate-invoice overflow-hidden position-relative">
+            <div class="d-flex tag bg-info px-5 py-2 text-center d-inline-block">
+              <h4 class="text-uppercase text-center m-0 text-white">Medium</h4>
+            </div>
+          
+          <div class="text-center">
+              <h2 class="text-center m-0">&#8377; 96000 </h2>
+              <span class="form-text m-0"> / Year</span>
+          </div>
+          <ul class="list-group my-4 mx-2">
+            <li class="d-flex align-items-center list-group-item">
+                <i class="far fa-check-circle text-success fs-5 me-2"></i> Lorem ipsum dorneto
+            </li>
+            <li class="d-flex align-items-center list-group-item">
+                <i class="far fa-check-circle text-success fs-5 me-2"></i> Lorem ipsum dorneto
+            </li>
+            <li class="d-flex align-items-center list-group-item">
+                <i class="far fa-check-circle text-success fs-5 me-2"></i> Lorem ipsum dorneto
+            </li>
+            <li class="d-flex align-items-center list-group-item">
+                <i class="far fa-times-circle text-danger fs-5 me-2"></i> Lorem ipsum dorneto
+            </li>
+            <li class="d-flex align-items-center list-group-item">
+                <i class="far fa-times-circle text-danger fs-5 me-2"></i> Lorem ipsum dorneto
+            </li>
+          </ul>
+          <button class="btn btn-success bg-gradient mx-auto d-flex px-3 text-uppercase">Upgrade</button>
+        </div>
+    </div>
+</div>
+<!--Medium Ends-->
+
+<!--Advanced-->
+<div class="tab-pane fade justify-content-center row" id="pills-advance" role="tabpanel" aria-labelledby="pills-advance-tab" tabindex="0">
+    <div class="col-md-5 col-lg-4">
+        <div class="generate-invoice overflow-hidden position-relative">
+            <div class="d-flex tag bg-info px-4 py-2">
+              <h4 class="text-uppercase text-center m-0 text-white">Advanced</h4>
+            </div>
+          
+          <div class="text-center">
+              <h2 class="text-center m-0">&#8377; 1000 </h2>
+              <span class="form-text m-0"> / Month</span>
+          </div>
+          <ul class="list-group my-4 mx-2">
+            <li class="d-flex align-items-center list-group-item">
+                <i class="far fa-check-circle text-success fs-5 me-2"></i> Lorem ipsum dorneto
+            </li>
+            <li class="d-flex align-items-center list-group-item">
+                <i class="far fa-check-circle text-success fs-5 me-2"></i> Lorem ipsum dorneto
+            </li>
+            <li class="d-flex align-items-center list-group-item">
+                <i class="far fa-check-circle text-success fs-5 me-2"></i> Lorem ipsum dorneto
+            </li>
+            <li class="d-flex align-items-center list-group-item">
+                <i class="far fa-check-circle text-success fs-5 me-2"></i> Lorem ipsum dorneto
+            </li>
+            <li class="d-flex align-items-center list-group-item">
+                <i class="far fa-check-circle text-success fs-5 me-2"></i> Lorem ipsum dorneto
+            </li>
+          </ul>
+          <button class="btn btn-success bg-gradient mx-auto d-flex px-3 text-uppercase">Upgrade</button>
+        </div>
+    </div>
+    <div class="col-md-5 col-lg-4">
+        <div class="generate-invoice overflow-hidden position-relative">
+            <div class="d-flex tag bg-info px-4 py-2">
+              <h4 class="text-uppercase text-center m-0 text-white">Advanced</h4>
+            </div>
+          
+          <div class="text-center">
+              <h2 class="text-center m-0">&#8377; 1,20,000 </h2>
+              <span class="form-text m-0"> / Year</span>
+          </div>
+          <ul class="list-group my-4 mx-2">
+            <li class="d-flex align-items-center list-group-item">
+                <i class="far fa-check-circle text-success fs-5 me-2"></i> Lorem ipsum dorneto
+            </li>
+            <li class="d-flex align-items-center list-group-item">
+                <i class="far fa-check-circle text-success fs-5 me-2"></i> Lorem ipsum dorneto
+            </li>
+            <li class="d-flex align-items-center list-group-item">
+                <i class="far fa-check-circle text-success fs-5 me-2"></i> Lorem ipsum dorneto
+            </li>
+            <li class="d-flex align-items-center list-group-item">
+                <i class="far fa-check-circle text-success fs-5 me-2"></i> Lorem ipsum dorneto
+            </li>
+            <li class="d-flex align-items-center list-group-item">
+                <i class="far fa-check-circle text-success fs-5 me-2"></i> Lorem ipsum dorneto
+            </li>
+          </ul>
+          <button class="btn btn-success bg-gradient mx-auto d-flex px-3 text-uppercase">Upgrade</button>
+        </div>
+    </div>
+</div>
+<!--Advanced Ends-->
+</div>
+
+        
+  </div>
+</div>
+                
+            </form>
+        </div>
+    </div>
+</div>
+</div>
+<div class="clearfix"></div>
+            </div>
+        </section>
+
+            </div>  
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdn.ckeditor.com/4.4.7/standard-all/ckeditor.js"></script>
+</body>
+</html>

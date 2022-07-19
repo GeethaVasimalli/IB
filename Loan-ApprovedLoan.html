@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.98.0">
+    <title>INNERS BOOKS</title>
+    
+
+    
+
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+<!-- <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" rel="stylesheet"> -->
+    
+<!-- Custom styles for this template -->
+<link href="css/customstyles.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/jquery.dataTables.min.css" rel="stylesheet">
+<link href="css/datatable-custom.css" rel="stylesheet">
+
+  
+</head>
+<body>
+<div class="main-wrapper">
+<section>
+    <header>
+    <div class="header-left">
+        <div class="logo-sec h-100">
+            <a href="">Inners Books</a>
+        </div>
+        <div class="primary-sec">            
+            <a href="" class="dropdown-toggle" data-toggle="dropdown">Create A New</a>
+            <div class="dropdown-menu">
+                <ul>
+                    <li><a href="">Quotation</a></li>
+                    <li><a href="">Bills</a></li>
+                    <li><a href="">Supplier Invoice</a></li>
+                    <li><a href="">Receipt of Payments</a></li>
+                    <li><a href="">Client</a></li>
+                    <li><a href="">Supplier</a></li>
+                    <li><a href="">Products and services</a></li>
+                </ul>
+            </div>
+        </div>
+            </div>
+    <div class="header-right h-100">
+        <div class="help-center">
+            <ul>
+                <li>
+                    <div class="wh-chat-btn">
+                        <a target="_blank" href="https://wa.me/+18492697581">
+                            <img src="images/whatsup-icon.png" alt="WA">
+                            <span>Need help? Speak with us </span>
+                        </a>
+                    </div>
+    
+                    <div class="wh-chat-btn wa-float">
+                        <a target="_blank" href="https://wa.me/+18492697581">
+                            <img src="images/whatsup-icon.png" alt="WA">
+                            <span>Need help? Speak with us</span>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="john-sec">
+            <a href="" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+            <span>
+              <img src="images/john-sec.png" alt="Sachin Kumar">
+            </span>
+            <span class="username">Sachin Kumar</span>
+            </a>
+            <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(1084px, 40px, 0px);">
+                <ul>
+                    <li class="user-name-li"><a href="javascript:void(0);"><span>Sachin Kumar</span></a></li>
+                    <li><a href="">sachin@yopmail.com</a></li>
+                    <li><a href="">Settings</a></li>
+                    <li class="signout"><a href="">Leave</a></li>
+                    <form id="logout-form" action="" method="POST" style="display: none;">
+                        <input type="hidden" name="_token" value="7G3XAM0JjY11fWnsHQx77WmgviX1k3xXrTFTWwhV">
+                    </form>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</header>        </section>
+
+        <section id="dashboard">
+            <div id="react-app"></div>
+            <div class="blue-sec">
+              <div class="side-blue-sec">
+    <div id="accordion">
+        <div class="card">
+            <div class="card-header">
+                <a id="dashboard_link" class="active" href="">
+                <span><img src="http://127.0.0.1:8000/images/dashboard-icon.png"></span>Start
+                </a>
+            </div>
+        </div>
+
+        
+                <div class="card">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#sales">
+                <span><img src="http://127.0.0.1:8000/images/sales-icon.png"></span>Income
+                </a>
+            </div>
+            <div id="sales" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    <ul>
+                      <li><a href="" data-resource_slug="invoices">Bills</a></li>
+                      <li><a href="">Recurring bills</a></li>
+                      <li><a href="">Receipt of Payments</a></li>
+                      <li><a href="">Cuenta por Cobrar</a></li>
+                      <li><a href="" data-resource_slug="credit-notes">Notas de Credito</a></li>
+                      <li><a href="" data-resource_slug="estimates">Cotizaciones</a></li>
+                      <li><a href="" data-resource_slug="remissions">Conduces</a></li>
+                      <li><a href="" data-resource_slug="pos" target="_blank">Punto de Venta</a></li>
+                    <li><a href="" data-resource_slug="production">Ordenes de Producción</a></li>
+                    <li><a href="" data-resource_slug="restaurant-table">Mesas</a></li>
+                    <li><a href="" data-resource_slug="shipping">Ordenes de Envío</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        
+                <div class="card">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="">
+                <span><img src="http://127.0.0.1:8000/images/cart.png"></span>Bills
+                </a>
+            </div>
+            <div id="expenses" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    <ul>
+                        <li><a href="" data-resource_slug="transactions-out">Pagos</a></li>
+                        <li><a href="" data-resource_slug="invoices-supplier">Factura de Proveedor</a></li>
+                        <li><a href="" data-resource_slug="transactions-recurring">Pagos Recurrentes</a></li>
+                        <li><a href="" data-resource_slug="debit-notes">Notas de Débito</a></li>
+                        <li><a href="" data-resource_slug="purchase-orders">Orden de Compra</a></li>
+                        <li><a href="">Nómina</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="card">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#contacts">
+                <span><img src="http://127.0.0.1:8000/images/contact-icon.png"></span>Contacts
+                </a>
+            </div>
+            <div id="contacts" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    <ul>
+                        <li><a href="" data-resource_slug="clients">Clientes</a></li>
+                        <li><a href="" data-resource_slug="suppliers">Proveedores</a></li>
+                        <li><a href="" data-resource_slug="employees">Empleados</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+                
+                <div class="card" style="display: block;">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#payroll">
+                    <span><img src="http://127.0.0.1:8000/images/sales-icon.png"></span>PAYROLL
+                </a>
+            </div>
+            <div id="payroll" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    <ul>
+                        <li><a href="http://127.0.0.1:8000/benefits" data-resource_slug="benefits">Benefits</a></li>
+                        <li><a href="http://127.0.0.1:8000/with-holdings" data-resource_slug="with-holdings">Withholdings</a></li>
+                        <li><a href="http://127.0.0.1:8000/discounts" data-resource_slug="discounts">Discounts</a></li>
+                        <li><a href="http://127.0.0.1:8000/extra-hours" data-resource_slug="extra-hours">Extra Hours</a></li>
+                        <li><a href="http://127.0.0.1:8000/leaves" data-resource_slug="leaves">Ausencias</a></li>
+                     <!--    <li><a href="" data-resource_slug="commissions">Commissions</a></li> -->
+                        <li><a href="http://127.0.0.1:8000/app/coming-soon" data-resource_slug="unemployment">Unemployment</a></li>
+                        <li><a href="" data-resource_slug="payroll-reports">Payroll Reports</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        
+                <div class="card">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#inventory">
+                    <span><img src="http://127.0.0.1:8000/images/inventry-icon.png"></span>Inventory
+                </a>
+            </div>
+            <div id="inventory" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    <ul>
+                                                <li><a href="http://127.0.0.1:8000/inventories" data-resource_slug="inventories">Productos y Servicios</a></li>
+                                                                        <li><a href="http://127.0.0.1:8000/inventory-adjustments" data-resource_slug="inventory-adjustments">Rectificación de Inventario</a></li>
+                                                <!-- <li><a href="javascript:void(0);">Inventory Value</a></li>
+                        <li><a href="javascript:void(0);">Item Management</a></li>
+                        <li><a href="javascript:void(0);">Find Order</a></li>
+                        <li><a href="javascript:void(0);">Price Lists</a></li>
+                        <li><a href="javascript:void(0);">Warehouse</a></li> -->
+                                                <li><a href="http://127.0.0.1:8000/taxes" data-resource_slug="taxes">Impuestos</a></li>
+                                                                        <li><a href="http://127.0.0.1:8000/item-categories" data-resource_slug="item-categories">Categorías de Artículos</a></li>
+                                                                        <li><a href="http://127.0.0.1:8000/units" data-resource_slug="units">Unidad de Medida</a></li>
+                                            </ul>
+                </div>
+            </div>
+        </div>
+                
+                <div class="card">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#accounting">
+                <span><img src="http://127.0.0.1:8000/images/account-btn.png"></span>Accounting
+                </a>
+            </div>
+            <div id="accounting" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    <ul>
+                        <li><a href="http://127.0.0.1:8000/accounting/charts" data-resource_slug="chart-of-accounts">Catálogo de Cuentas</a></li>
+                        <li><a href="http://127.0.0.1:8000/accounting/adjustments" data-resource_slug="account-adjustments">Ajustes Contables</a></li>
+                        <li><a href="http://127.0.0.1:8000/accounting/journals" data-resource_slug="account-journals">Diarios Contables</a></li>
+                        <li><a href="http://127.0.0.1:8000/accounting/reports" data-resource_slug="account-reports">Informes Contables</a></li>
+
+                                                
+                        <li><a href="http://127.0.0.1:8000/fixed-assets" data-resource_slug="fixed-assets">Activos Fijos</a></li>
+                                                
+                        <li><a href="http://127.0.0.1:8000/app/coming-soon">Centro de Costo</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+                
+        
+                <div class="card">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#setting">
+                <span><img src="http://127.0.0.1:8000/images/setting-icon.png"></span>Settings
+                </a>
+            </div>
+            <div id="setting" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    <ul>
+                        <li><a href="http://127.0.0.1:8000/settings/user" data-resource_slug="settings-user">Perfil del Usuario</a></li>
+                        <li><a href="http://127.0.0.1:8000/settings/company" data-resource_slug="settings-company">Perfil de la Compañía</a></li>
+                        <li><a href="http://127.0.0.1:8000/ncfs" data-resource_slug="ncfs">Comprobantes</a></li>
+                        <li><a href="http://127.0.0.1:8000/currency-exchange-rates" data-resource_slug="currency-exchange-rates">Tasa de Cambio</a></li>
+                        <li><a href="http://127.0.0.1:8000/memberships" data-resource_slug="memberships">Membresías</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#users_management">
+                <span><img src="http://127.0.0.1:8000/images/user-management-icon.png"></span>User Management
+                </a>
+            </div>
+            <div id="users_management" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    <ul>
+                        <li><a href="http://127.0.0.1:8000/user-management/users" data-resource_slug="users-list">Usuarios</a></li>
+                        <li><a href="http://127.0.0.1:8000/roles" data-resource_slug="roles-list">Roles</a></li>
+                        <li><a href="http://127.0.0.1:8000/history" data-resource_slug="history-list">Registros</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="dashboard-right cust-dashboard-right">
+    <div class="menu-icon">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <div class="invoice-container">
+        <h2> Approved Loan</h2>
+        <div class="custom-tooltip"><span class="help-icon"><i class="fa fa-question-circle" aria-hidden="true"></i>
+            </span>
+            <span class="tooltiptext">If you need help creating a Quote Loan,</span>
+        </div>
+        <div class="invoice-btns invoice-btns-position">
+            <div id="export-buttons" style=""><div class="dt-buttons">   <button class="dt-button buttons-excel buttons-html5 btn-custom outline-btn" tabindex="0" aria-controls="loan-approved-list-table" type="button"><span>Export Excel</span></button> <button class="dt-button buttons-pdf buttons-html5 btn-custom outline-btn" tabindex="0" aria-controls="loan-approved-list-table" type="button"><span>Export PDF</span></button> <button class="dt-button buttons-print btn-custom outline-btn" tabindex="0" aria-controls="loan-approved-list-table" type="button"><span>Print</span></button> </div></div>
+            
+        </div>
+
+        <div class="tabs-custom">
+            <div class="tab-content">
+                <div class="tab-pane active">
+                    
+                    <div class="list-table-custom products-table table-responsive">
+                        <div id="loan-approved-list-table_wrapper" class="dataTables_wrapper"><div class="dataTables_length" id="loan-approved-list-table_length"><label>Show <select name="loan-approved-list-table_length" aria-controls="loan-approved-list-table" class=""><option value="10">10</option><option value="20">20</option><option value="50">50</option><option value="100">100</option><option value="-1">All</option></select> entries</label></div><div id="loan-approved-list-table_filter" class="dataTables_filter"><div class="cal-filter-cnt cal-filter-cust-btns" id="dates-filters" style="">
+                        <span>From: <input name="date-filter-min" id="date-filter-min" type="text" autocomplete="off"></span>
+                        <span>to: <input name="date-filter-max" id="date-filter-max" type="text" autocomplete="off"></span>
+                    </div><label>Search:<input type="search" class="" placeholder="" aria-controls="loan-approved-list-table"></label></div>
+<div class="table-responsive w-100">
+                    <table class="table table-striped dataTable" id="loan-approved-list-table" role="grid" aria-describedby="loan-approved-list-table_info" style="width: 1214px;">
+                            <thead>
+                                <tr role="row"><th class="sorting" tabindex="0" aria-controls="loan-approved-list-table" rowspan="1" colspan="1" aria-label="Loan Number: activate to sort column ascending" style="width: 89px;">Loan Number</th><th class="sorting" tabindex="0" aria-controls="loan-approved-list-table" rowspan="1" colspan="1" aria-label="Contact: activate to sort column ascending" style="width: 51px;">Contact</th><th class="sorting" tabindex="0" aria-controls="loan-approved-list-table" rowspan="1" colspan="1" aria-label="Date: activate to sort column ascending" style="width: 31px;">Date</th><th class="sorting" tabindex="0" aria-controls="loan-approved-list-table" rowspan="1" colspan="1" aria-label="End Date: activate to sort column ascending" style="width: 59px;">End Date</th><th class="sorting" tabindex="0" aria-controls="loan-approved-list-table" rowspan="1" colspan="1" aria-label="Loan Amount: activate to sort column ascending" style="width: 88px;">Loan Amount</th><th class="sorting" tabindex="0" aria-controls="loan-approved-list-table" rowspan="1" colspan="1" aria-label="Total Interest Paid: activate to sort column ascending" style="width: 120px;">Total Interest Paid</th><th class="sorting" tabindex="0" aria-controls="loan-approved-list-table" rowspan="1" colspan="1" aria-label="Current balance: activate to sort column ascending" style="width: 106px;">Current balance</th><th class="sorting" tabindex="0" aria-controls="loan-approved-list-table" rowspan="1" colspan="1" aria-label="Total Principal Paid: activate to sort column ascending" style="width: 126px;">Total Principal Paid</th><th class="sorting" tabindex="0" aria-controls="loan-approved-list-table" rowspan="1" colspan="1" aria-label="Comment: activate to sort column ascending" style="width: 64px;">Comment</th><th class="sorting" tabindex="0" aria-controls="loan-approved-list-table" rowspan="1" colspan="1" aria-label="Status: activate to sort column ascending" style="width: 42px;">Status</th><th class="to-show sorting_disabled" rowspan="1" colspan="1" aria-label="Action" style="width: 42px;">Action</th></tr>
+                            </thead>
+                            <tbody><tr class="no-data-row" role="row"><td colspan="12" rowspan="2" align="center"><div class="message"><p> No records were found! </p></div></td></tr></tbody>
+                            <tfoot>
+                            <tr style="display:none"><th rowspan="1" colspan="1">Total Record</th><th rowspan="1" colspan="1">0</th><th rowspan="1" colspan="1"></th><th rowspan="1" colspan="1">Total</th><th rowspan="1" colspan="1">0</th><th rowspan="1" colspan="1">0</th><th rowspan="1" colspan="1">0</th><th rowspan="1" colspan="1">0</th><th rowspan="1" colspan="1"></th><th rowspan="1" colspan="1"></th></tr>
+                            </tfoot>
+                        </table>
+</div>
+                        <div class="dataTables_info" id="loan-approved-list-table_info" role="status" aria-live="polite">Showing 0 to 0 of 0 entries</div><div class="dataTables_paginate paging_simple_numbers" id="loan-approved-list-table_paginate" style="display: none;"><a class="paginate_button previous disabled" aria-controls="loan-approved-list-table" data-dt-idx="0" tabindex="-1" id="loan-approved-list-table_previous">Previous</a><span></span><a class="paginate_button next disabled" aria-controls="loan-approved-list-table" data-dt-idx="1" tabindex="-1" id="loan-approved-list-table_next">Next</a></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+                    
+                        </div>
+
+<div class="clearfix"></div>
+            </div>
+        </section>
+
+            </div>  
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdn.ckeditor.com/4.4.7/standard-all/ckeditor.js"></script>
+</body>
+</html>

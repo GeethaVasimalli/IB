@@ -1,0 +1,802 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.98.0">
+    <title>INNERS BOOKS</title>
+    
+
+    
+
+<link href="css/bootstrap.min.css" rel="stylesheet" />
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+<!-- <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" rel="stylesheet"> -->
+    
+<!-- Custom styles for this template -->
+<link href="css/bootstrap-glyphicons.css" rel="stylesheet">
+<link href="css/customstyles.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/jquery.dataTables.min.css" rel="stylesheet">
+<link href="css/datatable-custom.css" rel="stylesheet">
+
+  
+</head>
+<body>
+<div class="main-wrapper">
+<section>
+    <header>
+    <div class="header-left">
+        <div class="logo-sec h-100">
+            <a href="">Inners Books</a>
+        </div>
+        <div class="primary-sec">            
+            <a href="" class="dropdown-toggle" data-toggle="dropdown">Create A New</a>
+            <div class="dropdown-menu">
+                <ul>
+                    <li><a href="">Quotation</a></li>
+                    <li><a href="">Bills</a></li>
+                    <li><a href="">Supplier Invoice</a></li>
+                    <li><a href="">Receipt of Payments</a></li>
+                    <li><a href="">Client</a></li>
+                    <li><a href="">Supplier</a></li>
+                    <li><a href="">Products and services</a></li>
+                </ul>
+            </div>
+        </div>
+            </div>
+    <div class="header-right h-100">
+        <div class="help-center">
+            <ul>
+                <li>
+                    <div class="wh-chat-btn">
+                        <a target="_blank" href="https://wa.me/+18492697581">
+                            <img src="images/whatsup-icon.png" alt="WA">
+                            <span>Need help? Speak with us </span>
+                        </a>
+                    </div>
+    
+                    <div class="wh-chat-btn wa-float">
+                        <a target="_blank" href="https://wa.me/+18492697581">
+                            <img src="images/whatsup-icon.png" alt="WA">
+                            <span>Need help? Speak with us</span>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="john-sec">
+            <a href="" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+            <span>
+              <img src="images/john-sec.png" alt="Sachin Kumar">
+            </span>
+            <span class="username">Sachin Kumar</span>
+            </a>
+            <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(1084px, 40px, 0px);">
+                <ul>
+                    <li class="user-name-li"><a href="javascript:void(0);"><span>Sachin Kumar</span></a></li>
+                    <li><a href="">sachin@yopmail.com</a></li>
+                    <li><a href="">Settings</a></li>
+                    <li class="signout"><a href="">Leave</a></li>
+                    <form id="logout-form" action="" method="POST" style="display: none;">
+                        <input type="hidden" name="_token" value="7G3XAM0JjY11fWnsHQx77WmgviX1k3xXrTFTWwhV">
+                    </form>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</header>        </section>
+
+        <section id="dashboard">
+            <div id="react-app"></div>
+            <div class="blue-sec">
+              <div class="side-blue-sec">
+    <div id="accordion">
+        <div class="card">
+            <div class="card-header">
+                <a id="dashboard_link" class="active" href="">
+                <span><img src="http://127.0.0.1:8000/images/dashboard-icon.png"></span>Start
+                </a>
+            </div>
+        </div>
+
+        
+                <div class="card">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#sales">
+                <span><img src="http://127.0.0.1:8000/images/sales-icon.png"></span>Income
+                </a>
+            </div>
+            <div id="sales" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    <ul>
+                      <li><a href="" data-resource_slug="invoices">Bills</a></li>
+                      <li><a href="">Recurring bills</a></li>
+                      <li><a href="">Receipt of Payments</a></li>
+                      <li><a href="">Cuenta por Cobrar</a></li>
+                      <li><a href="" data-resource_slug="credit-notes">Notas de Credito</a></li>
+                      <li><a href="" data-resource_slug="estimates">Cotizaciones</a></li>
+                      <li><a href="" data-resource_slug="remissions">Conduces</a></li>
+                      <li><a href="" data-resource_slug="pos" target="_blank">Punto de Venta</a></li>
+                    <li><a href="" data-resource_slug="production">Ordenes de Producción</a></li>
+                    <li><a href="" data-resource_slug="restaurant-table">Mesas</a></li>
+                    <li><a href="" data-resource_slug="shipping">Ordenes de Envío</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        
+                <div class="card">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="">
+                <span><img src="http://127.0.0.1:8000/images/cart.png"></span>Bills
+                </a>
+            </div>
+            <div id="expenses" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    <ul>
+                        <li><a href="" data-resource_slug="transactions-out">Pagos</a></li>
+                        <li><a href="" data-resource_slug="invoices-supplier">Factura de Proveedor</a></li>
+                        <li><a href="" data-resource_slug="transactions-recurring">Pagos Recurrentes</a></li>
+                        <li><a href="" data-resource_slug="debit-notes">Notas de Débito</a></li>
+                        <li><a href="" data-resource_slug="purchase-orders">Orden de Compra</a></li>
+                        <li><a href="">Nómina</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="card">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#contacts">
+                <span><img src="http://127.0.0.1:8000/images/contact-icon.png"></span>Contacts
+                </a>
+            </div>
+            <div id="contacts" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    <ul>
+                        <li><a href="" data-resource_slug="clients">Clientes</a></li>
+                        <li><a href="" data-resource_slug="suppliers">Proveedores</a></li>
+                        <li><a href="" data-resource_slug="employees">Empleados</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+                
+                <div class="card" style="display: block;">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#payroll">
+                    <span><img src="http://127.0.0.1:8000/images/sales-icon.png"></span>PAYROLL
+                </a>
+            </div>
+            <div id="payroll" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    <ul>
+                        <li><a href="http://127.0.0.1:8000/benefits" data-resource_slug="benefits">Benefits</a></li>
+                        <li><a href="http://127.0.0.1:8000/with-holdings" data-resource_slug="with-holdings">Withholdings</a></li>
+                        <li><a href="http://127.0.0.1:8000/discounts" data-resource_slug="discounts">Discounts</a></li>
+                        <li><a href="http://127.0.0.1:8000/extra-hours" data-resource_slug="extra-hours">Extra Hours</a></li>
+                        <li><a href="http://127.0.0.1:8000/leaves" data-resource_slug="leaves">Ausencias</a></li>
+                     <!--    <li><a href="" data-resource_slug="commissions">Commissions</a></li> -->
+                        <li><a href="http://127.0.0.1:8000/app/coming-soon" data-resource_slug="unemployment">Unemployment</a></li>
+                        <li><a href="" data-resource_slug="payroll-reports">Payroll Reports</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        
+                <div class="card">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#inventory">
+                    <span><img src="http://127.0.0.1:8000/images/inventry-icon.png"></span>Inventory
+                </a>
+            </div>
+            <div id="inventory" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    <ul>
+                                                <li><a href="http://127.0.0.1:8000/inventories" data-resource_slug="inventories">Productos y Servicios</a></li>
+                                                                        <li><a href="http://127.0.0.1:8000/inventory-adjustments" data-resource_slug="inventory-adjustments">Rectificación de Inventario</a></li>
+                                                <!-- <li><a href="javascript:void(0);">Inventory Value</a></li>
+                        <li><a href="javascript:void(0);">Item Management</a></li>
+                        <li><a href="javascript:void(0);">Find Order</a></li>
+                        <li><a href="javascript:void(0);">Price Lists</a></li>
+                        <li><a href="javascript:void(0);">Warehouse</a></li> -->
+                                                <li><a href="http://127.0.0.1:8000/taxes" data-resource_slug="taxes">Impuestos</a></li>
+                                                                        <li><a href="http://127.0.0.1:8000/item-categories" data-resource_slug="item-categories">Categorías de Artículos</a></li>
+                                                                        <li><a href="http://127.0.0.1:8000/units" data-resource_slug="units">Unidad de Medida</a></li>
+                                            </ul>
+                </div>
+            </div>
+        </div>
+                
+                <div class="card">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#accounting">
+                <span><img src="http://127.0.0.1:8000/images/account-btn.png"></span>Accounting
+                </a>
+            </div>
+            <div id="accounting" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    <ul>
+                        <li><a href="http://127.0.0.1:8000/accounting/charts" data-resource_slug="chart-of-accounts">Catálogo de Cuentas</a></li>
+                        <li><a href="http://127.0.0.1:8000/accounting/adjustments" data-resource_slug="account-adjustments">Ajustes Contables</a></li>
+                        <li><a href="http://127.0.0.1:8000/accounting/journals" data-resource_slug="account-journals">Diarios Contables</a></li>
+                        <li><a href="http://127.0.0.1:8000/accounting/reports" data-resource_slug="account-reports">Informes Contables</a></li>
+
+                                                
+                        <li><a href="http://127.0.0.1:8000/fixed-assets" data-resource_slug="fixed-assets">Activos Fijos</a></li>
+                                                
+                        <li><a href="http://127.0.0.1:8000/app/coming-soon">Centro de Costo</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+                
+        
+                <div class="card">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#setting">
+                <span><img src="http://127.0.0.1:8000/images/setting-icon.png"></span>Settings
+                </a>
+            </div>
+            <div id="setting" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    <ul>
+                        <li><a href="http://127.0.0.1:8000/settings/user" data-resource_slug="settings-user">Perfil del Usuario</a></li>
+                        <li><a href="http://127.0.0.1:8000/settings/company" data-resource_slug="settings-company">Perfil de la Compañía</a></li>
+                        <li><a href="http://127.0.0.1:8000/ncfs" data-resource_slug="ncfs">Comprobantes</a></li>
+                        <li><a href="http://127.0.0.1:8000/currency-exchange-rates" data-resource_slug="currency-exchange-rates">Tasa de Cambio</a></li>
+                        <li><a href="http://127.0.0.1:8000/memberships" data-resource_slug="memberships">Membresías</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#users_management">
+                <span><img src="http://127.0.0.1:8000/images/user-management-icon.png"></span>User Management
+                </a>
+            </div>
+            <div id="users_management" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    <ul>
+                        <li><a href="http://127.0.0.1:8000/user-management/users" data-resource_slug="users-list">Usuarios</a></li>
+                        <li><a href="http://127.0.0.1:8000/roles" data-resource_slug="roles-list">Roles</a></li>
+                        <li><a href="http://127.0.0.1:8000/history" data-resource_slug="history-list">Registros</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+   
+<div class="dashboard-right cust-dashboard-md-right">
+    <div class="menu-icon">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <div class="invoice-container">
+        <h2>Terms &amp; Conditions</h2>
+        <div class="custom-tooltip"><span class="help-icon"><i class="fa fa-question-circle" aria-hidden="true"></i>
+            </span>
+        </div>
+         <!-- <div class="invoice-btns invoice-btns-position">
+            <a href="https://portal.kedasrd.com/admin/term/create" class="btn-custom"><i class="fa fa-plus" aria-hidden="true"></i> Terms &amp; Conditions</a>
+        </div> -->
+        <div class="tabs-custom">
+            <input type="text" id="serchInput" placeholder="Search" name="search" onkeyup="getTerm();">
+            
+        </div>
+        <div class="tabs-custom">
+            <div class="tab-content" id="old_term">
+                                                <div class="card">
+                            <div class="card-header">
+                                <div class="row">
+                                    <a class="card-link col-sm-11" data-toggle="collapse" href="#faqcontent_0" aria-expanded="true">
+                                        <div class="col-sm-11">
+                                                                                        <b>  Terms &amp; Conditions</b>
+                                                                                    </div>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div id="faqcontent_0" class="collapse show" data-parent="#accordion" style="">
+                                <div class="card-body">
+                                    <p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">TERMS OF USE AND PRIVACY POLICY FOR MOBILE WEB APPLICATIONS </font></font></strong><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">AND </font></font></strong><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ACCESS FROM MOBILE DEVICES</font></font></strong></p>
+
+<p>&nbsp;</p>
+
+<p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">APPLICATION: </font></font></strong><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">KEDAS ACCOUNTING SOFTWARE</font></font></strong></p>
+
+<p>&nbsp;</p>
+
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">This application is the property of GRUPO CASSIMMIT, SRL, a commercial company incorporated under the laws of the Dominican Republic with registered office located at Ave. Rafael Fernández Tomás, Plaza Coral Mall, second level, Local B-3, Autop. </font><font style="vertical-align: inherit;">de San Isidro, Santo Domingo Este, Santo Domingo Province, Dom. Rep. (hereinafter “the owner” or by his full name). </font><font style="vertical-align: inherit;">The use of the application by third parties or companies (in any of its modalities) (hereinafter "Representatives") that have no employment or business relationship with the Owner. </font><font style="vertical-align: inherit;">Therefore, it is necessary that these terms and conditions be read before downloading the application or using it online, since downloading it or simply using it implies pure and simple acceptance.</font></font></p>
+
+<p>&nbsp;</p>
+
+<p>Si no está de acuerdo con cumplir estos términos y estar obligados por los mismos, por favor no acepte estos términos, acceda o use estos servicios, la aplicación móvil o su versión web. Al utilizar este sitio, usted reconoce que ha leído y comprende estos términos y declara la aceptación plena y sin reservas de los términos que estén vigentes en el momento de acceso.</p>
+
+<p>&nbsp;</p>
+
+<p>Estos términos y condiciones junto con cualquier otro término y política a los que se haga referencia en este documento, y se incorpore aquí como referencia, forman parte integral de los mismos, según se modifique periódicamente. Estos términos constituyen un acuerdo legalmente vinculante a partir de la fecha de entrada en vigencia (como se define a continuación), que rige su acceso y el uso de <strong>KEDAS.</strong></p>
+
+<p>&nbsp;</p>
+
+<ol>
+    <li><strong>Partes involucradas:</strong></li>
+</ol>
+
+<p>&nbsp;</p>
+
+<p>“<strong>KEDAS</strong>” (en lo adelante “la aplicación” o por su nombre completo): es la marca registrada y nombre de la aplicación y/o software propiedad de la sociedad comercial GRUPO CASSIMMIT, S.R.L. disponible para descargar en aparatos móviles y para su uso en la web.</p>
+
+<p>&nbsp;</p>
+
+<p>“<strong>Usuario</strong>”: es la persona física o jurídica que descarga la aplicación a su móvil o hace uso de ella en la web.</p>
+
+<p>&nbsp;</p>
+
+<p>“<strong>Representante</strong>”: es una persona física que actúa en representación de una entidad jurídica, es decir, una empresa o compañía, que descarga y/o usa en la web el sistema de facturación y gestión de negocios de KEDAS.</p>
+
+<p>&nbsp;</p>
+
+<p>“<strong>Reseller</strong>”: es la persona física o jurídica que compra el uso del sistema y lo revende, haciendo suyo los clientes o terceras personas que adquieren el derecho de uso por el tiempo pactado, por tanto, debe de dar soporte y seguimiento a los mismos, y se responsabilizan de los valores percibidos y dejados de percibir por concepto de uso del sistema por parte de terceros., sin tener una sociedad con Grupo Cassimmit S.R.L., Un reseller no tiene vínculo laboral alguno con KEDAS ni su sociedad matriz.</p>
+
+<p>&nbsp;</p>
+
+<p>“<strong>Asociado</strong>”: es la persona física o jurídica que revende el derecho de uso del sistema contable KEDAS, teniendo el deber de reportar cada cliente o tercera persona que compre el derecho de uso del sistema a su sociedad matriz.</p>
+
+<p>&nbsp;</p>
+
+<p>De manera conjunta, se podrán llamar “<strong>LAS PARTES</strong>”.</p>
+
+<p>&nbsp;</p>
+
+<ol>
+    <li><strong>Servicios</strong></li>
+</ol>
+
+<p>&nbsp;</p>
+
+<ol>
+    <li>Nuestro servicio. “<strong>KEDAS</strong>” es una sistema web y aplicación móvil que sirve como herramienta para gestionar tu negocio a través de un sistema de facturación contable. Específicamente, el Usuario conecta con el sistema web o la aplicación móvil, una vez registrado acepta los términos y condiciones y las políticas de privacidad, luego podrá registrar clientes, proveedores, empleados, crear nóminas, inventarios, catalogo de cuentas, asientos, diarios e informes contables, estados financieros, pagos normales y recurrentes, facturas de proveedor, notas de crédito y débito, ordenes de compras, cuentas por cobrar, notas de crédito, cotizaciones, estados de situación financiera y graficas, conduces, en fin realizar ventas en diferentes monedas desde el punto de venta (POS), entre otros servicios, según corresponda al plan seleccionado.</li>
+</ol>
+
+<p>&nbsp;</p>
+
+<ol>
+    <li>Modificaciones o descontinuación del servicio. “<strong>KEDAS</strong>” podrá agregar, modificar o descontinuar cualquier característica, funcionalidad o cualquier otra herramienta, dentro del servicio, a su propia discreción y sin previo aviso, sin embargo, cualquier cambio material adverso a la funcionalidad central del servicio se notificará publicando un anuncio a través del servicio, página web o enviando un correo electrónico.</li>
+</ol>
+
+<p>&nbsp;</p>
+
+<ol>
+    <li>Costos. El Usuario puede descargar y utilizar el sistema web en línea por diferentes modalidades o planes incluido los servicios a prestar:</li>
+</ol>
+
+<p>&nbsp;</p>
+
+<ul>
+    <li>Plan Emprende por 20 dólares americanos, o su equivalente en pesos dominicanos a la tasa del día.:</li>
+</ul>
+
+<p>·&nbsp;&nbsp; 300 facturas de ventas al mes&nbsp;</p>
+
+<p>·&nbsp; &nbsp;2 Usuarios con acceso a KEDAS&nbsp;</p>
+
+<p>·&nbsp; &nbsp;Gestión de Inventario&nbsp;</p>
+
+<p>·&nbsp; &nbsp;POS - Punto de Venta&nbsp;</p>
+
+<p>·&nbsp; &nbsp;2 Plantillas de Factura&nbsp;</p>
+
+<p>·&nbsp; &nbsp;Contabilidad&nbsp;</p>
+
+<p>·&nbsp; &nbsp;Informes&nbsp;</p>
+
+<p>·&nbsp; &nbsp;Soporte 24/7</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<ul>
+    <li>Plan Impulsa por 30 dólares americanos, o su equivalente en pesos dominicanos a la tasa del día.:</li>
+    <li>&nbsp; &nbsp;500 facturas de ventas mensuales&nbsp;</li>
+    <li>&nbsp; &nbsp;4 usuarios con acceso a KEDAS&nbsp;</li>
+    <li>&nbsp; &nbsp;Gestión de Inventario&nbsp;</li>
+    <li>&nbsp; &nbsp;POS - Punto de Venta&nbsp;</li>
+    <li>&nbsp; &nbsp;3 Plantillas de Factura&nbsp;</li>
+    <li>&nbsp; &nbsp;Contabilidad&nbsp;</li>
+    <li>&nbsp;&nbsp;Informes&nbsp;</li>
+    <li>&nbsp; &nbsp;Soporte 24/7&nbsp;</li>
+    <li>&nbsp; &nbsp;Metricas con graficos&nbsp;</li>
+    <li>&nbsp; &nbsp;Integraciones con API&nbsp;</li>
+    <li>&nbsp; &nbsp;Multi-Moneda</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<ul>
+    <li>Plan Crece por 50 dólares americanos, o su equivalente en pesos dominicanos a la tasa del día.:</li>
+    <li>&nbsp; &nbsp;Ilimitadas Facturas de Ventas&nbsp;</li>
+    <li>&nbsp; &nbsp;6 Usuarios con acceso a KEDAS&nbsp;</li>
+    <li>&nbsp; &nbsp;Gestion de Inventario&nbsp;</li>
+</ul>
+
+<p>·&nbsp; &nbsp;POS - Puntos de Venta Avanzado&nbsp;</p>
+
+<ul>
+    <li>&nbsp; &nbsp;5 Plantillas de Factura&nbsp;</li>
+    <li>&nbsp; &nbsp;Contabilidad&nbsp;</li>
+    <li>&nbsp; &nbsp;Informes&nbsp;</li>
+    <li>&nbsp; &nbsp;Soporte 24/7&nbsp;</li>
+    <li>&nbsp; &nbsp;Metricas con graficos&nbsp;</li>
+    <li>&nbsp; &nbsp;Integraciones con API&nbsp;</li>
+    <li>&nbsp; &nbsp;Multi-Moneda&nbsp;</li>
+    <li>&nbsp; &nbsp;Aplicación Móvil&nbsp;</li>
+    <li>&nbsp; &nbsp;Asesoria Empresarial&nbsp;</li>
+    <li>&nbsp; &nbsp;Gestion de NCF&nbsp;</li>
+    <li>&nbsp; &nbsp;Asesoría Legal</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>Estos planes deben ser pagados al final de cada mes calendario. No obstante, Grupo Cassimmit S.R.L., podrá a su discreción incluir publicidades dentro de la aplicación.</p>
+
+<p>&nbsp;</p>
+
+<ol>
+    <li>No contingencia en futuras versiones y mejoras. El usuario y/o representante reconocen que la descarga y uso web del servicio en la web no depende de la entrega por parte del propietario de ninguna versión futura de cualquier funcionalidad o característica, incluyendo, pero no limitando, lo siguiente: (i) un determinado servicio más allá de su período de suscripción actual; o (ii) Servicios de terceros, o dependientes de cualquier comentario público que hagamos, verbalmente o por escrito, con respecto a cualquier funcionalidad o característica futura.</li>
+</ol>
+
+<p>&nbsp;</p>
+
+<ol>
+    <li><strong>Registro de cuentas y administración</strong></li>
+</ol>
+
+<p>&nbsp;</p>
+
+<ol>
+    <li>Registro de cuentas. Para utilizar el servicio por primera vez, El usuario y/o representante deberán crear una cuenta. Al crear una cuenta y registrarse en el servicio, usted o su empresa, se convierten, individualmente o en nombre de su empleador o de cualquier entidad, en nombre de quien creó la cuenta, en un usuario y/o representante de KEDAS. Al momento de registro, el usuario o el representante indicarán si utilizarán la aplicación para ofrecer el servicio en cuenta propia o de un tercero.</li>
+</ol>
+
+<p>&nbsp;</p>
+
+<ol>
+    <li>Información de registro. Al crear una cuenta, usted: (i) acepta proporcionarnos información de registro precisa, completa y actualizada sobre usted y/o empresa; (ii) reconoce que es su responsabilidad asegurarse de que su contraseña permanezca confidencial y segura; (iii) acepta que usted es totalmente responsable de todas las actividades que ocurran bajo su usuario y contraseña, incluida cualquier integración o cualquier otro uso de productos o servicios de terceros (y la divulgación asociada de datos) en relación con el servicio; y (iv) se compromete a notificarnos de inmediato por escrito si tiene conocimiento de cualquier acceso o uso no autorizado de su cuenta o usuario y/o cualquier incumplimiento de estos términos.</li>
+</ol>
+
+<p>&nbsp;</p>
+
+<ol>
+    <li>Verificación de usuario y/o representante. Usted comprende y acepta que es posible que le solicitemos que brinde información que pueda usarse para confirmar su identidad y ayudar a garantizar la seguridad de su cuenta y/o perfil de usuario.</li>
+</ol>
+
+<p>&nbsp;</p>
+
+<ol>
+    <li><strong>Data del </strong><strong>U</strong><strong>suario</strong><strong>,&nbsp; Representante y Reseller</strong></li>
+</ol>
+
+<p>&nbsp;</p>
+
+<ol>
+    <li>Información del usuario y/o representante . Los datos del usuario son cualquier dato, texto, imágenes, información personal o cualquier otro contenido que cualquier usuario cargue o envíe, transmita o ponga a disposición de cualquier otro modo a través del Servicio. Puntualmente, KEDAS requerirá del nombres, apellidos, correo electrónico, contraseña y número telefónico, dirección,&nbsp; Registro Nacional del Contribuyente (RNC) y cualquier otro a los fines de identificar al mismo. A los fines del pago, también se requerirá información relativa a la tarjeta de crédito, tarjeta de débito, PayPal, Zelle y cualquier otro método de pago ofrecido y aceptado por KEDAS.</li>
+</ol>
+
+<p>&nbsp;</p>
+
+<ol>
+    <li>Información del Representante. En adición a todo lo anterior, el Representante podrá colocar los datos de su compañía, como razón social, marcas, nombres comerciales, logos, imágenes y cualquier otra información personal y corporativa. Será requerido de manera obligatoria el número de registro mercantil de la compañía, y certificación de registro nacional del contribuyente (RNC), sujeto a validación.</li>
+</ol>
+
+<p>&nbsp;</p>
+
+<ol>
+    <li>En ambos casos planteados en los puntos 4.1 y 4.2, el Usuario, Representante y Reseller, respectivamente, son quienes retienen todos los derechos, títulos, intereses y control en el formulario y datos enviados al Servicio. El propietario no retendrá ni guardará ninguna de estas informaciones o datos a los fines de evitar de que violenten el honor, intimidad personal ni familiar. No obstante, el Usuario, Representante y Reseller, reconocen que las transmisiones por Internet nunca son completamente privadas o seguras. El usuario, el Representante y el Reseller, &nbsp;comprenden que cualquier mensaje o información que envíen a la aplicación puede ser leída o interceptada por otros, incluso si hay un aviso especial de que una transmisión en particular (por ejemplo, información de tarjeta de crédito) está encriptada.</li>
+</ol>
+
+<p>&nbsp;</p>
+
+<ol>
+    <li>El propietario no garantiza la ausencia de virus ni de otros elementos en los servicios prestados por terceros a través del portal o aplicación móvil que puedan causar alteraciones en el sistema informático del cliente (software y hardware) o en los documentos electrónicos y/o bases de datos de su sistema informático.</li>
+</ol>
+
+<p>&nbsp;</p>
+
+<ol>
+    <li>El propietario ha adoptado los niveles de seguridad de protección que entiende necesarios y procura instalar los medios y medidas técnicas de protección que se vayan haciendo necesarias. Sin embargo, el Usuario debe estar consciente de que las medidas de seguridad en la Internet no son inviolables.</li>
+</ol>
+
+<p>&nbsp;</p>
+
+<ol>
+    <li><strong>Tratamiento de Datos sensibles de terceros. </strong><strong>¿Quién es el responsable del tratamiento de datos?</strong></li>
+</ol>
+
+<p>&nbsp;</p>
+
+<ol>
+    <li>En la República Dominicana se consideran tratamientos de datos a todas aquellas operaciones y procedimientos sistemáticos, electrónicos o no, que permitan la recolección, conservación, ordenamiento, almacenamiento, modificación, relación, evaluación, bloqueo, destrucción y, en general, el procesamiento de datos personales, así como también su cesión a terceros a través de comunicaciones, consultas, interconexiones o transferencias. ( Ley 172-12, art. 6, inciso 21) (Art. 44 de la Constitución Dominicana).</li>
+</ol>
+
+<p>&nbsp;</p>
+
+<ol>
+    <li>Nuestra primera base legal para el tratamiento de datos personales es el consentimiento del usuario. Mediante las siguientes condiciones y políticas de uso se les informa la finalidad uso, detalles y se solicita a los terceros involucrados que para el correcto uso y funcionamiento del sistema KEDAS, que toda cesión y recolección de datos personales se realiza con el consentimiento expreso de la persona involucrada, entendiéndose que por el simple uso del sistema, se le da a KEDAS y a GRUPO CASSIMMIT SRL, su pleno consentimiento, y en caso contrario el cliente, reseller, representante, usuario y cualquier tercero involucrado, se abstendrá de usar el software y su aplicación móvil.</li>
+</ol>
+
+<p>&nbsp;</p>
+
+<ol>
+    <li>El usuario declara haber sido informado de las condiciones sobre protección de datos de carácter personal, aceptando y consintiendo el tratamiento de estos por parte de KEDAS y a GRUPO CASSIMMIT SRL en la forma y para las finalidades indicadas en esta política de privacidad.</li>
+</ol>
+
+<p>&nbsp;</p>
+
+<ol>
+    <li>Los datos personales proporcionados se conservarán hasta que no se solicite su supresión por el interesado.</li>
+</ol>
+
+<p>&nbsp;</p>
+
+<ol>
+    <li>KEDAS y a GRUPO CASSIMMIT SRL se comprometen en el uso y tratamiento de los datos incluidos personales de los usuarios, respetando su confidencialidad y a utilizarlos de acuerdo con la finalidad de este, así como a dar cumplimiento a su obligación de guardarlos y adaptar todas las medidas para evitar la alteración, pérdida, tratamiento o acceso no autorizado, de conformidad con lo establecido en la normativa vigente de protección de datos.</li>
+</ol>
+
+<p>&nbsp;</p>
+
+<ol>
+    <li><strong>Responsabilidad del cumplimiento del </strong><strong>U</strong><strong>suario</strong><strong>,&nbsp; Representante y Reseller</strong></li>
+</ol>
+
+<p>&nbsp;</p>
+
+<ol>
+    <li>El Usuario, Representante y Reseller, ya sea que esté constituído como persona física o jurídica, declara y garantiza que posee los medios conocimientos y mecanismos necesarios para ofrecer el servicio de KEDAS.</li>
+</ol>
+
+<p>&nbsp;</p>
+
+<ol>
+    <li>KEDAS ofrecerá talleres y capacitaciones constantes a los fines de los usuarios, representantes, resellers, y asociados conozcan el sistema, sus funcionalidades, y correcto uso, es responsabilidad de estos estar atentos a las fechas pautadas de dichas capacitaciones y mantenerse al día, en cuanto a las novedades.</li>
+</ol>
+
+<p>&nbsp;</p>
+
+<ol>
+    <li>El Representante, Usuario y Reseller reconocen y aceptan que como proveedores de los servicios de KEDAS, son los responsables por las pérdidas, robos y/o daños, causados al cliente; así como reclamaciones relativas al pago del servicio. Por tanto, excluyen desde ahora y para siempre a KEDAS y a Grupo Cassimmit, S.R.L., sus socios, gerentes y empleados de cualquier reclamación, acción civil y/o penal por causas iniciadas por el cliente y/o consumidor final del servicio.</li>
+</ol>
+
+<p>&nbsp;</p>
+
+<ol>
+    <li><strong>Ausencia de vínculo laboral y de negocios. </strong></li>
+</ol>
+
+<p>&nbsp;</p>
+
+<ol>
+    <li>&nbsp;El Usuario, Representante y Reseller, entienden y reconocen que KEDAS es una plataforma virtual, un software que permite una gestión efectiva, una mayor organización y control de las actividades comerciales de una persona física y de una sociedad jurídica. El Representante no es ni será una persona o comercio vinculada laboralmente ni en términos de negocios a KEDAS ni GRUPO CASSIMMIT, S.R.L. Es por ello, que el Usuario, Representante y Reseller, así como sus clientes respectivamente, excluyen al propietario de cualquier reclamación que surja entre ellos.</li>
+</ol>
+
+<p>&nbsp;</p>
+
+<ol>
+    <li>&nbsp; El Usuario, Representante y Reseller no son terceros beneficiarios; son contratistas independientes. Estos términos y condiciones previstos no crean una sociedad, franquicia, empresa conjunta, relación de agencia, fiduciaria o relación laboral entre las partes.</li>
+</ol>
+
+<p>&nbsp;</p>
+
+<ol>
+    <li><strong>Publicidad: enlaces a otras páginas. </strong></li>
+</ol>
+
+<p>&nbsp;</p>
+
+<ol>
+    <li>&nbsp; KEDAS y GRUPO CASSIMMIT, S.R.L., podrán incluir publicidades dentro de la aplicación. Estos anuncios publicitarios podrían contener enlaces a otros sitios web de terceros. Estas páginas no están bajo control&nbsp; de GRUPO CASSIMMIT, S.R.L. ni ninguna de sus filiales, socios, gerentes o empleados. Por tanto, el propietario, no respalda el contenido de dichas páginas web.</li>
+</ol>
+
+<p>&nbsp;</p>
+
+<ol>
+    <li>&nbsp; El Usuario, Representante y Reseller aceptan que deberán tomar las precauciones de lugar para evitar descargar virus y cualquier otro elemento con naturaleza destructiva. Asimismo, se abstendrán de emitir juicios con respecto a una posible vinculación entre el enlace del tercero, KEDAS y GRUPO CASSIMMIT, S.R.L.</li>
+</ol>
+
+<p>&nbsp;</p>
+
+<ol>
+    <li><strong>Propiedad intelectual.</strong></li>
+</ol>
+
+<p>&nbsp;</p>
+
+<p>El usuario reconoce que los elementos y utilidades integrados dentro de la aplicación,&nbsp; el sitio web, y el software, están protegidos por la legislación sobre derechos de autor y propiedad industrial de la República Dominicana. Entiende que KEDAS es una marca registrada en la República Dominicana. Por ende, se compromete a abstenerse de utilizar sin autorización o licencia, el nombre, logo, marca y utilidades integradas en la aplicación y/o software.</p>
+
+<p>&nbsp;</p>
+
+<p>El Representante, Usuario, Reseller, Asociado, Cliente, y cualquier persona que consuma y utilice los servicios de KEDAS, reconocen que la reproducción, modificación, distribución, comercialización, descompilación, desensamblado, utilización de técnicas de ingeniería inversa o de cualquier otro medio para obtener el código fuente, transformación o publicación de cualquier resultado de pruebas de referencias no autorizadas de cualquiera de los elementos y utilidades integradas dentro de la Página Web, Software y/o la Aplicación de KEDAS constituye una infracción de los derechos de propiedad intelectual de GRUPO CASSIMMIT, S.R.L., obligándose, en consecuencia, a no realizar ninguna de las acciones mencionadas.</p>
+
+<p>&nbsp;</p>
+
+<p>El título y los derechos de propiedad sobre la aplicación y/o Software de KEDAS serán en todo caso titularidad de GRUPO CASSIMMIT, S.R.L., de tal forma que el usuario se compromete a no suprimir o alterar cualquier signo distintivo utilizado como marca o nombre comercial (gráfico, logotipo, etc.), elemento protegido por el derecho de autor u otros avisos, leyendas, símbolos o etiquetas que aparezcan en la aplicación y/o Software de KEDAS.</p>
+
+<p>&nbsp;</p>
+
+<p>El Representante, Usuario, Reseller, Asociado, Cliente, y cualquier persona que consuma y utilice los servicios de KEDAS, se obligan a no utilizar las facilidades y capacidades de la aplicación y/o Software de KEDAS para realizar o sugerir actividades prohibidas por la ley o para intentar atraer a los clientes del servicio hacia otros servicios competidores. Asimismo, el usuario se hace responsable de extender el cumplimiento de estas cláusulas a toda aquella persona autorizada por él a usar el servicio.</p>
+
+<p>&nbsp;</p>
+
+<p>El Representante, Usuario, Reseller, Asociado, Cliente, y cualquier persona que consuma y utilice los servicios de KEDAS, &nbsp;se abstendrán de llevar a cabo cualquier conducta en el uso de la aplicación y/o Software de KEDAS que atente contra los derechos de propiedad intelectual o industrial de GRUPO CASSIMMIT, S.R.L. o de terceros, o que vulnere o transgreda el honor, la intimidad personal o familiar o la imagen de terceros, o que sean ilícitos o atenten a la moralidad, y dejará en todo caso indemne a GRUPO CASSIMMIT, S.R.L. frente a cualquier reclamación, judicial o extrajudicial que se presente frente a ella como consecuencia de dicho uso.</p>
+
+<p>&nbsp;</p>
+
+<ol>
+    <li><strong>Confidencialidad </strong></li>
+</ol>
+
+<p>&nbsp;</p>
+
+<p>Ninguna de LAS PARTES divulgarán los términos, condiciones y/o montos relacionados con los servicios de soporte a ningún tercero.</p>
+
+<p>&nbsp;</p>
+
+<ol>
+    <li>&nbsp;<strong>Provisiones generales</strong></li>
+</ol>
+
+<p>&nbsp;</p>
+
+<ol>
+    <li>Fuerza mayor. Ni el propietario ni el usuario (en sus distintas modalidades) serán responsables por cualquier falla o retraso en el desempeño de las obligaciones a causa de eventos más allá del control razonable de una parte, que puede incluir ataques de denegación de servicio, interrupción o falla de Internet o cualquier servicio de utilidad, fallas en terceros, servicios de alojamiento, huelgas, escasez, disturbios, incendios, pandemias, actos de Dios, guerra, terrorismo, acción gubernamental, estados de emergencia, entre otros.</li>
+</ol>
+
+<p>&nbsp;</p>
+
+<ol>
+    <li>Ley aplicable. Los presentes términos y condiciones se rigen en cada una de sus partes por las leyes de la República Dominicana.</li>
+</ol>
+
+<p>&nbsp;</p>
+
+<ol>
+    <li>Jurisdicción. Cualquier controversia derivada de estos términos y condiciones, se someterán a la jurisdicción de los tribunales de la República Dominicana.</li>
+</ol>
+
+<p>&nbsp;</p>
+
+<ol>
+    <li><strong>&nbsp;Interrupción, Suspensión, Pausa y Terminación del Servicio.</strong>
+
+    <ol>
+        <li>En caso de violaciones, usos contrarios a la leyes de la República Dominicana, usos y costumbres, faltas de pago, controversias o conflictos<strong>, GRUPO CASSIMMIT, S.R.L., y KEDAS, </strong>se reservan el total derecho de interrumpir, pausar y ponerle fin al servicio prestado a través del sistema de facturación contable, de manera temporal o permanente, por lo que podrán terminar de manera unilateral la cuenta de un usuario, representante, reseller, y/o cliente en general. KEDAS se reserva el derecho de suspensión, previo aviso por los canales pertinentes, del servicio contable, y por consiguiente del o los usuarios por falta en el pago de una o mas cuotas del plan contrato, dicha suspensión generará recargos, moras e intereses generados, mismos que deberán ser pagados juntamente con la cuota pendiente.</li>
+    </ol>
+    </li>
+</ol>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p><em>Última revisión: </em><em>Febrero 2022</em></p>
+
+<p>&nbsp;</p>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                                        <div class="card">
+                            <div class="card-header">
+                                <div class="row">
+                                    <a class="card-link col-sm-11" data-toggle="collapse" href="#faqcontent_1" aria-expanded="true">
+                                        <div class="col-sm-11">
+                                                                                        <b>  KEDAS Accounting Software</b>
+                                                                                    </div>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div id="faqcontent_1" class="collapse show" data-parent="#accordion" style="">
+                                <div class="card-body">
+                                    <p>La presente aplicación es propiedad del GRUPO CASSIMMIT, S.R.L. sociedad comercial constituída bajo las leyes de la República Dominicana con domicilio social ubicado en Ave. Rafael Fernández Tomás, Plaza Coral Mall, segundo nivel, Local B-3, Autop. de San Isidro, Santo Domingo Este, Provincia Santo Domingo, Rep. Dom. (en lo adelante “el propietario” o por su nombre completo). El uso de la aplicación por terceros o compañías (en cualquiera de sus modalidades) (en lo adelante “Representantes”) que no tienen ninguna vinculación laboral ni de negocios con el Propietario.&nbsp; Por tanto, se hace necesario que antes de descargar la aplicación o usar está en línea (online) estos términos y condiciones sean leídos ya que la descarga de la misma o su simple uso, implica la aceptación pura y simple.</p>
+
+<p>&nbsp;</p>
+
+<p>Si no está de acuerdo con cumplir estos términos y está obligado por los mismos, por favor no acepte estos términos, acceda o use estos servicios, la aplicación móvil o su versión web. Al utilizar este sitio, usted reconoce que ha leído y comprende estos términos y declara la aceptación plena y sin reservas de los términos que estén vigentes en el momento de acceso.</p>
+
+<p>&nbsp;</p>
+
+<p>Estos términos y condiciones junto con cualquier otro término y política a los que se haga referencia en este documento, y se incorpora aquí como referencia, forman parte integral de los mismos, según se modifique periódicamente. Estos términos constituyen un acuerdo legalmente vinculante a partir de la fecha de entrada en vigencia (como se define a continuación), que rige su acceso y el uso de <strong>KEDAS.</strong></p>
+
+<p>&nbsp;</p>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                                        <div class="card">
+                            <div class="card-header">
+                                <div class="row">
+                                    <a class="card-link col-sm-11" data-toggle="collapse" href="#faqcontent_2" aria-expanded="true">
+                                        <div class="col-sm-11">
+                                                                                        <b>  Services</b>
+                                                                                    </div>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div id="faqcontent_2" class="collapse show" data-parent="#accordion" style="">
+                                <div class="card-body">
+                                    <p>Servicios</p>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                                        <div class="card">
+                            <div class="card-header">
+                                <div class="row">
+                                    <a class="card-link col-sm-11" data-toggle="collapse" href="#faqcontent_3" aria-expanded="true">
+                                        <div class="col-sm-11">
+                                                                                        <b>  Registro de Cuentas y Administración</b>
+                                                                                    </div>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div id="faqcontent_3" class="collapse show" data-parent="#accordion" style="">
+                                <div class="card-body">
+                                    <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Account Registration and Administration</font></font></p>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                                                    </div>
+        </div>
+        <div class="tab-content" id="new_term" style="display:none;">
+        </div>
+        <div class="tab-content" id="blank_term" style="display:none;">
+            <div class="card ">
+                <div class="card-header">
+                    <div class="row">
+                            <div class="col-sm-11" style="text-align: center;">
+                            <b>There is no records were found.</b>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+                    
+</div>
+
+<div class="clearfix"></div>
+            </div>
+        </section>
+
+            </div>  
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdn.ckeditor.com/4.4.7/standard-all/ckeditor.js"></script>
+</body>
+</html>

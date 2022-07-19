@@ -1,0 +1,600 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.98.0">
+    <title>INNERS BOOKS</title>
+    
+
+    
+
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+<!-- <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" rel="stylesheet"> -->
+    
+<!-- Custom styles for this template -->
+<link href="css/customstyles.css" rel="stylesheet">
+
+  
+</head>
+<body>
+<div class="main-wrapper">
+        <section>
+            <header>
+    <div class="header-left">
+        <div class="logo-sec h-100">
+            <a href="">Inners Books</a>
+        </div>
+        <div class="primary-sec">            
+            <a href="" class="dropdown-toggle" data-toggle="dropdown">Create A New</a>
+            <div class="dropdown-menu">
+                <ul>
+                    <li><a href="">Quotation</a></li>
+                    <li><a href="">Bills</a></li>
+                    <li><a href="">Supplier Invoice</a></li>
+                    <li><a href="">Receipt of Payments</a></li>
+                    <li><a href="">Client</a></li>
+                    <li><a href="">Supplier</a></li>
+                    <li><a href="">Products and services</a></li>
+                </ul>
+            </div>
+        </div>
+            </div>
+    <div class="header-right h-100">
+        <div class="help-center">
+            <ul>
+                <li>
+                    <div class="wh-chat-btn">
+                        <a target="_blank" href="https://wa.me/+18492697581">
+                            <img src="images/whatsup-icon.png" alt="WA">
+                            <span>Need help? Speak with us </span>
+                        </a>
+                    </div>
+    
+                    <div class="wh-chat-btn wa-float">
+                        <a target="_blank" href="https://wa.me/+18492697581">
+                            <img src="images/whatsup-icon.png" alt="WA">
+                            <span>Need help? Speak with us</span>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="john-sec">
+            <a href="" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+            <span>
+              <img src="images/john-sec.png" alt="Sachin Kumar">
+            </span>
+            <span class="username">Sachin Kumar</span>
+            </a>
+            <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(1084px, 40px, 0px);">
+                <ul>
+                    <li class="user-name-li"><a href="javascript:void(0);"><span>Sachin Kumar</span></a></li>
+                    <li><a href="">sachin@yopmail.com</a></li>
+                    <li><a href="">Settings</a></li>
+                    <li class="signout"><a href="">Leave</a></li>
+                    <form id="logout-form" action="" method="POST" style="display: none;">
+                        <input type="hidden" name="_token" value="7G3XAM0JjY11fWnsHQx77WmgviX1k3xXrTFTWwhV">
+                    </form>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</header>        </section>
+
+        <section id="dashboard">
+            <div id="react-app"></div>
+            <div class="blue-sec">
+              <div class="side-blue-sec">
+    <div id="accordion">
+        <div class="card">
+            <div class="card-header">
+                <a id="dashboard_link" class="active" href="">
+                <span><img src="http://127.0.0.1:8000/images/dashboard-icon.png"></span>Start
+                </a>
+            </div>
+        </div>
+
+        
+                <div class="card">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#sales">
+                <span><img src="http://127.0.0.1:8000/images/sales-icon.png"></span>Income
+                </a>
+            </div>
+            <div id="sales" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    <ul>
+                      <li><a href="" data-resource_slug="invoices">Bills</a></li>
+                      <li><a href="">Recurring bills</a></li>
+                      <li><a href="">Receipt of Payments</a></li>
+                      <li><a href="">Cuenta por Cobrar</a></li>
+                      <li><a href="http://127.0.0.1:8000/credit-notes" data-resource_slug="credit-notes">Notas de Credito</a></li>
+                                                                        <li><a href="http://127.0.0.1:8000/estimates" data-resource_slug="estimates">Cotizaciones</a></li>
+                                                                        <li><a href="http://127.0.0.1:8000/remissions" data-resource_slug="remissions">Conduces</a></li>
+                                                                        <li><a href="http://127.0.0.1:8000/pos" data-resource_slug="pos" target="_blank">Punto de Venta</a></li>
+                                                <li><a href="http://127.0.0.1:8000/production" data-resource_slug="production">Ordenes de Producción</a></li>
+                                                <li><a href="http://127.0.0.1:8000/restaurant-table" data-resource_slug="restaurant-table">Mesas</a></li>
+                                                <li><a href="http://127.0.0.1:8000/shipping" data-resource_slug="shipping">Ordenes de Envío</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        
+                <div class="card">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#expenses">
+                <span><img src="http://127.0.0.1:8000/images/cart.png"></span>Bills
+                </a>
+            </div>
+            <div id="expenses" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    <ul>
+                                                <li><a href="http://127.0.0.1:8000/transactions/out" data-resource_slug="transactions-out">Pagos</a></li>
+                                                                        <li><a href="http://127.0.0.1:8000/invoices/supplier" data-resource_slug="invoices-supplier">Factura de Proveedor</a></li>
+                                                <!-- <li><a href="javascript:void(0);">Quotations</a></li>
+                        <li><a href="javascript:void(0);">Provider List</a></li> -->
+                                                <li><a href="http://127.0.0.1:8000/transactions/recurring" data-resource_slug="transactions-recurring">Pagos Recurrentes</a></li>
+                                                                        <li><a href="http://127.0.0.1:8000/debit-notes" data-resource_slug="debit-notes">Notas de Débito</a></li>
+                                                                        <li><a href="http://127.0.0.1:8000/purchase-orders" data-resource_slug="purchase-orders">Orden de Compra</a></li>
+                                                <li><a href="http://127.0.0.1:8000/app/coming-soon">Nómina</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        
+                <div class="card">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#contacts">
+                <span><img src="http://127.0.0.1:8000/images/contact-icon.png"></span>Contacts
+                </a>
+            </div>
+            <div id="contacts" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    <ul>
+                                                <li><a href="http://127.0.0.1:8000/clients" data-resource_slug="clients">Clientes</a></li>
+                                                                        <li><a href="http://127.0.0.1:8000/suppliers" data-resource_slug="suppliers">Proveedores</a></li>
+                                                <li><a href="http://127.0.0.1:8000/employees" data-resource_slug="employees">Empleados</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+                
+                <div class="card" style="display: block;">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#payroll">
+                    <span><img src="http://127.0.0.1:8000/images/sales-icon.png"></span>PAYROLL
+                </a>
+            </div>
+            <div id="payroll" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    <ul>
+                        <li><a href="http://127.0.0.1:8000/benefits" data-resource_slug="benefits">Benefits</a></li>
+                        <li><a href="http://127.0.0.1:8000/with-holdings" data-resource_slug="with-holdings">Withholdings</a></li>
+                        <li><a href="http://127.0.0.1:8000/discounts" data-resource_slug="discounts">Discounts</a></li>
+                        <li><a href="http://127.0.0.1:8000/extra-hours" data-resource_slug="extra-hours">Extra Hours</a></li>
+                        <li><a href="http://127.0.0.1:8000/leaves" data-resource_slug="leaves">Ausencias</a></li>
+                     <!--    <li><a href="" data-resource_slug="commissions">Commissions</a></li> -->
+                        <li><a href="http://127.0.0.1:8000/app/coming-soon" data-resource_slug="unemployment">Unemployment</a></li>
+                        <li><a href="http://127.0.0.1:8000/payroll-reports" data-resource_slug="payroll-reports">Payroll Reports</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        
+                <div class="card">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#inventory">
+                    <span><img src="http://127.0.0.1:8000/images/inventry-icon.png"></span>Inventory
+                </a>
+            </div>
+            <div id="inventory" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    <ul>
+                                                <li><a href="http://127.0.0.1:8000/inventories" data-resource_slug="inventories">Productos y Servicios</a></li>
+                                                                        <li><a href="http://127.0.0.1:8000/inventory-adjustments" data-resource_slug="inventory-adjustments">Rectificación de Inventario</a></li>
+                                                <!-- <li><a href="javascript:void(0);">Inventory Value</a></li>
+                        <li><a href="javascript:void(0);">Item Management</a></li>
+                        <li><a href="javascript:void(0);">Find Order</a></li>
+                        <li><a href="javascript:void(0);">Price Lists</a></li>
+                        <li><a href="javascript:void(0);">Warehouse</a></li> -->
+                                                <li><a href="http://127.0.0.1:8000/taxes" data-resource_slug="taxes">Impuestos</a></li>
+                                                                        <li><a href="http://127.0.0.1:8000/item-categories" data-resource_slug="item-categories">Categorías de Artículos</a></li>
+                                                                        <li><a href="http://127.0.0.1:8000/units" data-resource_slug="units">Unidad de Medida</a></li>
+                                            </ul>
+                </div>
+            </div>
+        </div>
+                
+                <div class="card">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#accounting">
+                <span><img src="http://127.0.0.1:8000/images/account-btn.png"></span>Accounting
+                </a>
+            </div>
+            <div id="accounting" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    <ul>
+                        <li><a href="http://127.0.0.1:8000/accounting/charts" data-resource_slug="chart-of-accounts">Catálogo de Cuentas</a></li>
+                        <li><a href="http://127.0.0.1:8000/accounting/adjustments" data-resource_slug="account-adjustments">Ajustes Contables</a></li>
+                        <li><a href="http://127.0.0.1:8000/accounting/journals" data-resource_slug="account-journals">Diarios Contables</a></li>
+                        <li><a href="http://127.0.0.1:8000/accounting/reports" data-resource_slug="account-reports">Informes Contables</a></li>
+
+                                                
+                        <li><a href="http://127.0.0.1:8000/fixed-assets" data-resource_slug="fixed-assets">Activos Fijos</a></li>
+                                                
+                        <li><a href="http://127.0.0.1:8000/app/coming-soon">Centro de Costo</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+                
+        
+                <div class="card">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#setting">
+                <span><img src="http://127.0.0.1:8000/images/setting-icon.png"></span>Settings
+                </a>
+            </div>
+            <div id="setting" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    <ul>
+                        <li><a href="http://127.0.0.1:8000/settings/user" data-resource_slug="settings-user">Perfil del Usuario</a></li>
+                        <li><a href="http://127.0.0.1:8000/settings/company" data-resource_slug="settings-company">Perfil de la Compañía</a></li>
+                        <li><a href="http://127.0.0.1:8000/ncfs" data-resource_slug="ncfs">Comprobantes</a></li>
+                        <li><a href="http://127.0.0.1:8000/currency-exchange-rates" data-resource_slug="currency-exchange-rates">Tasa de Cambio</a></li>
+                        <li><a href="http://127.0.0.1:8000/memberships" data-resource_slug="memberships">Membresías</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#users_management">
+                <span><img src="http://127.0.0.1:8000/images/user-management-icon.png"></span>User Management
+                </a>
+            </div>
+            <div id="users_management" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    <ul>
+                        <li><a href="http://127.0.0.1:8000/user-management/users" data-resource_slug="users-list">Usuarios</a></li>
+                        <li><a href="http://127.0.0.1:8000/roles" data-resource_slug="roles-list">Roles</a></li>
+                        <li><a href="http://127.0.0.1:8000/history" data-resource_slug="history-list">Registros</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="dashboard-right">
+    <div class="menu-icon">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <div class="dashboard-max-w">
+        <div class="row no-margin">
+            <div class="form-group col" style="margin-top:38px;">
+                <h2>New Sale Receipt</h2>
+            </div>
+        </div>
+        <div class="dashboard-bottom">
+          <div class="dashboard-cont dashboard-cont-full">
+            <div class="default-form add-invoice-form">
+              <div class="generate-invoice">
+                <div class="row no-margin">
+                  <div class="col-lg-4">
+                    <div class="form-group file-input file-input-medium position-relative">
+                      <img id="image-preview" src="images/3-d53842c88dfc69c.jpg" alt="Sk spare parts">
+                      <input type="file" id="company-logo" name="logo" class="file-upload-preview" accept="image/*" data-img_id="image-preview" data-msg-accept="Please select only jpeg, bmp, png, jpg file." data-label_id="image-preview-label">
+                      <a class="upload-button" data-preview_section="company-logo"><i class="fa fa-pencil" aria-hidden="true"></i> Edit</a>
+                    </div>
+                  </div>
+                  <div class="col-lg-8 text-center company-data">
+                    <div class="add-cell">
+                      <div class="consumption-box">
+                        <div class="consumption-bottom">
+                          <span>No.</span>
+                          <div class="consumption-number">1</div>
+                        </div>
+                      </div>
+                      <div class="add-cell-center">
+                        <h2>Sk spare parts</h2>
+                        <span>
+                          <p class="address-block">1047 KAITH MAJRI.</p>
+                        </span>
+                        <p class="address-block">AMBALA CITY, haryana, India.</p>
+                        <span>
+                          <h3>Phone:</h3>
+                          <p>1212121212</p>
+                        </span>
+                        <span>
+                          <h3>Email:</h3>
+                          <p><a href="">support@innersbooks.com </a></p>
+                        </span>
+                        <h3>Tax ID:</h3>
+                        <p><span>123456 </span></p>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="add-form row">
+                  <div class="form-group col-sm-6">
+                      <label for="contact" class="col-sm-12 creat-nw-cat">Contact <a target="_blank" href="">Create new contact</a></label>
+                      <select class="form-control single-search-selection select2-hidden-accessible" tabindex="-1">
+                        <option value="" selected="selected">Select Contact</option>
+                        <optgroup label="Clients">
+                          <option>Sachin</option>
+                          <option>Ska</option>
+                          <option>John Smith 242</option>
+                          <option>John Smith 121</option>
+                          <option>John Smith</option>
+                          <option>John Deo(client)</option>
+                          <option>Jk Motors Client</option>
+                          <option>John Smith(client)</option>
+                          <option>Sachin</option>
+                          <option>Maria Del Carmen Awad Vazquez</option>
+                          <option>Francisco Pacheco Herrera</option>
+                          <option>Juana Bautista Pariente Garcia</option>
+                          </optgroup>
+                        </select>
+                  </div>
+                  <div class="form-group col-sm-6">
+                      <label for="numbering">Contact Name</label>
+                      <input class="form-control" type="text" name="contact_name" value="">
+                  </div>
+                  <div class="form-group col-sm-6">
+                      <label for="date">Date <span>*</span></label>
+                      <input id="invoice_start_date" class="form-control" name="invoice_start_date" required="required" value="2022-07-07" autocomplete="off" aria-required="true">
+                      <input type="hidden" name="currency_symbol" id="currency_symbol" value="₹">
+                  </div>
+                  <div class="form-group col-sm-6">
+                      <label for="contact-tax-id">Tax ID</label>
+                      <input type="text" class="form-control invoice_tax_ids" name="contact-tax-id" id="contact-tax-id" autocomplete="off">
+                      <div style="display: none;" id="invoice_taxs_div">
+                          <select id="invoice_tax_ids_list" name="invoice_tax_ids_list" class="single-search-selection select2-hidden-accessible" style="width:100%;" data-select2-id="select2-data-invoice_tax_ids_list" tabindex="-1" aria-hidden="true"></select>
+                      </div>
+                  </div>
+                  <div class="form-group col-sm-6">
+                      <label for="contact-phone">Phone</label>
+                      <input type="text" class="form-control" name="contact-phone" id="contact-phone">
+                  </div>
+                  <div class="form-group col-lg-6 custom-select-controller">
+                      <label for="reference">Reference</label>
+                      <input type="text" placeholder="Reference" name="reference" id="reference" class="form-control reference" value="">
+                  </div>
+                  <!-- <div class="form-group col-sm-6">
+                      <label for="term">Term</label>
+                      <select class="form-control" id="term" required="required" name="term"><option value="0">In cash</option><option value="8">8 days</option><option value="15">15 days</option><option value="30">30 days</option><option value="60">60 days</option><option value="manual">Manual</option></select>
+                      <span id="manual_days_section" style="display: none;">
+                          <label for="manual_days">Custom <span>*</span></label>
+                          <input type="number" name="manual_days" id="manual_days" class="form-control" min="1"
+                              max="4000" value="1" />
+                      </span>
+                  </div> -->
+                  <div class="form-group col-sm-6">
+                      <label for="invoice_expiration_date">Expiration Date
+                          <span>*</span></label>
+                      <input id="invoice_expiration_date" name="invoice_expiration_date" class="form-control" required="required" value="2022-07-07" autocomplete="off" aria-required="true">
+                  </div>
+                  <div class="form-group col-lg-6 custom-select-controller">
+                      <label for="ncf_id">NCF</label>
+                      <select class="form-control single-search-selection select2-hidden-accessible" id="ncf_id" name="ncf_id" data-select2-id="select2-data-ncf_id" tabindex="-1" aria-hidden="true"><option value="" selected="selected" data-select2-id="select2-data-5-ndxk">Select NCF</option><option value="14" ncf_id="14" data-ncf_count="" data-count_remain="4" data-ncf_expiration_date="" data-current_number="B0123456801" data-ncf_number_to="">ANOTHER</option></select>
+                      <select style="display:none" class="form-control" id="ncf_default_id" name="ncf_default_id"><option value="" selected="selected">Select NCF</option><option value="14" ncf_id="14" data-ncf_count="" data-count_remain="4" data-ncf_expiration_date="" data-current_number="B0123456801" data-ncf_number_to="">ANOTHER</option></select>
+
+                  </div>
+
+
+
+                   <div class="form-group col-lg-6 custom-select-controller">
+                      <label for="barcode" class="col-sm-12">Barcode </label>
+                      <input type="text" class="form-control" name="barcode" id="barcode" placeholder="Scan or enter the Product Code" value="" autocomplete="off">
+
+
+                  </div>
+
+                  <div class="currency_exchange_cnt col-lg-6">
+                      <div class="row">
+                          <div class="form-group col-lg-4 col-md-12">
+                              <label for="currency">Currency Local</label>
+                              <input type="text" name="currency" class="form-control" value="Rupees (₹)" readonly="">
+                          </div>
+                          <div class="form-group col-lg-4 col-md-12 custom-select-controller">
+                              <label for="currency">Exchange Currency</label>
+                              <select class="form-control single-search-selection select2-hidden-accessible" id="exchange-currency" name="exchange_currency" data-select2-id="select2-data-exchange-currency" tabindex="-1" aria-hidden="true"><option value="" selected="selected" data-select2-id="select2-data-7-hp04">Select Currency</option><option value="1" data-code="ALL" data-symbol="Lek" data-rate="">Leke - ALL (Lek)</option><option value="2" data-code="USD" data-symbol="USD $" data-rate="80.987634">Dollars - USD (USD $)</option><option value="3" data-code="AFN" data-symbol="؋" data-rate="20.987600">Afghanis - AFN (؋)</option><option value="4" data-code="ARS" data-symbol="$" data-rate="">Pesos - ARS ($)</option><option value="5" data-code="AWG" data-symbol="ƒ" data-rate="">Guilders - AWG (ƒ)</option><option value="6" data-code="AUD" data-symbol="$" data-rate="">Dollars - AUD ($)</option><option value="7" data-code="AZN" data-symbol="ман" data-rate="">New Manats - AZN (ман)</option><option value="8" data-code="BSD" data-symbol="$" data-rate="">Dollars - BSD ($)</option><option value="9" data-code="BBD" data-symbol="$" data-rate="">Dollars - BBD ($)</option><option value="10" data-code="BYR" data-symbol="p." data-rate="">Rubles - BYR (p.)</option><option value="11" data-code="EUR" data-symbol="€" data-rate="">Euro - EUR (€)</option><option value="12" data-code="BZD" data-symbol="BZ$" data-rate="">Dollars - BZD (BZ$)</option><option value="13" data-code="BMD" data-symbol="$" data-rate="">Dollars - BMD ($)</option><option value="14" data-code="BOB" data-symbol="$b" data-rate="">Bolivianos - BOB ($b)</option><option value="15" data-code="BAM" data-symbol="KM" data-rate="">Convertible Marka - BAM (KM)</option><option value="16" data-code="BWP" data-symbol="P" data-rate="">Pula - BWP (P)</option><option value="17" data-code="BGN" data-symbol="лв" data-rate="">Leva - BGN (лв)</option><option value="18" data-code="BRL" data-symbol="R$" data-rate="">Reais - BRL (R$)</option><option value="19" data-code="GBP" data-symbol="£" data-rate="">Pounds - GBP (£)</option><option value="20" data-code="BND" data-symbol="$" data-rate="">Dollars - BND ($)</option><option value="21" data-code="KHR" data-symbol="៛" data-rate="">Riels - KHR (៛)</option><option value="22" data-code="CAD" data-symbol="$" data-rate="">Dollars - CAD ($)</option><option value="23" data-code="KYD" data-symbol="$" data-rate="">Dollars - KYD ($)</option><option value="24" data-code="CLP" data-symbol="$" data-rate="">Pesos - CLP ($)</option><option value="25" data-code="CNY" data-symbol="¥" data-rate="">Yuan Renminbi - CNY (¥)</option><option value="26" data-code="COP" data-symbol="$" data-rate="">Pesos - COP ($)</option><option value="27" data-code="CRC" data-symbol="₡" data-rate="">Colón - CRC (₡)</option><option value="28" data-code="HRK" data-symbol="kn" data-rate="">Kuna - HRK (kn)</option><option value="29" data-code="CUP" data-symbol="₱" data-rate="">Pesos - CUP (₱)</option><option value="30" data-code="CZK" data-symbol="Kč" data-rate="">Koruny - CZK (Kč)</option><option value="31" data-code="DKK" data-symbol="kr" data-rate="">Kroner - DKK (kr)</option><option value="32" data-code="DOP" data-symbol="DOP $" data-rate="">Pesos - DOP (DOP $)</option><option value="33" data-code="XCD" data-symbol="$" data-rate="">Dollars - XCD ($)</option><option value="34" data-code="EGP" data-symbol="£" data-rate="">Pounds - EGP (£)</option><option value="35" data-code="SVC" data-symbol="$" data-rate="">Colones - SVC ($)</option><option value="36" data-code="FKP" data-symbol="£" data-rate="">Pounds - FKP (£)</option><option value="37" data-code="FJD" data-symbol="$" data-rate="">Dollars - FJD ($)</option><option value="38" data-code="GHC" data-symbol="¢" data-rate="">Cedis - GHC (¢)</option><option value="39" data-code="GIP" data-symbol="£" data-rate="">Pounds - GIP (£)</option><option value="40" data-code="GTQ" data-symbol="Q" data-rate="">Quetzales - GTQ (Q)</option><option value="41" data-code="GGP" data-symbol="£" data-rate="">Pounds - GGP (£)</option><option value="42" data-code="GYD" data-symbol="$" data-rate="">Dollars - GYD ($)</option><option value="43" data-code="HNL" data-symbol="L" data-rate="">Lempiras - HNL (L)</option><option value="44" data-code="HKD" data-symbol="$" data-rate="">Dollars - HKD ($)</option><option value="45" data-code="HUF" data-symbol="Ft" data-rate="">Forint - HUF (Ft)</option><option value="46" data-code="ISK" data-symbol="kr" data-rate="">Kronur - ISK (kr)</option><option value="47" data-code="INR" data-symbol="Rp" data-rate="">Rupees - INR (Rp)</option><option value="48" data-code="IDR" data-symbol="Rp" data-rate="">Rupiahs - IDR (Rp)</option><option value="49" data-code="IRR" data-symbol="﷼" data-rate="">Rials - IRR (﷼)</option><option value="50" data-code="IMP" data-symbol="£" data-rate="">Pounds - IMP (£)</option><option value="51" data-code="ILS" data-symbol="₪" data-rate="">New Shekels - ILS (₪)</option><option value="52" data-code="JMD" data-symbol="J$" data-rate="">Dollars - JMD (J$)</option><option value="53" data-code="JPY" data-symbol="¥" data-rate="">Yen - JPY (¥)</option><option value="54" data-code="JEP" data-symbol="£" data-rate="">Pounds - JEP (£)</option><option value="55" data-code="KZT" data-symbol="лв" data-rate="">Tenge - KZT (лв)</option><option value="56" data-code="KPW" data-symbol="₩" data-rate="">Won - KPW (₩)</option><option value="57" data-code="KRW" data-symbol="₩" data-rate="">Won - KRW (₩)</option><option value="58" data-code="KGS" data-symbol="лв" data-rate="">Soms - KGS (лв)</option><option value="59" data-code="LAK" data-symbol="₭" data-rate="">Kips - LAK (₭)</option><option value="60" data-code="LVL" data-symbol="Ls" data-rate="">Lati - LVL (Ls)</option><option value="61" data-code="LBP" data-symbol="£" data-rate="">Pounds - LBP (£)</option><option value="62" data-code="LRD" data-symbol="$" data-rate="">Dollars - LRD ($)</option><option value="63" data-code="Francs" data-symbol="CHF" data-rate="">Switzerland Francs - Francs (CHF)</option><option value="64" data-code="LTL" data-symbol="Lt" data-rate="">Litai - LTL (Lt)</option><option value="65" data-code="MKD" data-symbol="ден" data-rate="">Denars - MKD (ден)</option><option value="66" data-code="MYR" data-symbol="RM" data-rate="">Ringgits - MYR (RM)</option><option value="67" data-code="MUR" data-symbol="₨" data-rate="">Rupees - MUR (₨)</option><option value="68" data-code="MXN" data-symbol="$" data-rate="">Pesos - MXN ($)</option><option value="69" data-code="MNT" data-symbol="₮" data-rate="">Tugriks - MNT (₮)</option><option value="70" data-code="MZN" data-symbol="MT" data-rate="">Meticais - MZN (MT)</option><option value="71" data-code="NAD" data-symbol="$" data-rate="">Dollars - NAD ($)</option><option value="72" data-code="NPR" data-symbol="₨" data-rate="">Rupees - NPR (₨)</option><option value="73" data-code="ANG" data-symbol="ƒ" data-rate="">Guilders - ANG (ƒ)</option><option value="74" data-code="NZD" data-symbol="$" data-rate="">Dollars - NZD ($)</option><option value="75" data-code="NIO" data-symbol="C$" data-rate="">Cordobas - NIO (C$)</option><option value="76" data-code="NGN" data-symbol="₦" data-rate="">Nairas - NGN (₦)</option><option value="77" data-code="NOK" data-symbol="kr" data-rate="">Krone - NOK (kr)</option><option value="78" data-code="OMR" data-symbol="﷼" data-rate="">Rials - OMR (﷼)</option><option value="79" data-code="PKR" data-symbol="₨" data-rate="">Rupees - PKR (₨)</option><option value="80" data-code="PAB" data-symbol="B/." data-rate="">Balboa - PAB (B/.)</option><option value="81" data-code="PYG" data-symbol="Gs" data-rate="">Guarani - PYG (Gs)</option><option value="82" data-code="PEN" data-symbol="S/." data-rate="">Nuevos Soles - PEN (S/.)</option><option value="83" data-code="PHP" data-symbol="Php" data-rate="">Pesos - PHP (Php)</option><option value="84" data-code="PLN" data-symbol="zł" data-rate="">Zlotych - PLN (zł)</option><option value="85" data-code="QAR" data-symbol="﷼" data-rate="">Rials - QAR (﷼)</option><option value="86" data-code="RON" data-symbol="lei" data-rate="">New Lei - RON (lei)</option><option value="87" data-code="RUB" data-symbol="руб" data-rate="">Rubles - RUB (руб)</option><option value="88" data-code="SHP" data-symbol="£" data-rate="">Pounds - SHP (£)</option><option value="89" data-code="SAR" data-symbol="﷼" data-rate="">Riyals - SAR (﷼)</option><option value="90" data-code="RSD" data-symbol="Дин." data-rate="">Dinars - RSD (Дин.)</option><option value="91" data-code="SCR" data-symbol="₨" data-rate="">Rupees - SCR (₨)</option><option value="92" data-code="SGD" data-symbol="$" data-rate="">Dollars - SGD ($)</option><option value="93" data-code="SBD" data-symbol="$" data-rate="">Dollars - SBD ($)</option><option value="94" data-code="SOS" data-symbol="S" data-rate="">Shillings - SOS (S)</option><option value="95" data-code="ZAR" data-symbol="R" data-rate="">Rand - ZAR (R)</option><option value="96" data-code="LKR" data-symbol="₨" data-rate="">Rupees - LKR (₨)</option><option value="97" data-code="SEK" data-symbol="kr" data-rate="">Kronor - SEK (kr)</option><option value="98" data-code="SRD" data-symbol="$" data-rate="">Dollars - SRD ($)</option><option value="99" data-code="SYP" data-symbol="£" data-rate="">Pounds - SYP (£)</option><option value="100" data-code="TWD" data-symbol="NT$" data-rate="">New Dollars - TWD (NT$)</option><option value="101" data-code="THB" data-symbol="฿" data-rate="56.890123">Baht - THB (฿)</option><option value="102" data-code="TTD" data-symbol="TT$" data-rate="">Dollars - TTD (TT$)</option><option value="103" data-code="TRY" data-symbol="₺" data-rate="">Lira - TRY (₺)</option><option value="104" data-code="TRL" data-symbol="£" data-rate="">Liras - TRL (£)</option><option value="105" data-code="TVD" data-symbol="$" data-rate="">Dollars - TVD ($)</option><option value="106" data-code="UAH" data-symbol="₴" data-rate="">Hryvnia - UAH (₴)</option><option value="107" data-code="UYU" data-symbol="$U" data-rate="">Pesos - UYU ($U)</option><option value="108" data-code="UZS" data-symbol="лв" data-rate="">Sums - UZS (лв)</option><option value="109" data-code="VEF" data-symbol="Bs" data-rate="">Bolivares Fuertes - VEF (Bs)</option><option value="110" data-code="VND" data-symbol="₫" data-rate="">Dong - VND (₫)</option><option value="111" data-code="YER" data-symbol="﷼" data-rate="">Rials - YER (﷼)</option><option value="112" data-code="ZWD" data-symbol="Z$" data-rate="">Zimbabwe Dollars - ZWD (Z$)</option></select><span class="select2 select2-container select2-container--default" dir="ltr" data-select2-id="select2-data-6-q618" style="width: 416.667px;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-exchange-currency-container"><span class="select2-selection__rendered" id="select2-exchange-currency-container" role="textbox" aria-readonly="true" title="Select Currency">Select Currency</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+                                                              </div>
+                          <div class="form-group col-lg-4 col-md-12">
+                              <label for="currency">Exchange Rate</label>
+                              <input type="number" id="exchange_rate" name="exchange_rate" class="form-control" value="" autocomplete="off" min="0.01" step="any">
+                                                                  <span class="error_exchange_rate" style="font-size: 13px;
+                              font-weight: 500;
+                              color: red;
+                              display: block;
+                              font-style: italic;
+                              text-align: left;
+                              padding-left: 19px;
+                              padding-top: 5px; display:none;">The exchange rate field is required when exchange currency is present.</span>
+                              <label class="currency_exchange_inner" style="display:none">1 <span class="exchange_currency_label"></span> =
+                              INR
+                              (₹) <span class="exchange_currency_rate"></span> </label>
+                              <label class="currency_exchange_inner" style="display:none">1
+                              INR
+                              (₹) = <span class="exchange_currency_label"></span>
+                              <span id="total_with_exchange">0</span> </label>
+
+                          </div>
+
+                      </div>
+                  </div>
+                  <div class="col-sm-6 form-group">
+                          <label for="notes col-sm-12">Notes</label>
+                          <textarea class="form-control ckeditor" name="notes" id="notes" style="visibility: hidden; display: none;"></textarea><div id="cke_notes" class="cke_1 cke cke_reset cke_chrome cke_editor_notes cke_ltr cke_browser_webkit cke_browser_quirks" dir="ltr" lang="en-gb" role="application" aria-labelledby="cke_notes_arialbl"><span id="cke_notes_arialbl" class="cke_voice_label">Rich Text Editor, notes</span><div class="cke_inner cke_reset" role="presentation"><span id="cke_1_top" class="cke_top cke_reset_all" role="presentation" style="height: auto; user-select: none;"><span id="cke_7" class="cke_voice_label">Editor toolbars</span><span id="cke_1_toolbox" class="cke_toolbox" role="group" aria-labelledby="cke_7" onmousedown="return false;"><span id="cke_10" class="cke_toolbar" aria-labelledby="cke_10_label" role="toolbar"><span id="cke_10_label" class="cke_voice_label">Clipboard/Undo</span><span class="cke_toolbar_start"></span><span class="cke_toolgroup" role="presentation"><a id="cke_11" class="cke_button cke_button__cut cke_button_disabled " href="javascript:void('Cut')" title="Cut" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_11_label" aria-haspopup="false" aria-disabled="true" onkeydown="return CKEDITOR.tools.callFunction(2,event);" onfocus="return CKEDITOR.tools.callFunction(3,event);" onclick="CKEDITOR.tools.callFunction(4,this);return false;"><span class="cke_button_icon cke_button__cut_icon" style="background-image:url(https://cdn.ckeditor.com/4.4.7/standard-all/plugins/icons.png?t=F0RD);background-position:0 -312px;background-size:auto;">&nbsp;</span><span id="cke_11_label" class="cke_button_label cke_button__cut_label" aria-hidden="false">Cut</span></a><a id="cke_12" class="cke_button cke_button__copy cke_button_disabled " href="javascript:void('Copy')" title="Copy" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_12_label" aria-haspopup="false" aria-disabled="true" onkeydown="return CKEDITOR.tools.callFunction(5,event);" onfocus="return CKEDITOR.tools.callFunction(6,event);" onclick="CKEDITOR.tools.callFunction(7,this);return false;"><span class="cke_button_icon cke_button__copy_icon" style="background-image:url(https://cdn.ckeditor.com/4.4.7/standard-all/plugins/icons.png?t=F0RD);background-position:0 -264px;background-size:auto;">&nbsp;</span><span id="cke_12_label" class="cke_button_label cke_button__copy_label" aria-hidden="false">Copy</span></a><a id="cke_13" class="cke_button cke_button__paste  cke_button_off" href="javascript:void('Paste')" title="Paste" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_13_label" aria-haspopup="false" onkeydown="return CKEDITOR.tools.callFunction(8,event);" onfocus="return CKEDITOR.tools.callFunction(9,event);" onclick="CKEDITOR.tools.callFunction(10,this);return false;"><span class="cke_button_icon cke_button__paste_icon" style="background-image:url(https://cdn.ckeditor.com/4.4.7/standard-all/plugins/icons.png?t=F0RD);background-position:0 -360px;background-size:auto;">&nbsp;</span><span id="cke_13_label" class="cke_button_label cke_button__paste_label" aria-hidden="false">Paste</span></a><a id="cke_14" class="cke_button cke_button__pastetext  cke_button_off" href="javascript:void('Paste as plain text')" title="Paste as plain text" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_14_label" aria-haspopup="false" onkeydown="return CKEDITOR.tools.callFunction(11,event);" onfocus="return CKEDITOR.tools.callFunction(12,event);" onclick="CKEDITOR.tools.callFunction(13,this);return false;"><span class="cke_button_icon cke_button__pastetext_icon" style="background-image:url(https://cdn.ckeditor.com/4.4.7/standard-all/plugins/icons.png?t=F0RD);background-position:0 -1608px;background-size:auto;">&nbsp;</span><span id="cke_14_label" class="cke_button_label cke_button__pastetext_label" aria-hidden="false">Paste as plain text</span></a><a id="cke_15" class="cke_button cke_button__pastefromword  cke_button_off" href="javascript:void('Paste from Word')" title="Paste from Word" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_15_label" aria-haspopup="false" onkeydown="return CKEDITOR.tools.callFunction(14,event);" onfocus="return CKEDITOR.tools.callFunction(15,event);" onclick="CKEDITOR.tools.callFunction(16,this);return false;"><span class="cke_button_icon cke_button__pastefromword_icon" style="background-image:url(https://cdn.ckeditor.com/4.4.7/standard-all/plugins/icons.png?t=F0RD);background-position:0 -1560px;background-size:auto;">&nbsp;</span><span id="cke_15_label" class="cke_button_label cke_button__pastefromword_label" aria-hidden="false">Paste from Word</span></a><span class="cke_toolbar_separator" role="separator"></span><a id="cke_16" class="cke_button cke_button__undo cke_button_disabled " href="javascript:void('Undo')" title="Undo" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_16_label" aria-haspopup="false" aria-disabled="true" onkeydown="return CKEDITOR.tools.callFunction(17,event);" onfocus="return CKEDITOR.tools.callFunction(18,event);" onclick="CKEDITOR.tools.callFunction(19,this);return false;"><span class="cke_button_icon cke_button__undo_icon" style="background-image:url(https://cdn.ckeditor.com/4.4.7/standard-all/plugins/icons.png?t=F0RD);background-position:0 -2184px;background-size:auto;">&nbsp;</span><span id="cke_16_label" class="cke_button_label cke_button__undo_label" aria-hidden="false">Undo</span></a><a id="cke_17" class="cke_button cke_button__redo cke_button_disabled " href="javascript:void('Redo')" title="Redo" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_17_label" aria-haspopup="false" aria-disabled="true" onkeydown="return CKEDITOR.tools.callFunction(20,event);" onfocus="return CKEDITOR.tools.callFunction(21,event);" onclick="CKEDITOR.tools.callFunction(22,this);return false;"><span class="cke_button_icon cke_button__redo_icon" style="background-image:url(https://cdn.ckeditor.com/4.4.7/standard-all/plugins/icons.png?t=F0RD);background-position:0 -2136px;background-size:auto;">&nbsp;</span><span id="cke_17_label" class="cke_button_label cke_button__redo_label" aria-hidden="false">Redo</span></a></span><span class="cke_toolbar_end"></span></span><span id="cke_18" class="cke_toolbar" aria-labelledby="cke_18_label" role="toolbar"><span id="cke_18_label" class="cke_voice_label">Editing</span><span class="cke_toolbar_start"></span><span class="cke_toolgroup" role="presentation"><a id="cke_19" class="cke_button cke_button__scayt cke_button_off " href="javascript:void('Spell Checker')" title="Spell Checker" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_19_label" aria-haspopup="true" onkeydown="return CKEDITOR.tools.callFunction(23,event);" onfocus="return CKEDITOR.tools.callFunction(24,event);" onclick="CKEDITOR.tools.callFunction(25,this);return false;"><span class="cke_button_icon cke_button__scayt_icon" style="background-image:url(https://cdn.ckeditor.com/4.4.7/standard-all/plugins/icons.png?t=F0RD);background-position:0 -1776px;background-size:auto;">&nbsp;</span><span id="cke_19_label" class="cke_button_label cke_button__scayt_label" aria-hidden="false">Spell Check As You Type</span><span class="cke_button_arrow"></span></a></span><span class="cke_toolbar_end"></span></span><span id="cke_20" class="cke_toolbar" aria-labelledby="cke_20_label" role="toolbar"><span id="cke_20_label" class="cke_voice_label">Links</span><span class="cke_toolbar_start"></span><span class="cke_toolgroup" role="presentation"><a id="cke_21" class="cke_button cke_button__link  cke_button_off" href="javascript:void('Link')" title="Link" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_21_label" aria-haspopup="false" onkeydown="return CKEDITOR.tools.callFunction(26,event);" onfocus="return CKEDITOR.tools.callFunction(27,event);" onclick="CKEDITOR.tools.callFunction(28,this);return false;"><span class="cke_button_icon cke_button__link_icon" style="background-image:url(https://cdn.ckeditor.com/4.4.7/standard-all/plugins/icons.png?t=F0RD);background-position:0 -1248px;background-size:auto;">&nbsp;</span><span id="cke_21_label" class="cke_button_label cke_button__link_label" aria-hidden="false">Link</span></a><a id="cke_22" class="cke_button cke_button__unlink cke_button_disabled " href="javascript:void('Unlink')" title="Unlink" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_22_label" aria-haspopup="false" aria-disabled="true" onkeydown="return CKEDITOR.tools.callFunction(29,event);" onfocus="return CKEDITOR.tools.callFunction(30,event);" onclick="CKEDITOR.tools.callFunction(31,this);return false;"><span class="cke_button_icon cke_button__unlink_icon" style="background-image:url(https://cdn.ckeditor.com/4.4.7/standard-all/plugins/icons.png?t=F0RD);background-position:0 -1272px;background-size:auto;">&nbsp;</span><span id="cke_22_label" class="cke_button_label cke_button__unlink_label" aria-hidden="false">Unlink</span></a><a id="cke_23" class="cke_button cke_button__anchor  cke_button_off" href="javascript:void('Anchor')" title="Anchor" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_23_label" aria-haspopup="false" onkeydown="return CKEDITOR.tools.callFunction(32,event);" onfocus="return CKEDITOR.tools.callFunction(33,event);" onclick="CKEDITOR.tools.callFunction(34,this);return false;"><span class="cke_button_icon cke_button__anchor_icon" style="background-image:url(https://cdn.ckeditor.com/4.4.7/standard-all/plugins/icons.png?t=F0RD);background-position:0 -1224px;background-size:auto;">&nbsp;</span><span id="cke_23_label" class="cke_button_label cke_button__anchor_label" aria-hidden="false">Anchor</span></a></span><span class="cke_toolbar_end"></span></span><span id="cke_24" class="cke_toolbar" aria-labelledby="cke_24_label" role="toolbar"><span id="cke_24_label" class="cke_voice_label">Insert</span><span class="cke_toolbar_start"></span><span class="cke_toolgroup" role="presentation"><a id="cke_25" class="cke_button cke_button__image  cke_button_off" href="javascript:void('Image')" title="Image" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_25_label" aria-haspopup="false" onkeydown="return CKEDITOR.tools.callFunction(35,event);" onfocus="return CKEDITOR.tools.callFunction(36,event);" onclick="CKEDITOR.tools.callFunction(37,this);return false;"><span class="cke_button_icon cke_button__image_icon" style="background-image:url(https://cdn.ckeditor.com/4.4.7/standard-all/plugins/icons.png?t=F0RD);background-position:0 -960px;background-size:auto;">&nbsp;</span><span id="cke_25_label" class="cke_button_label cke_button__image_label" aria-hidden="false">Image</span></a><a id="cke_26" class="cke_button cke_button__table  cke_button_off" href="javascript:void('Table')" title="Table" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_26_label" aria-haspopup="false" onkeydown="return CKEDITOR.tools.callFunction(38,event);" onfocus="return CKEDITOR.tools.callFunction(39,event);" onclick="CKEDITOR.tools.callFunction(40,this);return false;"><span class="cke_button_icon cke_button__table_icon" style="background-image:url(https://cdn.ckeditor.com/4.4.7/standard-all/plugins/icons.png?t=F0RD);background-position:0 -2016px;background-size:auto;">&nbsp;</span><span id="cke_26_label" class="cke_button_label cke_button__table_label" aria-hidden="false">Table</span></a><a id="cke_27" class="cke_button cke_button__horizontalrule  cke_button_off" href="javascript:void('Insert Horizontal Line')" title="Insert Horizontal Line" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_27_label" aria-haspopup="false" onkeydown="return CKEDITOR.tools.callFunction(41,event);" onfocus="return CKEDITOR.tools.callFunction(42,event);" onclick="CKEDITOR.tools.callFunction(43,this);return false;"><span class="cke_button_icon cke_button__horizontalrule_icon" style="background-image:url(https://cdn.ckeditor.com/4.4.7/standard-all/plugins/icons.png?t=F0RD);background-position:0 -912px;background-size:auto;">&nbsp;</span><span id="cke_27_label" class="cke_button_label cke_button__horizontalrule_label" aria-hidden="false">Insert Horizontal Line</span></a><a id="cke_28" class="cke_button cke_button__specialchar  cke_button_off" href="javascript:void('Insert Special Character')" title="Insert Special Character" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_28_label" aria-haspopup="false" onkeydown="return CKEDITOR.tools.callFunction(44,event);" onfocus="return CKEDITOR.tools.callFunction(45,event);" onclick="CKEDITOR.tools.callFunction(46,this);return false;"><span class="cke_button_icon cke_button__specialchar_icon" style="background-image:url(https://cdn.ckeditor.com/4.4.7/standard-all/plugins/icons.png?t=F0RD);background-position:0 -1992px;background-size:auto;">&nbsp;</span><span id="cke_28_label" class="cke_button_label cke_button__specialchar_label" aria-hidden="false">Insert Special Character</span></a></span><span class="cke_toolbar_end"></span></span><span id="cke_29" class="cke_toolbar" aria-labelledby="cke_29_label" role="toolbar"><span id="cke_29_label" class="cke_voice_label">Tools</span><span class="cke_toolbar_start"></span><span class="cke_toolgroup" role="presentation"><a id="cke_30" class="cke_button cke_button__maximize  cke_button_off" href="javascript:void('Maximise')" title="Maximise" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_30_label" aria-haspopup="false" onkeydown="return CKEDITOR.tools.callFunction(47,event);" onfocus="return CKEDITOR.tools.callFunction(48,event);" onclick="CKEDITOR.tools.callFunction(49,this);return false;"><span class="cke_button_icon cke_button__maximize_icon" style="background-image:url(https://cdn.ckeditor.com/4.4.7/standard-all/plugins/icons.png?t=F0RD);background-position:0 -1416px;background-size:auto;">&nbsp;</span><span id="cke_30_label" class="cke_button_label cke_button__maximize_label" aria-hidden="false">Maximise</span></a></span><span class="cke_toolbar_end"></span></span><span id="cke_31" class="cke_toolbar" aria-labelledby="cke_31_label" role="toolbar"><span id="cke_31_label" class="cke_voice_label">Document</span><span class="cke_toolbar_start"></span><span class="cke_toolgroup" role="presentation"><a id="cke_32" class="cke_button cke_button__source  cke_button_off" href="javascript:void('Source')" title="Source" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_32_label" aria-haspopup="false" onkeydown="return CKEDITOR.tools.callFunction(50,event);" onfocus="return CKEDITOR.tools.callFunction(51,event);" onclick="CKEDITOR.tools.callFunction(52,this);return false;"><span class="cke_button_icon cke_button__source_icon" style="background-image:url(https://cdn.ckeditor.com/4.4.7/standard-all/plugins/icons.png?t=F0RD);background-position:0 -1920px;background-size:auto;">&nbsp;</span><span id="cke_32_label" class="cke_button_label cke_button__source_label" aria-hidden="false">Source</span></a></span><span class="cke_toolbar_end"></span></span><span class="cke_toolbar_break"></span><span id="cke_33" class="cke_toolbar" aria-labelledby="cke_33_label" role="toolbar"><span id="cke_33_label" class="cke_voice_label">Basic Styles</span><span class="cke_toolbar_start"></span><span class="cke_toolgroup" role="presentation"><a id="cke_34" class="cke_button cke_button__bold  cke_button_off" href="javascript:void('Bold')" title="Bold" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_34_label" aria-haspopup="false" onkeydown="return CKEDITOR.tools.callFunction(53,event);" onfocus="return CKEDITOR.tools.callFunction(54,event);" onclick="CKEDITOR.tools.callFunction(55,this);return false;"><span class="cke_button_icon cke_button__bold_icon" style="background-image:url(https://cdn.ckeditor.com/4.4.7/standard-all/plugins/icons.png?t=F0RD);background-position:0 -24px;background-size:auto;">&nbsp;</span><span id="cke_34_label" class="cke_button_label cke_button__bold_label" aria-hidden="false">Bold</span></a><a id="cke_35" class="cke_button cke_button__italic  cke_button_off" href="javascript:void('Italic')" title="Italic" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_35_label" aria-haspopup="false" onkeydown="return CKEDITOR.tools.callFunction(56,event);" onfocus="return CKEDITOR.tools.callFunction(57,event);" onclick="CKEDITOR.tools.callFunction(58,this);return false;"><span class="cke_button_icon cke_button__italic_icon" style="background-image:url(https://cdn.ckeditor.com/4.4.7/standard-all/plugins/icons.png?t=F0RD);background-position:0 -48px;background-size:auto;">&nbsp;</span><span id="cke_35_label" class="cke_button_label cke_button__italic_label" aria-hidden="false">Italic</span></a><a id="cke_36" class="cke_button cke_button__strike  cke_button_off" href="javascript:void('Strike Through')" title="Strike Through" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_36_label" aria-haspopup="false" onkeydown="return CKEDITOR.tools.callFunction(59,event);" onfocus="return CKEDITOR.tools.callFunction(60,event);" onclick="CKEDITOR.tools.callFunction(61,this);return false;"><span class="cke_button_icon cke_button__strike_icon" style="background-image:url(https://cdn.ckeditor.com/4.4.7/standard-all/plugins/icons.png?t=F0RD);background-position:0 -72px;background-size:auto;">&nbsp;</span><span id="cke_36_label" class="cke_button_label cke_button__strike_label" aria-hidden="false">Strike Through</span></a><span class="cke_toolbar_separator" role="separator"></span><a id="cke_37" class="cke_button cke_button__removeformat  cke_button_off" href="javascript:void('Remove Format')" title="Remove Format" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_37_label" aria-haspopup="false" onkeydown="return CKEDITOR.tools.callFunction(62,event);" onfocus="return CKEDITOR.tools.callFunction(63,event);" onclick="CKEDITOR.tools.callFunction(64,this);return false;"><span class="cke_button_icon cke_button__removeformat_icon" style="background-image:url(https://cdn.ckeditor.com/4.4.7/standard-all/plugins/icons.png?t=F0RD);background-position:0 -1728px;background-size:auto;">&nbsp;</span><span id="cke_37_label" class="cke_button_label cke_button__removeformat_label" aria-hidden="false">Remove Format</span></a></span><span class="cke_toolbar_end"></span></span><span id="cke_38" class="cke_toolbar" aria-labelledby="cke_38_label" role="toolbar"><span id="cke_38_label" class="cke_voice_label">Paragraph</span><span class="cke_toolbar_start"></span><span class="cke_toolgroup" role="presentation"><a id="cke_39" class="cke_button cke_button__numberedlist  cke_button_off" href="javascript:void('Insert/Remove Numbered List')" title="Insert/Remove Numbered List" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_39_label" aria-haspopup="false" onkeydown="return CKEDITOR.tools.callFunction(65,event);" onfocus="return CKEDITOR.tools.callFunction(66,event);" onclick="CKEDITOR.tools.callFunction(67,this);return false;"><span class="cke_button_icon cke_button__numberedlist_icon" style="background-image:url(https://cdn.ckeditor.com/4.4.7/standard-all/plugins/icons.png?t=F0RD);background-position:0 -1368px;background-size:auto;">&nbsp;</span><span id="cke_39_label" class="cke_button_label cke_button__numberedlist_label" aria-hidden="false">Insert/Remove Numbered List</span></a><a id="cke_40" class="cke_button cke_button__bulletedlist  cke_button_off" href="javascript:void('Insert/Remove Bulleted List')" title="Insert/Remove Bulleted List" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_40_label" aria-haspopup="false" onkeydown="return CKEDITOR.tools.callFunction(68,event);" onfocus="return CKEDITOR.tools.callFunction(69,event);" onclick="CKEDITOR.tools.callFunction(70,this);return false;"><span class="cke_button_icon cke_button__bulletedlist_icon" style="background-image:url(https://cdn.ckeditor.com/4.4.7/standard-all/plugins/icons.png?t=F0RD);background-position:0 -1320px;background-size:auto;">&nbsp;</span><span id="cke_40_label" class="cke_button_label cke_button__bulletedlist_label" aria-hidden="false">Insert/Remove Bulleted List</span></a><span class="cke_toolbar_separator" role="separator"></span><a id="cke_41" class="cke_button cke_button__outdent cke_button_disabled " href="javascript:void('Decrease Indent')" title="Decrease Indent" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_41_label" aria-haspopup="false" aria-disabled="true" onkeydown="return CKEDITOR.tools.callFunction(71,event);" onfocus="return CKEDITOR.tools.callFunction(72,event);" onclick="CKEDITOR.tools.callFunction(73,this);return false;"><span class="cke_button_icon cke_button__outdent_icon" style="background-image:url(https://cdn.ckeditor.com/4.4.7/standard-all/plugins/icons.png?t=F0RD);background-position:0 -1056px;background-size:auto;">&nbsp;</span><span id="cke_41_label" class="cke_button_label cke_button__outdent_label" aria-hidden="false">Decrease Indent</span></a><a id="cke_42" class="cke_button cke_button__indent  cke_button_off" href="javascript:void('Increase Indent')" title="Increase Indent" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_42_label" aria-haspopup="false" onkeydown="return CKEDITOR.tools.callFunction(74,event);" onfocus="return CKEDITOR.tools.callFunction(75,event);" onclick="CKEDITOR.tools.callFunction(76,this);return false;"><span class="cke_button_icon cke_button__indent_icon" style="background-image:url(https://cdn.ckeditor.com/4.4.7/standard-all/plugins/icons.png?t=F0RD);background-position:0 -1008px;background-size:auto;">&nbsp;</span><span id="cke_42_label" class="cke_button_label cke_button__indent_label" aria-hidden="false">Increase Indent</span></a><span class="cke_toolbar_separator" role="separator"></span><a id="cke_43" class="cke_button cke_button__blockquote  cke_button_off" href="javascript:void('Block Quote')" title="Block Quote" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_43_label" aria-haspopup="false" onkeydown="return CKEDITOR.tools.callFunction(77,event);" onfocus="return CKEDITOR.tools.callFunction(78,event);" onclick="CKEDITOR.tools.callFunction(79,this);return false;"><span class="cke_button_icon cke_button__blockquote_icon" style="background-image:url(https://cdn.ckeditor.com/4.4.7/standard-all/plugins/icons.png?t=F0RD);background-position:0 -216px;background-size:auto;">&nbsp;</span><span id="cke_43_label" class="cke_button_label cke_button__blockquote_label" aria-hidden="false">Block Quote</span></a></span><span class="cke_toolbar_end"></span></span><span id="cke_44" class="cke_toolbar" aria-labelledby="cke_44_label" role="toolbar"><span id="cke_44_label" class="cke_voice_label">Styles</span><span class="cke_toolbar_start"></span><span id="cke_8" class="cke_combo cke_combo__styles  cke_combo_off" role="presentation"><span id="cke_8_label" class="cke_combo_label">Styles</span><a class="cke_combo_button" title="Formatting Styles" tabindex="-1" href="javascript:void('Formatting Styles')" hidefocus="true" role="button" aria-labelledby="cke_8_label" aria-haspopup="true" onkeydown="return CKEDITOR.tools.callFunction(81,event,this);" onfocus="return CKEDITOR.tools.callFunction(82,event);" onclick="CKEDITOR.tools.callFunction(80,this);return false;"><span id="cke_8_text" class="cke_combo_text cke_combo_inlinelabel">Styles</span><span class="cke_combo_open"><span class="cke_combo_arrow"></span></span></a></span><span id="cke_9" class="cke_combo cke_combo__format  cke_combo_off" role="presentation"><span id="cke_9_label" class="cke_combo_label">Format</span><a class="cke_combo_button" title="Paragraph Format" tabindex="-1" href="javascript:void('Paragraph Format')" hidefocus="true" role="button" aria-labelledby="cke_9_label" aria-haspopup="true" onkeydown="return CKEDITOR.tools.callFunction(84,event,this);" onfocus="return CKEDITOR.tools.callFunction(85,event);" onclick="CKEDITOR.tools.callFunction(83,this);return false;"><span id="cke_9_text" class="cke_combo_text cke_combo_inlinelabel">Format</span><span class="cke_combo_open"><span class="cke_combo_arrow"></span></span></a></span><span class="cke_toolbar_end"></span></span><span id="cke_45" class="cke_toolbar" aria-labelledby="cke_45_label" role="toolbar"><span id="cke_45_label" class="cke_voice_label">about</span><span class="cke_toolbar_start"></span><span class="cke_toolgroup" role="presentation"><a id="cke_46" class="cke_button cke_button__about  cke_button_off" href="javascript:void('About CKEditor')" title="About CKEditor" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_46_label" aria-haspopup="false" onkeydown="return CKEDITOR.tools.callFunction(86,event);" onfocus="return CKEDITOR.tools.callFunction(87,event);" onclick="CKEDITOR.tools.callFunction(88,this);return false;"><span class="cke_button_icon cke_button__about_icon" style="background-image:url(https://cdn.ckeditor.com/4.4.7/standard-all/plugins/icons.png?t=F0RD);background-position:0 0px;background-size:auto;">&nbsp;</span><span id="cke_46_label" class="cke_button_label cke_button__about_label" aria-hidden="false">About CKEditor</span></a></span><span class="cke_toolbar_end"></span></span></span></span><div id="cke_1_contents" class="cke_contents cke_reset" role="presentation" style="height: 200px;"><span id="cke_51" class="cke_voice_label">Press ALT 0 for help</span><iframe src="" frameborder="0" class="cke_wysiwyg_frame cke_reset" style="width: 100%; height: 100%;" title="Rich Text Editor, notes" aria-describedby="cke_51" tabindex="0" allowtransparency="true"></iframe></div><span id="cke_1_bottom" class="cke_bottom cke_reset_all" role="presentation" style="user-select: none;"><span id="cke_1_resizer" class="cke_resizer cke_resizer_vertical cke_resizer_ltr" title="Drag to resize" onmousedown="CKEDITOR.tools.callFunction(1, event)">◢</span><span id="cke_1_path_label" class="cke_voice_label">Elements path</span><span id="cke_1_path" class="cke_path" role="group" aria-labelledby="cke_1_path_label"><span class="cke_path_empty">&nbsp;</span></span></span></div></div>
+                  </div>
+                  <div class="form-group col-sm-6">
+                      <label for="bank_account">Bank Account <span>*</span></label>
+                      
+                      <select class="form-control single-search-selection select2-hidden-accessible" id="bank_account" required="required" name="bank_account" data-select2-id="select2-data-bank_account" tabindex="-1" aria-hidden="true" aria-required="true"><option value="" data-select2-id="select2-data-9-81e2">Please select account</option></select><span class="select2 select2-container select2-container--default" dir="ltr" data-select2-id="select2-data-8-br5l" style="width: 416.667px;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-bank_account-container"><span class="select2-selection__rendered" id="select2-bank_account-container" role="textbox" aria-readonly="true" title="Please select account">Please select account</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+                                              </div>
+                  <div class="form-group col-sm-6">
+                      <label for="waytopay">Method of Payment <span>*</span></label>
+                      <select class="form-control" id="payment_method" required="required" name="payment_method" aria-required="true"><option value="cash">Cash</option><option value="deposit">Deposit</option><option value="transfer">Transfer</option><option value="check">Check</option><option value="credit_card">Credit Card</option><option value="debit_card">Debit Card</option><option value="bank_transfer">Bank Transfer</option><option value="wire_transfer">Wire Transfer</option><option value="ach_transfer">ACH Transfer</option><option value="business_credit_card">Business Credit Card</option><option value="paypal">PayPal</option><option value="zelle">Zelle</option><option value="cashapp">CashApp</option><option value="venmo">Venmo</option><option value="payoneer">Payoneer</option><option value="cryptocurrencies">Cryptocurrencies</option><option value="remittances">Remittances</option><option value="skrill">Skrill</option><option value="wallet">Wallet</option><option value="gift_card">Gift Card</option></select>
+                  </div>
+
+
+
+
+                  <div class="col-sm-6 form-group">
+                      <label for="image">Attachaments (.PDF, .PNG, .JPEG, .JPG, .csv, .xsl)</label>
+                          <div class="form-control dropzone dz-clickable" id="document-dropzone">
+                              <div class="dz-message" data-dz-message=""><span>Drop files here to upload</span></div>
+                      </div>
+                      <span class="error" role="alert" id="document-error" style="display:none"></span>
+                  </div>
+
+
+
+                    </div>
+
+
+
+
+
+
+
+
+
+
+                    <div class="default-table add-invoice-table with-concept-table">
+                        <div class="list-table-custom table-responsive rounded mt-4">
+                                <table class="table table-striped table-secondary mb-0" id="concept_items">
+                                <thead>
+                                    <tr>
+                                        <th class="th-item">Item / Concept</th>
+                                        <th class="th-price">Price</th>
+                                        <th class="th-disc">Disc %</th>
+                                        <th class="th-tax">Tax</th>
+                                        <th class="th-tax_amount">Taxes</th>
+                                        <!-- <th class="th-description">Description</th> -->
+                                        <th class="th-quantity">Quantity</th>
+                                        <th class="th-total">Total</th>
+                                        <th> </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+
+
+                                        <td class="td-concept">
+                                                <div class="dropdown hierarchy-select hierarchy-form-element hierarchy-select-group-by" id="concept-multilevelselect-0" style="min-width: 373px;">
+                                                    <button type="button" class="btn btn-secondary dropdown-toggle" id="concept-multilevelselect-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select Concept</button>
+                                                    <div class="dropdown-menu" aria-labelledby="concept-multilevelselect-button" style="overflow: hidden;">
+                                                        <div class="hs-searchbox">
+                                                            <input type="text" class="form-control" autocomplete="off" size="1">
+                                                        </div>
+                                                    </div>
+                                                    <input class="d-none" name="concepts[0][item]" readonly="readonly" aria-hidden="true" type="text" value="">
+                                                    <input type="hidden" name="concept_incr_nature-0" id="concept_incr_nature-0" class="concept_incr_nature" value="">
+                                                    <input type="hidden" name="concept_decr_nature-0" id="concept_decr_nature-0" class="concept_decr_nature" value="">
+                                                </div>
+                                                                                            </td>
+
+
+                                            <td class="td-price">
+                                                <input type="number" min="0.01" step="any" placeholder="Price" name="concepts[0][price]" id="unitprice[0]" data-id="0" class="form-control unitprice-0 concepts_unitprice_0" value="">
+                                            </td>
+                                            <td class="td-disc" style="text-align: center;">
+                                                <input type="number" min="0" max="99" pattern="^\d*(\.\d{0,2})?$" data-msg="The Discount format is invalid." placeholder="%" name="concepts[0][discount]" id="discount" class="form-control" value="0">
+                                            </td>
+                                            <td class="td-tax">
+                                                <select class="form-control small-single-search-selection select2-hidden-accessible" id="concepts[0][tax]" name="concepts[0][tax]" data-select2-id="select2-data-concepts[0][tax]" tabindex="-1" aria-hidden="true"><option value="0" data-percentage="0" data-select2-id="select2-data-8-zrx7">None (0%)</option><option value="6" data-percentage="9">CGST (9%)</option><option value="3" data-percentage="18">GST (18%)</option></select>
+                                            </td>
+                                            <td class="td-tax_amount">
+                                                <input type="text" placeholder="Taxes" name="concepts[0][tax_amount]" id="concepts[0][tax_amount]" class="form-control" readonly="" value="">
+                                            </td>
+                                            <td class="td-quantity">
+                                                <input type="hidden" name="concept_old_qty" id="concept_old_qty" value="">
+                                                <input type="hidden" name="concept_accountname" id="concept_accountname" value="">
+                                                <input type="number" placeholder="1" name="concepts[0][quantity]" id="quantity" class="form-control" min="1" value="1" data-id="0">
+                                            </td>
+                                            <td class="td-total">
+                                                <span class="exchange_currency_symbol"></span><span id="concepts[0][total]">0.00</span>
+                                            </td>
+                                            <td></td>
+                                    </tr>
+                                                                    </tbody>
+                            </table>
+                        </div>
+                        <a class="btn-custom add-concept-row-for-received mb-3 mt-3"><i class="fa fa-plus" aria-hidden="true"></i> Add Row</a>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-9"></div>
+                        <div class="col-sm-3 total-table">
+                            <div class="total-table">
+                                <table>
+                                    <tbody><tr>
+                                        <th>Subtotal</th>
+                                        <td id="invoice_basetotal">₹0.00</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Discount</th>
+                                        <td id="invoice_discount">₹0.00</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Sub Total</th>
+                                        <td id="invoice_subtotal">₹0.00</td>
+                                    </tr>
+                                    <tr class="tax_row"><th> Tax </th><td>₹0.00</td></tr><tr>
+                                        <th>Total</th>
+                                        <td id="invoice_total">₹0.00</td>
+                                    </tr>
+                                    <tr class="total_exchanged_rate" style="display:none">
+                                        <th>Total <span class="total-ex-currency-label"></span></th>
+                                        <td> <span class="total-ex-currency-label-symbol"></span><span id="total-ex-currency-rate"></span></td>
+                                    </tr>
+                                    <tr class="total_currency_exchange-tr">
+                                        <th>
+                                            <label class="total_currency_exchange_inner" style="display:none">1 <span class="exchange_currency_label"></span> =
+                                                INR
+                                                (₹) <span class="exchange_currency_rate"></span> </label>
+                                        </th>
+                                    </tr>
+                                </tbody></table>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+
+                </div>
+              </div>
+                <div class="form-group popup-btns d-flex justify-content-end" id="invoice_button_div" style="column-gap: 5px;">
+                    <button type="button" name="cancel" class="btn-custom cancel-btn">Cancel</button>
+                    <button type="submit" name="submit" class="btn-custom documents-submit-btn">Save</button>
+                </div>
+            
+        </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+<div class="clearfix"></div>
+            </div>
+        </section>
+
+            </div>  
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdn.ckeditor.com/4.4.7/standard-all/ckeditor.js"></script>
+</body>
+</html>

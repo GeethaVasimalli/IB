@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta
+      name="author"
+      content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
+    />
+    <meta name="generator" content="Hugo 0.98.0" />
+    <title>INNERS BOOKS</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" rel="stylesheet"> -->
+
+    <!-- Custom styles for this template -->
+    <!-- <link href="css/customstyles.css" rel="stylesheet"> -->
+    
+    <link href="css/restaurant_style.css" rel="stylesheet" />
+    <link href="css/supermarket_extra_style.css" rel="stylesheet" />
+  </head>
+  <body>
+<div id="app" class="main-wrapper">
+  <main id="app">
+    <div>
+      <div>
+        <nav role="navigation" class="real-menu">
+          <h5 class="text-center pt-2 mb-3 side-heading">
+            <a href="javascript:void(0)">
+              <button class="shift-btn-sidebar">Close shift</button>
+            </a>
+          </h5>
+          <h6 class="account-id pl-4 mb-2">s ID: 00123</h6>
+          <ul class="side_item p-0">
+            <li class="active router-link-active">
+              <a href="#/Home" aria-current="page">
+                <i class="fa fa-home"></i> Home </a>
+            </li>
+            <li class="">
+              <a href="#/activeOrder">
+                <i class="fa fa-first-order"></i> active order </a>
+            </li>
+            <li class="">
+              <a href="#/kitchen">
+                <i class="fa fa-cutlery"></i> kitchen </a>
+            </li>
+            <li class="">
+              <a href="#/tables">
+                <i class="fa fa-table"></i> Table </a>
+            </li>
+            <li class="">
+              <a href="#/categories">
+                <i class="fa fa-shopping-cart"></i> Categories </a>
+            </li>
+            <li class="">
+              <a href="#/myOrders">
+                <i class="fa fa-first-order"></i> Orders </a>
+            </li>
+            <li class="">
+              <a href="#/restaurantShifts">
+                <i class="fa fa-first-order"></i> Shifts </a>
+            </li>
+            <li>
+              <a href="javascript:void(0)" data-toggle="modal" data-target="#setting">
+                <i class="fa fa-cogs"></i> setting </a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">
+                <i class="fa fa-info-circle"></i> Help </a>
+            </li>
+            <li>
+              <a href="https://portal.kedasrd.com">
+                <i class="fa fa-sign-out"></i> Exit </a>
+            </li>
+          </ul>
+        </nav>
+        <div id="setting" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true" class="modal fade">
+          <div role="document" class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+              <div class="modal-header cash-header d-flex justify-content-end">
+                <button data-dismiss="modal" aria-label="Close" class="close-btn">
+                  <i class="fa fa-times"></i>
+                </button>
+              </div>
+              <div class="modal-body pt-1">
+                <div class="row d-block">
+                  <h5 class="cash-heading">setting</h5>
+                </div>
+                <div class="row">
+                  <div class="col-lg-8 m-auto">
+                    <div class="row mt-3 form-group">
+                      <div class="col-lg-3 col-form-label">
+                        <label>NCF</label>
+                      </div>
+                      <div class="col-lg-9">
+                        <div class="form-group">
+                          <div class="dropdown bootstrap-select form-control">
+                            <select data-live-search="true" class="form-control">
+                              <option value="">Select NCF</option>
+                              <option value="14"> ANOTHER</option>
+                            </select>
+                            <button type="button" tabindex="-1" class="btn dropdown-toggle btn-light" data-toggle="dropdown" role="combobox" aria-owns="bs-select-4" aria-haspopup="listbox" aria-expanded="false" title="ANOTHER">
+                              <div class="filter-option">
+                                <div class="filter-option-inner">
+                                  <div class="filter-option-inner-inner">ANOTHER</div>
+                                </div>
+                              </div>
+                            </button>
+                            <div class="dropdown-menu ">
+                              <div class="bs-searchbox">
+                                <input type="search" class="form-control" autocomplete="off" role="combobox" aria-label="Search" aria-controls="bs-select-4" aria-autocomplete="list">
+                              </div>
+                              <div class="inner show" role="listbox" id="bs-select-4" tabindex="-1">
+                                <ul class="dropdown-menu inner show" role="presentation"></ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row mt-3 form-group">
+                      <div class="col-lg-3 col-form-label">
+                        <label>Bank Account</label>
+                      </div>
+                      <div class="col-lg-9">
+                        <div class="form-group">
+                          <div class="dropdown bootstrap-select form-control">
+                            <select data-live-search="true" class="form-control">
+                              <option value="">Please select account</option>
+                            </select>
+                            <button type="button" tabindex="-1" class="btn dropdown-toggle btn-light bs-placeholder" data-toggle="dropdown" role="combobox" aria-owns="bs-select-5" aria-haspopup="listbox" aria-expanded="false" title="Please select account">
+                              <div class="filter-option">
+                                <div class="filter-option-inner">
+                                  <div class="filter-option-inner-inner">Please select account</div>
+                                </div>
+                              </div>
+                            </button>
+                            <div class="dropdown-menu ">
+                              <div class="bs-searchbox">
+                                <input type="search" class="form-control" autocomplete="off" role="combobox" aria-label="Search" aria-controls="bs-select-5" aria-autocomplete="list">
+                              </div>
+                              <div class="inner show" role="listbox" id="bs-select-5" tabindex="-1">
+                                <ul class="dropdown-menu inner show" role="presentation"></ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row mt-3 form-group">
+                      <div class="col-lg-3 col-form-label">
+                        <label>Wallet Bank Account</label>
+                      </div>
+                      <div class="col-lg-9">
+                        <div class="form-group">
+                          <div class="dropdown bootstrap-select form-control">
+                            <select data-live-search="true" class="form-control">
+                              <option value="">Please select account</option>
+                            </select>
+                            <button type="button" tabindex="-1" class="btn dropdown-toggle btn-light bs-placeholder" data-toggle="dropdown" role="combobox" aria-owns="bs-select-6" aria-haspopup="listbox" aria-expanded="false" title="Please select account">
+                              <div class="filter-option">
+                                <div class="filter-option-inner">
+                                  <div class="filter-option-inner-inner">Please select account</div>
+                                </div>
+                              </div>
+                            </button>
+                            <div class="dropdown-menu ">
+                              <div class="bs-searchbox">
+                                <input type="search" class="form-control" autocomplete="off" role="combobox" aria-label="Search" aria-controls="bs-select-6" aria-autocomplete="list">
+                              </div>
+                              <div class="inner show" role="listbox" id="bs-select-6" tabindex="-1">
+                                <ul class="dropdown-menu inner show" role="presentation"></ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="m-auto d-block text-center pt-4 pb-2">
+                      <a href="#" class="proceed-btn text-center mb-4">Proceed </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="openshift" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true" class="modal fade">
+          <div role="document" class="modal-dialog modal-dialog-centered ">
+            <div class="modal-content">
+              <div class="modal-header cash-header d-flex justify-content-end">
+                <button data-dismiss="modal" aria-label="Close" class="close-btn">
+                  <i class="fa fa-times"></i>
+                </button>
+              </div>
+              <div class="modal-body pt-1">
+                <div class="row d-block">
+                  <h5 class="cash-heading">Open shift</h5>
+                </div>
+                <div class="row">
+                  <div class="col-lg-8 m-auto">
+                    <p class="text-center">With the shifts you will have better cash management at your point of sale.</p>
+                    <div class="row mt-3 form-group">
+                      <div class="col-lg-12">
+                        <div class="form-group">
+                          <input type="number" min="0" placeholder="Initial base" class="form-control items-control">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="m-auto d-block text-center pt-4 pb-2">
+                      <a href="#" class="proceed-btn text-center mb-4">Submit </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="closeshift" aria-hidden="true" class="modal fade">
+          <div role="document" class="modal-dialog modal-dialog-centered ">
+            <div class="modal-content">
+              <div class="modal-header cash-header d-flex justify-content-end">
+                <button data-dismiss="modal" aria-label="Close" class="close-btn">
+                  <i class="fa fa-times"></i>
+                </button>
+              </div>
+              <div class="modal-body pt-1">
+                <div class="row d-block">
+                  <h5 class="cash-heading">Close shift</h5>
+                </div>
+                <div class="row">
+                  <div class="col-lg-10 col-md-10 m-auto">
+                    <div class="card card-body">
+                      <!---->
+                    </div>
+                  </div>
+                  <div class="col-lg-10 col-md-10 m-auto">
+                    <form class="search-form">
+                      <div class="form-group mb-4">
+                        <textarea name="" cols="30" rows="1" placeholder="Observations" class="form-control items-control"></textarea>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <div class="m-auto d-block text-center pt-4 pb-2">
+                  <a href="#" class="proceed-btn text-center mb-4">Submit </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header-sticky" search_input="">
+        <header class="header-bg">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-3 col-md-3 d-flex align-items-center">
+                <span class="main-menu">
+                  <a href="javascript:void(0)" id="open-menu">
+                    <i class="fa fa-bars mr-2"></i> Main Menu </a>
+                </span>
+              </div>
+              <div class="col-lg-4 col-md-5">
+                <form class="search-form invisible">
+                  <div class="form-group mb-0">
+                    <input type="text" placeholder="Search by items name, serial #, UPC" class="form-control search-control">
+                  </div>
+                </form>
+              </div>
+              <div class="col-lg-3 col-md-1"></div>
+              <div class="col-lg-2 col-md-3 d-flex">
+                <div class="d-flex align-items-center user-profile pl-3 pr-3">
+                  <a href="#">
+                    <img src="https://portal.kedasrd.com/storage/profile-pics/3-d53842c88dfc69c.jpg" class="user-img mr-2">
+                    <span>sachin</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+      </div>
+      <section currency_options="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]" customer="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]" setting_details="[object Object]" shift_details="[object Object]">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xl-12 col-lg-12 p-5 payment-details">
+              <div>
+                <ul class="payment-card-list p-0">
+                  <li>
+                    <a href="#/orderType" class="payment-card">New order</a>
+                  </li>
+                  <li>
+                    <a href="#/activeOrder" class="payment-card">active order</a>
+                  </li>
+                  <li>
+                    <a href="#/kitchen" class="payment-card">kitchen</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+</div>
+<script src="js/sidemenu.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+  </body>
+</html>
