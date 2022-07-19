@@ -1,0 +1,2952 @@
+@media (min-width:1680px) and (max-width:1850px) {
+    .list-table-custom.products-table {
+        overflow: auto !important;
+        padding-bottom: 80px;
+    }
+
+    .list-table-custom.products-table.table-responsive .dataTables_wrapper {
+        padding-bottom: 100px !important;
+    }
+
+    .list-table-custom.products-table.table-responsive .dataTables_wrapper td.show .dropdown-menu.show {
+        transform: translate3d(-120px, 40px, 0) !important;
+    }
+
+    .default-table.with-concept-table .list-table-custom {
+        overflow: auto !important;
+    }
+
+    table#supplier-invoice-list-table,
+    table {
+        width: 100% !important;
+    }
+
+    table.dataTable thead th,
+    table.dataTable td,
+    .descrip-notes span {
+        white-space: nowrap;
+    }
+
+    .descrip-notes {
+        white-space: nowrap;
+    }
+
+    .descrip-notes span {
+        white-space: break-spaces;
+        width: 400px;
+    }
+
+    .row.adds-row.recurring-company-details.white-bg .row {
+        position: relative;
+    }
+
+    .consumption-box {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+}
+
+@media (min-width:1440px) and (max-width:1679px) {
+
+    .coming-due td {
+        font-size: 14px;
+    }
+
+    .coming-due th {
+        font-size: 16px;
+    }
+
+    .main-wrapper header .header-left {
+        width: 60%;
+    }
+
+    .main-wrapper header .header-right {
+        width: 40%;
+        padding-right: 40px;
+    }
+
+    .help-center {
+        margin-right: 20px;
+    }
+
+    .main-wrapper header .header-right li {
+        margin-right: 15px;
+    }
+
+    .main-wrapper header .header-left .red-sec>a::before {
+        width: 30px;
+        left: 14px;
+        height: 30px;
+    }
+
+    .main-wrapper header .header-left .red-sec>a,
+    .main-wrapper header .header-left .search-sec li input[type="text"],
+    .main-wrapper header .header-right li a,
+    .main-wrapper header .john-sec a,
+    .main-wrapper header .john-sec .dropdown-menu li a,
+    .main-wrapper header .header-left .red-sec .dropdown-menu li a {
+        font-size: 15px;
+    }
+
+    .main-wrapper header .header-left .search-sec {
+        max-width: 280px
+    }
+
+    .main-wrapper header .header-left .red-sec {
+        max-width: 190px
+    }
+
+    .main-wrapper .dashboard-right .dashboard-bottom {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    .main-wrapper .dashboard-right .dashboard-bottom .dashboard-cont {
+        margin-left: 15px;
+        margin-right: 15px;
+        width: calc(50% - 34px);
+    }
+
+    h4 {
+        font-size: 17px;
+    }
+
+    .main-wrapper .dashboard-right .net-sec .net-cont li {
+        margin-right: 10px;
+    }
+
+    .main-wrapper .dashboard-right .net-sec .net-cont .expens-img {
+        padding-top: 0px;
+    }
+
+    table td.td-reference input,
+    table td.td-price input,
+    table td.td-tax select,
+    table td.td-total input {
+        width: auto !important;
+    }
+
+    td.td-quantity,
+    td.td-quantity input {
+        width: 150px !important;
+    }
+
+    td.td-disc,
+    td.td-disc input {
+        width: 120px !important;
+    }
+
+    table#concept_items td.td-concept {
+        width: 405px !important;
+        display: block;
+    }
+
+    td.td-tax_amount,
+    td.td-tax_amount input {
+        width: 158px !important;
+    }
+
+    .list-table-custom.products-table {
+        overflow: auto !important;
+        padding-bottom: 80px;
+    }
+
+    .list-table-custom.products-table.table-responsive .dataTables_wrapper {
+        padding-bottom: 100px !important;
+    }
+
+    .list-table-custom.products-table.table-responsive .dataTables_wrapper td.show .dropdown-menu.show {
+        transform: translate3d(-120px, 40px, 0) !important;
+    }
+
+    .default-table.with-concept-table .list-table-custom {
+        overflow: auto !important;
+    }
+
+    table#supplier-invoice-list-table {
+        width: 100% !important;
+    }
+
+    table#supplier-invoice-list-table,
+    table {
+        width: 100% !important;
+    }
+
+    table.dataTable thead th,
+    table.dataTable td,
+    .descrip-notes span {
+        white-space: nowrap;
+    }
+
+    .descrip-notes {
+        white-space: nowrap;
+    }
+
+    .descrip-notes span {
+        white-space: break-spaces;
+        width: 400px;
+    }
+
+    .row.adds-row.recurring-company-details.white-bg .row {
+        position: relative;
+    }
+
+    .consumption-box {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .cal-filter-cust-btns input {
+        padding: 8px;
+        margin-right: 5px;
+        width: 125px;
+    }
+
+    .dataTables_length label {
+        font-size: 14px;
+    }
+
+    .dataTables_wrapper .dataTables_filter span {
+        font-size: 14px;
+    }
+
+    .dataTables_wrapper .dataTables_filter label {
+        font-size: 14px;
+    }
+
+    .dataTables_length select {
+        width: 100px;
+    }
+
+    .dataTables_filter input[type="search"] {
+        margin-left: 5px;
+        width: 180px;
+    }
+
+    .dataTables_wrapper .dataTables_filter label {
+        font-size: 14px;
+        margin-left: 5px;
+    }
+}
+
+@media (min-width:1280px) and (max-width:1439px) {
+    .steps-form {
+        max-width: 1000px;
+        padding: 50px;
+    }
+
+    .welcome-msg {
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+
+    .custom-radio-container .custom-radio input[type="radio"]+label,
+    .custom-radio-container .custom-radio input[type="radio"]+label::before {
+        width: 165px;
+        height: 125px;
+    }
+
+    .custom-radio-container {
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+
+    .custom-radio {
+        max-width: 165px;
+    }
+
+    .custom-radio label img {
+        padding-top: 20px;
+        margin-bottom: 15px;
+    }
+
+    .coming-due td {
+        font-size: 14px;
+    }
+
+    .coming-due th {
+        font-size: 16px;
+    }
+
+    .main-wrapper .side-blue-sec,
+    .main-wrapper header .header-left .logo-sec {
+        max-width: 240px;
+    }
+
+    .main-wrapper .dashboard-right {
+        width: calc(100% - 240px);
+    }
+
+    .main-wrapper .side-blue-sec .card-header {
+        font-size: 13px
+    }
+
+    .main-wrapper .side-blue-sec .card-header a {
+        padding: 12px 15px;
+    }
+
+    .main-wrapper .side-blue-sec .card-header a.card-link::after {
+        top: 22px;
+    }
+
+    .main-wrapper .side-blue-sec .card-body {
+        padding: 0 30px 11px 49px;
+    }
+
+    .main-wrapper header .header-left {
+        width: 60%;
+    }
+
+    .main-wrapper header .header-right {
+        width: 40%;
+        padding-right: 40px;
+    }
+
+    .help-center {
+        margin-right: 15px;
+    }
+
+    .main-wrapper header .header-right li {
+        margin-right: 10px;
+    }
+
+    .main-wrapper header .header-left .red-sec>a::before {
+        width: 23px;
+        height: 23px;
+        left: 14px;
+        top: 8px;
+    }
+
+    .main-wrapper header .john-sec span {
+        margin-right: 7px;
+    }
+
+    .main-wrapper header .header-left .red-sec>a,
+    .main-wrapper header .header-left .search-sec li input[type="text"],
+    .main-wrapper header .header-right li a,
+    .main-wrapper header .john-sec a,
+    .main-wrapper header .john-sec .dropdown-menu li a,
+    .main-wrapper header .header-left .red-sec .dropdown-menu li a {
+        font-size: 14px;
+    }
+
+    .main-wrapper header .header-left .search-sec {
+        max-width: 230px
+    }
+
+    .main-wrapper header .header-left .red-sec {
+        max-width: 200px
+    }
+
+    .main-wrapper .dashboard-right .dashboard-bottom {
+        margin-left: -0px;
+        margin-right: -0px;
+    }
+
+    .main-wrapper .dashboard-right .dashboard-bottom .dashboard-cont {
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .main-wrapper .dashboard-right .dashboard-bottom .dashboard-cont:last-child {
+        margin-bottom: 0px;
+    }
+
+    h4 {
+        font-size: 17px;
+    }
+
+    .main-wrapper .dashboard-right .net-sec .net-cont li {
+        margin-right: 10px;
+    }
+
+    .main-wrapper .dashboard-right .net-sec .net-cont .expens-img {
+        padding-top: 0px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .text-right {
+        text-align: right !important;
+    }
+
+    .main-wrapper .dashboard-right .net-sec .net-text {
+        margin-left: -0px;
+        margin-right: -0px;
+    }
+
+    .main-wrapper .dashboard-right .net-sec .net-cont {
+        margin-left: 0px;
+        margin-right: 0px;
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .main-wrapper .dashboard-right .net-sec .net-cont:last-child {
+        margin-bottom: 0px;
+    }
+
+    .main-wrapper header .john-sec .dropdown {
+        width: 180px;
+    }
+
+    .steps-form.step2 {
+        max-height: 650px;
+    }
+
+    .back-next-btn {
+        padding-bottom: 30px;
+    }
+
+    table td.td-reference input,
+    table td.td-price input,
+    table td.td-tax select,
+    table td.td-total input {
+        width: auto !important;
+    }
+
+    td.td-quantity,
+    td.td-quantity input {
+        width: 150px !important;
+    }
+
+    td.td-disc,
+    td.td-disc input {
+        width: 120px !important;
+    }
+
+    table#concept_items td.td-concept {
+        width: 405px !important;
+        display: block;
+    }
+
+    td.td-tax_amount,
+    td.td-tax_amount input {
+        width: 158px !important;
+    }
+
+    table#concept_items td.td-concept {
+        width: 405px !important;
+        display: block;
+    }
+
+    td.td-tax_amount,
+    td.td-tax_amount input {
+        width: 158px !important;
+    }
+
+    .list-table-custom.products-table {
+        overflow: auto !important;
+        padding-bottom: 80px;
+    }
+
+    .list-table-custom.products-table.table-responsive .dataTables_wrapper {
+        padding-bottom: 100px !important;
+    }
+
+    .list-table-custom.products-table.table-responsive .dataTables_wrapper td.show .dropdown-menu.show {
+        transform: translate3d(-120px, 40px, 0) !important;
+    }
+
+    .default-table.with-concept-table .list-table-custom {
+        overflow: auto !important;
+    }
+
+    table td,
+    table th,
+    .dataTables_wrapper .dataTables_info {
+        font-size: 13px;
+    }
+
+    table#supplier-invoice-list-table,
+    table {
+        width: 100% !important
+    }
+
+    .cal-filter-cnt.cal-filter-cust-btns.cal-span-filter-cust-btns {
+        margin-bottom: 20px;
+    }
+
+    table.dataTable thead th,
+    table.dataTable td,
+    .descrip-notes span {
+        white-space: nowrap;
+    }
+
+    .descrip-notes {
+        white-space: nowrap;
+    }
+
+    .descrip-notes span {
+        white-space: break-spaces;
+        width: 400px;
+    }
+
+    .currency_exchange_cnt .custom-select-controller,
+    .currency_exchange_cnt .form-group {
+        max-width: 100%;
+        display: block;
+        width: 100% !important;
+        flex: 100%;
+    }
+
+    .row.adds-row.recurring-company-details.white-bg .row {
+        position: relative;
+    }
+
+    .consumption-box {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    /********new-css-v*******/
+    .cal-filter-cust-btns input {
+        padding: 8px 10px;
+        margin-right: 5px;
+        width: 160px;
+    }
+
+    .dataTables_length label {
+        font-size: 14px;
+    }
+
+    .dataTables_wrapper .dataTables_filter span {
+        font-size: 14px;
+    }
+
+    .dataTables_wrapper .dataTables_filter label {
+        font-size: 14px;
+    }
+
+    .dataTables_length select {
+        width: 100px;
+    }
+
+    .dataTables_filter input[type="search"] {
+        margin-left: 5px;
+        width: 160px;
+    }
+
+    .dataTables_wrapper .dataTables_filter label {
+        font-size: 14px;
+        margin-left: 5px;
+    }
+
+    #cart-payment-modal #js-payment td {
+        font-size: 13px;
+    }
+
+    .payroll-bank-account-modal .steps-form h2 {
+        font-size: 26px;
+    }
+
+}
+
+@media (min-width:992px) and (max-width:1279px) {
+    .dashboard-right.dashboard-right-small {
+        width: calc(100% - 220px) !important;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .steps-form {
+        max-width: 940px;
+        padding: 50px;
+    }
+
+    .welcome-msg {
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+
+    .custom-radio-container .custom-radio input[type="radio"]+label,
+    .custom-radio-container .custom-radio input[type="radio"]+label::before {
+        width: 150px;
+        height: 125px;
+    }
+
+    .custom-radio {
+        max-width: 150px;
+    }
+
+    .custom-radio label img {
+        padding-top: 20px;
+        margin-bottom: 15px;
+    }
+
+    .coming-due td {
+        font-size: 14px;
+    }
+
+    .coming-due th {
+        font-size: 16px;
+    }
+
+    .main-wrapper .side-blue-sec {
+        display: none;
+    }
+
+    .main-wrapper .side-blue-sec,
+    .main-wrapper header .header-left .logo-sec {
+        max-width: 220px;
+    }
+
+    .main-wrapper header .header-left .logo-sec img {
+        width: 146px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .main-wrapper header .header-left .search-sec li input[type="text"] {
+        width: 150px;
+    }
+
+    .main-wrapper .dashboard-right {
+        width: 100%;
+    }
+
+    .main-wrapper .side-blue-sec .card-header {
+        font-size: 13px
+    }
+
+    .main-wrapper .side-blue-sec .card-header a {
+        padding: 12px 38px 12px 13px;
+        display: flex;
+        border-left: 5px solid #fff;
+    }
+
+    .main-wrapper .side-blue-sec .card-header a.card-link::after {
+        top: 22px;
+    }
+
+    .main-wrapper .side-blue-sec .card-body {
+        padding: 0 30px 11px 49px;
+        border-left: 5px solid #fff;
+    }
+
+    .main-wrapper header .header-right {
+        padding-right: 30px;
+    }
+
+    .help-center {
+        margin-right: 10px;
+    }
+
+    .main-wrapper header .header-left .logo-sec::after {
+        top: -21px;
+    }
+
+    .main-wrapper header .header-right li {
+        margin-right: 10px;
+    }
+
+    .main-wrapper header .header-left .red-sec>a::before {
+        width: 22px;
+        height: 21px;
+        top: 9px;
+        background-size: 10px;
+        left: 14px;
+    }
+
+    .main-wrapper header .header-left .red-sec>a {
+        padding-left: 47px;
+    }
+
+    .main-wrapper header .header-right li span {
+        margin-right: 8px;
+    }
+
+    .main-wrapper header .header-right li span img {
+        width: 16px
+    }
+
+    .main-wrapper header .john-sec span {
+        margin-right: 7px;
+    }
+
+    #locale_selector {
+        background: url(../images/select-arrow.png) right top 7px no-repeat;
+        font-size: 13px;
+    }
+
+    .main-wrapper header .header-left .red-sec>a,
+    .main-wrapper header .header-left .search-sec li input[type="text"],
+    .main-wrapper header .header-right li a,
+    .main-wrapper header .john-sec a,
+    .main-wrapper header .john-sec .dropdown-menu li a,
+    .main-wrapper header .header-left .red-sec .dropdown-menu li a {
+        font-size: 14px;
+    }
+
+    .main-wrapper header .header-left .search-sec {
+        max-width: 230px;
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+
+    .main-wrapper header .header-left .red-sec {
+        max-width: 200px
+    }
+
+    .main-wrapper .dashboard-right .dashboard-bottom .dashboard-cont {
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .main-wrapper .dashboard-right .dashboard-bottom .dashboard-cont:last-child {
+        margin-bottom: 0px;
+    }
+
+    .main-wrapper .dashboard-right {
+        padding: 100px 30px 50px 30px;
+    }
+
+    .main-wrapper .dashboard-right .dashboard-bottom {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    h4 {
+        font-size: 17px;
+    }
+
+    .main-wrapper .dashboard-right .net-sec .net-cont li {
+        margin-right: 10px;
+    }
+
+    .main-wrapper .dashboard-right .net-sec .net-cont .expens-img {
+        padding-top: 0px;
+    }
+
+    .main-wrapper header .header-right li {
+        margin-right: 10px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    .main-wrapper header .header-right li a {
+        font-size: 14px;
+    }
+
+    .text-right {
+        text-align: right !important;
+    }
+
+    .main-wrapper .dashboard-right .net-sec .net-text {
+        margin-left: -0px;
+        margin-right: -0px;
+    }
+
+    .main-wrapper .dashboard-right .net-sec .net-cont {
+        margin-left: 0px;
+        margin-right: 0px;
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .main-wrapper .dashboard-right .net-sec .net-cont:last-child {
+        margin-bottom: 0px;
+    }
+
+    .main-wrapper header .john-sec {
+        right: 10px;
+    }
+
+    .main-wrapper header .john-sec .dropdown li p a {
+        padding-left: 10px;
+    }
+
+    .main-wrapper .dashboard-right .payable-sec .invoice-sec {
+        margin-left: -0px;
+        margin-right: -0px;
+    }
+
+    .main-wrapper .dashboard-right .payable-sec .invoice-sec .invoice-cont {
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+    }
+
+    .main-wrapper header .header-left .red-sec h3 {
+        font-size: 14px;
+    }
+
+    .main-wrapper .dashboard-right .payable-sec .invoice-sec .invoice-cont .invoice-top {
+        padding-top: 20px;
+    }
+
+    .invoice-detail-count-item span.title {
+        font-size: 15px;
+    }
+
+    .invoice-detail-count .value {
+        font-size: 19px;
+    }
+
+    .invoice-detail-count {
+        margin-bottom: 25px;
+    }
+
+    table td.td-reference input,
+    table td.td-price input,
+    table td.td-tax select,
+    table td.td-total input {
+        width: auto !important;
+    }
+
+    td.td-quantity,
+    td.td-quantity input {
+        width: 150px !important;
+    }
+
+    td.td-disc,
+    td.td-disc input {
+        width: 120px !important;
+    }
+
+    table#concept_items td.td-concept {
+        width: 405px !important;
+        display: block;
+    }
+
+    td.td-tax_amount,
+    td.td-tax_amount input {
+        width: 158px !important;
+    }
+
+    .form-group label {
+        font-size: 14px;
+    }
+
+    .list-table-custom.products-table {
+        overflow: auto !important;
+        padding-bottom: 80px;
+    }
+
+    .list-table-custom.products-table.table-responsive .dataTables_wrapper {
+        padding-bottom: 100px !important;
+    }
+
+    .list-table-custom.products-table.table-responsive .dataTables_wrapper td.show .dropdown-menu.show {
+        transform: translate3d(-120px, 40px, 0) !important;
+    }
+
+    .default-table.with-concept-table .list-table-custom {
+        overflow: auto !important;
+    }
+
+    table td,
+    table th,
+    .dataTables_wrapper .dataTables_info,
+    .default-table table th,
+    .default-table table td {
+        font-size: 14px;
+    }
+
+    table#supplier-invoice-list-table,
+    table {
+        width: 100% !important;
+    }
+
+    .cal-filter-cnt.cal-filter-cust-btns.cal-span-filter-cust-btns {
+        margin-bottom: 20px;
+    }
+
+    table.dataTable thead th,
+    table.dataTable td,
+    .descrip-notes span {
+        white-space: nowrap;
+    }
+
+    .descrip-notes {
+        white-space: nowrap;
+    }
+
+    .currency_exchange_cnt .custom-select-controller,
+    .currency_exchange_cnt .form-group {
+        max-width: 100%;
+        display: block;
+        width: 100% !important;
+        flex: 100%;
+    }
+
+    .row.adds-row.recurring-company-details.white-bg .row {
+        position: relative;
+    }
+
+    .consumption-box {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .descrip-notes span {
+        white-space: break-spaces;
+        width: 400px;
+    }
+
+    table.dataTable tbody .no-data-row td {
+        padding: 80px 0 !important;
+        text-align: center !important;
+    }
+
+    /********new-css-v*******/
+    .cal-filter-cust-btns input {
+        padding: 8px 10px;
+        margin-right: 5px;
+        width: 125px;
+    }
+
+    .dataTables_length label {
+        font-size: 14px;
+    }
+
+    .dataTables_wrapper .dataTables_filter span {
+        font-size: 14px;
+    }
+
+    .dataTables_wrapper .dataTables_filter label {
+        font-size: 14px;
+    }
+
+    .dataTables_length select {
+        width: 100px;
+    }
+
+    .dataTables_filter input[type="search"] {
+        margin-left: 5px;
+        width: 160px;
+    }
+
+    .dataTables_wrapper .dataTables_filter label {
+        font-size: 14px;
+        margin-left: 5px;
+    }
+
+    .tabs-custom .dataTables_length {
+        margin-top: 20px;
+        float: inherit;
+    }
+
+    .dataTables_wrapper .dataTables_filter {
+        float: inherit;
+        text-align: left;
+    }
+
+    #cart-payment-modal #js-payment td {
+        font-size: 13px;
+    }
+
+    .sales-recieve-block .product-cells-wrap .standard-product a.app-color-text .product-card-font .limit {
+        font-size: 16px;
+    }
+
+    .sales-recieve-block #layoutTop .cart-product-details-child {
+        font-size: 17px;
+    }
+
+    .wrap-list-cell {
+        width: 169px !important;
+    }
+
+    .payroll-bank-account-modal .steps-form h2 {
+        font-size: 26px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .col-lg-4.view-details-img-cell {
+        margin-top: 16px;
+    }
+
+    .invoice-detail-count-item span.title {
+        font-size: 15px;
+    }
+
+    .invoice-detail-count .value {
+        font-size: 19px;
+    }
+
+    .invoice-detail-count {
+        margin-bottom: 25px;
+    }
+
+    .row.adds-row>.col-lg-4 {
+        order: 1;
+    }
+
+    .add-cell {
+        margin-top: 23px;
+        margin-bottom: 25px;
+    }
+
+    .custom-radio-container .custom-radio input[type="radio"]+label::before {
+        border: 2px solid #e9eef2;
+    }
+
+    .dashboard-right.dashboard-right-small {
+        width: calc(100% - 200px) !important;
+    }
+
+    .menu-icon {
+        display: blocfk;
+    }
+
+    .steps-form,
+    .steps-form.step2,
+    .steps-form.step3 {
+        max-width: 640px;
+        padding: 30px;
+    }
+
+    .welcome-msg {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .custom-radio-container .custom-radio input[type="radio"]+label,
+    .custom-radio-container .custom-radio input[type="radio"]+label::before {
+        width: 100px;
+        height: 100px;
+        font-size: 12px
+    }
+
+    .custom-radio {
+        max-width: 100px;
+        margin-left: 5px;
+        margin-right: 5px;
+        width: calc(20% - 14px)
+    }
+
+    .welcome-msg p {
+        font-size: 14px;
+        margin-top: 5px;
+    }
+
+    .custom-radio-container {
+        margin-right: -5px;
+        margin-left: -5px;
+    }
+
+    .custom-radio label img {
+        padding-top: 15px;
+        margin-bottom: 10px;
+        height: 50px;
+        width: auto;
+    }
+
+    .coming-due td {
+        font-size: 13px;
+    }
+
+    .coming-due th {
+        font-size: 15px;
+    }
+
+    .main-wrapper header .john-sec .dropdown-menu {
+        padding: 10px 0px;
+        left: -25px !important;
+    }
+
+    .main-wrapper header .john-sec .dropdown-menu li a {
+        line-height: 28px;
+    }
+
+    .main-wrapper .side-blue-sec {
+        display: none;
+    }
+
+    .main-wrapper .side-blue-sec,
+    .main-wrapper header .header-left .logo-sec {
+        max-width: 200px;
+    }
+
+    .main-wrapper header .header-left .logo-sec img {
+        width: 146px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .main-wrapper header .header-left .search-sec li input[type="text"] {
+        width: 150px;
+        text-indent: 15px;
+    }
+
+    .main-wrapper .dashboard-right {
+        width: 100%;
+        padding: 100px 30px 50px 30px
+    }
+
+    .main-wrapper .side-blue-sec .card-header {
+        font-size: 13px
+    }
+
+    .main-wrapper .side-blue-sec .card-header a {
+        padding: 12px 38px 12px 13px;
+        display: flex;
+        border-left: 5px solid #fff;
+    }
+
+    .main-wrapper .side-blue-sec .card-header a img {
+        width: 19px;
+    }
+
+    .main-wrapper .side-blue-sec .card-header a.card-link::after {
+        top: 22px;
+    }
+
+    .main-wrapper .side-blue-sec .card-body {
+        padding: 0 15px 11px 46px;
+        border-left: 5px solid #fff;
+    }
+
+    .main-wrapper header .header-right {
+        padding-right: 30px;
+    }
+
+    .help-center {
+        margin-right: 10px;
+    }
+
+    .main-wrapper header .header-left .logo-sec::after {
+        top: -21px;
+    }
+
+    .main-wrapper header .header-right li {
+        margin-right: 10px;
+    }
+
+    .main-wrapper header .header-left .red-sec>a::before {
+        display: none;
+    }
+
+    .main-wrapper header .header-left .red-sec>a {
+        padding-left: 25px;
+    }
+
+    .main-wrapper header .header-right li span {
+        margin-right: 8px;
+    }
+
+    .main-wrapper header .header-right li span img {
+        width: 16px
+    }
+
+    .main-wrapper header .john-sec span {
+        margin-right: 7px;
+    }
+
+    .main-wrapper header .header-left .red-sec>a,
+    .main-wrapper header .header-left .search-sec li input[type="text"],
+    .main-wrapper header .header-right li a,
+    .main-wrapper header .john-sec a,
+    .main-wrapper header .john-sec .dropdown-menu li a,
+    .main-wrapper header .header-left .red-sec .dropdown-menu li a {
+        font-size: 14px;
+    }
+
+    .main-wrapper header .header-left .search-sec {
+        max-width: 126px;
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+
+    .main-wrapper header .header-left .red-sec {
+        max-width: 175px;
+        text-align: center;
+    }
+
+    .main-wrapper header .header-left .red-sec .dropdown-menu {
+        padding: 10px 0
+    }
+
+    .main-wrapper header .header-left .red-sec .dropdown-menu li a {
+        line-height: 28px
+    }
+
+    .main-wrapper .dashboard-right .dashboard-bottom {
+        margin-left: -0px;
+        margin-right: -0px;
+    }
+
+    .main-wrapper .dashboard-right .dashboard-bottom .dashboard-cont {
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .main-wrapper .dashboard-right .dashboard-bottom .dashboard-cont:last-child {
+        margin-bottom: 0px;
+    }
+
+    h4 {
+        font-size: 17px;
+    }
+
+    .main-wrapper .dashboard-right .net-sec .net-cont li {
+        margin-right: 10px;
+    }
+
+    .main-wrapper .dashboard-right .net-sec .net-cont .expens-img {
+        padding-top: 0px;
+    }
+
+    .main-wrapper header .header-right li {
+        margin-right: 10px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    .step3 .buttons-group {
+        margin-top: 30px;
+    }
+
+    .main-wrapper header .header-right li a {
+        font-size: 14px;
+    }
+
+    .text-right {
+        text-align: right !important;
+    }
+
+    .main-wrapper .dashboard-right .net-sec .net-text {
+        margin-left: -0px;
+        margin-right: -0px;
+    }
+
+    .main-wrapper .dashboard-right .net-sec .net-cont {
+        margin-left: 0px;
+        margin-right: 0px;
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .main-wrapper .dashboard-right .net-sec .net-cont:last-child {
+        margin-bottom: 0px;
+    }
+
+    .main-wrapper header .john-sec {
+        right: 20px;
+    }
+
+    .main-wrapper header .john-sec .dropdown li p a {
+        padding-left: 10px;
+    }
+
+    .main-wrapper .dashboard-right .payable-sec .invoice-sec {
+        margin-left: -0px;
+        margin-right: -0px;
+        margin-top: 0px;
+    }
+
+    .main-wrapper .dashboard-right .payable-sec .invoice-sec .invoice-cont {
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+    }
+
+    .main-wrapper header .header-left .red-sec h3 {
+        font-size: 14px;
+    }
+
+    .main-wrapper .dashboard-right .payable-sec .invoice-sec .invoice-cont .invoice-top {
+        padding-top: 20px;
+    }
+
+    .main-wrapper .side-blue-sec .side-top {
+        padding: 12px 0px 12px 15px;
+    }
+
+    .main-wrapper .side-blue-sec .side-bottom .accordian-cont {
+        padding-left: 15px;
+        padding-bottom: 5px;
+    }
+
+    .default-form.view-form-detail.item-detail-view.view-details-product-ser .add-form.row {
+        padding: 0;
+    }
+
+    .default-form.view-form-detail.item-detail-view.view-details-product-ser .view-details-product-cell {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .default-form.view-form-detail.item-detail-view.view-details-product-ser .view-details-product-cell .form-group label {
+        padding: 0;
+    }
+
+    .default-form.view-form-detail.item-detail-view.view-details-product-ser .view-details-product-cell .form-outer {
+        margin-bottom: 2px;
+    }
+
+    .add-cell-center h2 {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .btn-custom {
+        height: 33px;
+        line-height: 33px;
+        font-size: 14px;
+        padding-left: 9px;
+        padding-right: 9px;
+    }
+
+    .col-lg-8.view-details-product-cell .form-group,
+    .col-lg-4.view-details-product-cell .form-group {
+        margin-bottom: 0;
+    }
+
+    p,
+    td,
+    th,
+    .no-data-row .message p,
+    p b,
+    .form-group label b,
+    .form-group span,
+    .total-table td,
+    .total-table th,
+    table th,
+    table td,
+    .arrow-back {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    span.account-name {
+        max-width: 212px;
+    }
+
+    .default-form.view-form-detail .generate-invoice .form-group label {
+        width: auto;
+    }
+
+    .consumption-number {
+        padding: 1px 9px;
+    }
+
+    .consumption-box span {
+        font-size: 17px;
+        margin-right: 6px;
+    }
+
+    .generate-invoice,
+    .data-invoice-detail {
+        padding: 22px 10px;
+    }
+
+    table td.td-reference input,
+    table td.td-price input,
+    table td.td-tax select,
+    table td.td-total input {
+        width: auto !important;
+    }
+
+    td.td-quantity,
+    td.td-quantity input {
+        width: 150px !important;
+    }
+
+    td.td-disc,
+    td.td-disc input {
+        width: 120px !important;
+    }
+
+    table#concept_items td.td-concept {
+        width: 405px !important;
+        display: block;
+    }
+
+    td.td-tax_amount,
+    td.td-tax_amount input {
+        width: 158px !important;
+    }
+
+    table td.td-tax select {
+        width: 0px !important;
+    }
+
+    .list-table-custom.products-table {
+        overflow: auto !important;
+        padding-bottom: 80px;
+    }
+
+    .list-table-custom.products-table.table-responsive .dataTables_wrapper td.show .dropdown-menu.show {
+        transform: translate3d(-120px, 40px, 0) !important;
+    }
+
+    .list-table-custom.products-table.table-responsive .dataTables_wrapper td.show .dropdown-menu.show {
+        transform: translate3d(-120px, 40px, 0) !important;
+    }
+
+    .default-table.with-concept-table .list-table-custom {
+        overflow: auto !important;
+    }
+
+    table td,
+    table th,
+    .dataTables_wrapper .dataTables_info,
+    .default-table table th,
+    .default-table table td {
+        font-size: 14px;
+    }
+
+    table#supplier-invoice-list-table {
+        width: 100% !important;
+    }
+
+    .cal-filter-cnt.cal-filter-cust-btns.cal-span-filter-cust-btns {
+        margin-bottom: 20px;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .dataTables_wrapper .dataTables_filter input,
+    .cal-filter-cnt input {
+        height: 35px;
+    }
+
+    table thead th,
+    table thead td {
+        white-space: pre !important;
+    }
+
+    .invoice-btns.invoice-btns-position {
+        display: block;
+        position: relative;
+    }
+
+    table.dataTable thead th,
+    table.dataTable td,
+    .descrip-notes span {
+        white-space: nowrap;
+    }
+
+    .descrip-notes {
+        white-space: nowrap;
+    }
+
+    .descrip-notes span {
+        white-space: break-spaces !important;
+    }
+
+    .add-cell-center span {
+        justify-content: flex-start;
+    }
+
+    .add-cell-center {
+        text-align: left;
+    }
+
+    .currency_exchange_cnt .custom-select-controller,
+    .currency_exchange_cnt .form-group {
+        max-width: 100%;
+        display: block;
+        width: 100% !important;
+        flex: 100%;
+    }
+
+    .row.adds-row.recurring-company-details.white-bg .row {
+        position: relative;
+    }
+
+    .consumption-box {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .descrip-notes span {
+        white-space: break-spaces;
+        width: 400px;
+    }
+
+    table.dataTable tbody .no-data-row td {
+        padding: 70px 0 !important;
+        text-align: center !important;
+    }
+
+    /********new-css-v*******/
+    .cal-filter-cust-btns input {
+        padding: 8px 10px;
+        margin-right: 5px;
+        width: 125px;
+    }
+
+    .dataTables_length label {
+        font-size: 14px;
+    }
+
+    .dataTables_wrapper .dataTables_filter span {
+        font-size: 14px;
+    }
+
+    .dataTables_wrapper .dataTables_filter label {
+        font-size: 14px;
+    }
+
+    .dataTables_length select {
+        width: 100px;
+    }
+
+    .dataTables_filter input[type="search"] {
+        margin-left: 5px;
+        width: 160px;
+    }
+
+    .dataTables_wrapper .dataTables_filter label {
+        font-size: 14px;
+        margin-left: 5px;
+    }
+
+    .dataTables_wrapper .dataTables_filter {
+        float: inherit;
+        text-align: inherit;
+    }
+
+    .dataTables_wrapper .dataTables_length {
+        float: inherit;
+    }
+
+    #cart-payment-modal #js-payment td {
+        font-size: 13px;
+    }
+
+    .sales-recieve-block .product-cells-wrap .standard-product a.app-color-text .product-card-font .limit {
+        font-size: 16px;
+    }
+
+    .sales-recieve-block #layoutTop .cart-product-details-child {
+        font-size: 17px;
+    }
+
+    .accounting-report-block .col-lg-6 {
+        margin-bottom: 40px;
+    }
+
+    .list-sub-footer-row {
+        padding: 14px 20px;
+        font-size: 16px;
+        margin-top: 9px;
+        border: none;
+    }
+
+    .list-table-custom.accounting-journals-list-table.products-table li a {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .wrap-list-cell {
+        width: 133px !important;
+        height: 37px !important;
+    }
+
+    .wrap-list-cell,
+    .wrap-list-head input#invoice_start_date,
+    .wrap-list-head strong {
+        margin-right: 9px;
+        font-size: 14px;
+    }
+
+    .wrap-list-cell .btn-custom {
+        height: 39px;
+        line-height: 31px;
+        font-size: 14px;
+        padding-left: 9px;
+        padding-right: 9px;
+    }
+
+    select {
+        padding-right: 24px !important;
+        padding-left: 13px !important;
+    }
+
+    .chartsOfAccountsContent-tabs .table td {
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+
+    .payroll-bank-account-modal .steps-form h2 {
+        font-size: 26px;
+    }
+
+    .payroll-bank-account-modal .steps-form {
+        max-width: 510px;
+        padding: 50px;
+    }
+
+    .payroll-report-block .dropdown-menu a {
+        font-size: 16px;
+    }
+
+}
+
+@media (min-width:320px) and (max-width:767px) {
+    .wrap-document-elements {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-end;
+    }
+
+    .wrap-document-elements .documents {
+        width: auto;
+    }
+
+    .view-form-custom.credit-show-table-wrap,
+    .view-form-custom.debit-note-view,
+    .view-form-custom.supplier-invoice-view,
+    .view-form-custom.purchase-view-table,
+    .inventory-adjustments-list-table,
+    .view-form-custom.view-form-recurring.white-bg.sales-recurring-view {
+        overflow: auto;
+    }
+
+    .view-form-custom.credit-show-table-wrap td,
+    .view-form-custom.supplier-invoice-view td,
+    .view-form-custom.debit-note-view td,
+    .view-form-custom.purchase-view-table td,
+    .view-form-custom.view-form-recurring.white-bg.sales-recurring-view td {
+        white-space: nowrap;
+    }
+
+    .view-form-custom.view-form-recurring.white-bg.sales-recurring-view td {
+        white-space: nowrap;
+    }
+
+
+    .descrip-notes {
+        white-space: nowrap !important;
+    }
+
+    .descrip-notes span {
+        width: 100%;
+        /* max-width: 400px; */
+        display: block;
+        word-break: break-word !important;
+        white-space: pre-wrap;
+    }
+
+    .default-form.view-form-detail.inventory-adjustments-list-table-show-table .descrip-notes span {
+        width: 100%;
+    }
+
+    .table-wrap {
+        overflow: auto;
+    }
+
+    ul#chartsOfAccounts .nav-link {
+        padding: 6px;
+        font-size: 15px;
+    }
+
+    .dz-preview.dz-complete.dz-image-preview {
+        width: 102px;
+    }
+
+    .consumption-number {
+        padding: 1px 9px;
+    }
+
+    .generate-invoice,
+    .data-invoice-detail {
+        padding: 22px 10px;
+    }
+
+    .inventory-adjustments-list-table-show-table .generate-invoice {
+        padding: 10px;
+    }
+
+    .consumption-box span {
+        font-size: 17px;
+        margin-right: 6px;
+    }
+
+    .default-form.view-form-detail .generate-invoice .form-group label {
+        width: auto;
+    }
+
+    #barChartTab {
+        float: left;
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .col-lg-4.view-details-img-cell {
+        margin-top: 16px;
+    }
+
+    .dashboard-right form {
+        max-width: 100%;
+    }
+
+    .step3 .btn-custom {
+        margin-right: 0 !important;
+        margin-bottom: 15px;
+        width: 100%
+    }
+
+    .main-wrapper .dashboard-right .dashboard-bottom .dashboard-cont .dashboard-cont-right .view-btn {
+        font-size: 13px;
+    }
+
+    .btn-custom {
+        height: 33px;
+        line-height: 29px;
+        font-size: 14px;
+        padding-left: 9px;
+        padding-right: 9px;
+    }
+
+    .form-control {
+        font-size: 13px;
+    }
+
+    .need-form {
+        max-width: 100%;
+        margin: 0 auto 30px auto;
+        max-height: 300px;
+        overflow-y: scroll;
+        scroll-behavior: smooth;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .steps-form.step2 .welcome-msg {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .back-next-btn {
+        padding-top: 20px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .steps-form,
+    .steps-form.step2,
+    .steps-form.step3 {
+        max-width: 290px;
+        padding: 30px 15px;
+    }
+
+    .welcome-msg {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .custom-radio-container .custom-radio input[type="radio"]+label,
+    .custom-radio-container .custom-radio input[type="radio"]+label::before {
+        width: 100px;
+        height: 100px;
+        font-size: 12px
+    }
+
+    .custom-radio {
+        max-width: 100px;
+        margin-left: 5px;
+        margin-right: 5px;
+        width: calc(50% - 14px);
+        margin-bottom: 10px;
+    }
+
+    .welcome-msg p {
+        font-size: 14px;
+        margin-top: 5px;
+    }
+
+    .custom-radio-container {
+        margin-right: -5px;
+        margin-left: -5px;
+    }
+
+    .custom-radio label img {
+        padding-top: 15px;
+        margin-bottom: 10px;
+        height: 50px;
+        width: auto;
+    }
+
+    .coming-due td {
+        font-size: 13px;
+    }
+
+    .coming-due th {
+        font-size: 15px;
+    }
+
+    .main-wrapper .dashboard-right .payable-sec .invoice-sec .invoice-cont .coming-due p {
+        font-size: 13px;
+    }
+
+    h3 {
+        font-size: 15px;
+    }
+
+    .main-wrapper header .john-sec .dropdown-menu {
+        padding: 10px 0px;
+        left: 0 !important;
+    }
+
+    .main-wrapper header .john-sec .dropdown-menu li a {
+        line-height: 28px;
+    }
+
+    .main-wrapper .side-blue-sec {
+        display: none;
+    }
+
+    .main-wrapper .side-blue-sec,
+    .main-wrapper header .header-left .logo-sec {
+        max-width: 100%;
+    }
+
+    .main-wrapper header .header-left .logo-sec img {
+        width: 120px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .main-wrapper header .header-left .search-sec li input[type="text"] {
+        width: 150px;
+        text-indent: 15px;
+    }
+
+    .main-wrapper .dashboard-right {
+        width: 100%;
+        float: none;
+        padding: 15px;
+    }
+
+    .main-wrapper .side-blue-sec .card-header {
+        font-size: 13px
+    }
+
+    .main-wrapper .side-blue-sec .card-header a {
+        padding: 12px 13px;
+    }
+
+    .main-wrapper .side-blue-sec .card-header a.card-link::after {
+        top: 22px;
+    }
+
+    .main-wrapper .side-blue-sec .card-body {
+        padding: 0 15px 11px 46px;
+    }
+
+    .main-wrapper header .header-left {
+        width: 112px;
+        padding-left: 20px;
+        text-align: left;
+    }
+
+    .main-wrapper header .header-left .logo-sec,
+    .small-header .header-left .logo-sec {
+        text-align: left;
+        margin-top: 5px;
+    }
+
+    .main-wrapper header .header-right {
+        width: Calc(100% - 112px);
+        padding-right: 25px;
+    }
+
+    .help-center {
+        margin-right: 4px;
+    }
+
+    .main-wrapper header .header-left .logo-sec::after {
+        display: none;
+    }
+
+    .main-wrapper header .header-right li {
+        margin-right: 10px;
+    }
+
+    .main-wrapper header .header-left .red-sec>a::before {
+        display: none;
+    }
+
+    .main-wrapper header .header-left .red-sec>a {
+        padding-left: 0;
+    }
+
+    .main-wrapper header .header-right li span {
+        margin-right: 8px;
+    }
+
+    .main-wrapper header .header-right li span img {
+        width: 16px
+    }
+
+    .main-wrapper header .john-sec span {
+        margin-right: 4px;
+        font-size: 13px;
+        display: inline-block;
+    }
+
+    #locale_selector {
+        background: url(../images/select-arrow.png) right top 7px no-repeat;
+        font-size: 13px;
+    }
+
+    .main-wrapper header .header-left .red-sec>a,
+    .main-wrapper header .header-left .search-sec li input[type="text"],
+    .main-wrapper header .header-right li a,
+    .main-wrapper header .john-sec a,
+    .main-wrapper header .john-sec .dropdown-menu li a,
+    .main-wrapper header .header-left .red-sec .dropdown-menu li a {
+        font-size: 14px;
+    }
+
+    .main-wrapper header .header-left .search-sec,
+    .main-wrapper header .header-left .red-sec {
+        display: none;
+    }
+
+    .main-wrapper header .header-left .red-sec .dropdown-menu {
+        padding: 10px 0
+    }
+
+    .main-wrapper header .header-left .red-sec .dropdown-menu li a {
+        line-height: 28px
+    }
+
+    .main-wrapper .dashboard-right .dashboard-bottom {
+        margin-left: -0px;
+        margin-right: -0px;
+        padding: 15px 0px 30px 0px
+    }
+
+    .main-wrapper header {
+        padding: 7px 0;
+        height: 50px;
+    }
+
+    .main-wrapper .dashboard-right .dashboard-bottom .dashboard-cont {
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .main-wrapper .dashboard-right .dashboard-bottom .dashboard-cont:last-child {
+        margin-bottom: 0px;
+    }
+
+    .main-wrapper .dashboard-right .payable-sec {
+        padding: 20px 15px;
+    }
+
+    h4 {
+        font-size: 14px;
+    }
+
+    .main-wrapper .dashboard-right .net-sec .net-cont li {
+        margin-right: 10px;
+    }
+
+    .main-wrapper .dashboard-right .net-sec .net-cont .expens-img {
+        padding-top: 0px;
+    }
+
+    .main-wrapper header .header-right li {
+        margin-right: 10px;
+    }
+
+    .main-wrapper header .header-right li a {
+        font-size: 14px;
+    }
+
+    .text-right {
+        text-align: right !important;
+    }
+
+    .main-wrapper .dashboard-right .net-sec .net-text {
+        margin-left: -0px;
+        margin-right: -0px;
+    }
+
+    .main-wrapper .dashboard-right .net-sec .net-cont {
+        margin-left: 0px;
+        margin-right: 0px;
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 30px;
+        padding: 20px 15px;
+    }
+
+    .main-wrapper .dashboard-right .net-sec .net-cont:last-child {
+        margin-bottom: 0px;
+    }
+
+    .main-wrapper header .john-sec {
+        right: 20px;
+    }
+
+    .main-wrapper header .john-sec .dropdown li p a {
+        padding-left: 10px;
+    }
+
+    .main-wrapper .dashboard-right .payable-sec .invoice-sec {
+        margin-left: -0px;
+        margin-right: -0px;
+        margin-top: 0px;
+    }
+
+    .main-wrapper .dashboard-right .payable-sec .invoice-sec .invoice-cont {
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+    }
+
+    .main-wrapper header .header-left .red-sec h3 {
+        font-size: 14px;
+    }
+
+    .main-wrapper .dashboard-right .payable-sec .invoice-sec .invoice-cont .invoice-top {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .main-wrapper .side-blue-sec .side-top {
+        padding: 12px 0px 12px 15px;
+    }
+
+    .main-wrapper .side-blue-sec .side-bottom .accordian-cont {
+        padding-left: 15px;
+        padding-bottom: 5px;
+    }
+
+    .main-wrapper .reset-form-bg .inner-sec {
+        max-width: 290px;
+        padding: 30px;
+    }
+
+    .main-wrapper .reset-form-bg .inner-sec li p {
+        padding-top: 0;
+    }
+
+    .main-wrapper .reset-form-bg .inner-sec li .form-control {
+        font-size: 13px;
+    }
+
+    .main-wrapper .reset-form-bg .inner-sec h3 {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .main-wrapper .reset-form-bg .inner-sec li {
+        padding-bottom: 15px;
+    }
+
+    .terms-conditions-form .form-group label {
+        font-size: 14px;
+    }
+
+    table#recurring-invoice-list-table {
+        width: 100% !important;
+    }
+
+    table#account-recivable-list-table {
+        width: 100% !important;
+    }
+
+    .default-form.view-form-detail.item-detail-view.view-details-product-ser .add-form.row {
+        padding: 0;
+    }
+
+    .default-form.view-form-detail.item-detail-view.view-details-product-ser .view-details-product-cell {
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .default-form.view-form-detail.item-detail-view.view-details-product-ser .view-details-product-cell .form-outer {
+        width: 100%;
+    }
+
+    .default-form.view-form-detail.item-detail-view.view-details-product-ser .view-details-product-cell .form-group label {
+        padding: 0;
+    }
+
+    .default-form.view-form-detail.item-detail-view.view-details-product-ser .view-details-product-cell .form-outer .form-group {
+        margin-bottom: 2px;
+    }
+
+    .default-form.view-form-detail.item-detail-view.view-details-product-ser .view-details-product-cell {
+        margin-bottom: 10px;
+    }
+
+    .invoice-details-form .col-lg-4.col-md-6.prduct-pic {
+        margin-top: 30px;
+    }
+
+    .main-wrapper header .john-sec .dropdown-menu {
+        top: 22px !important;
+    }
+
+    .main-wrapper header .header-left,
+    .small-header .header-left {
+        width: 159px;
+        padding-left: 7px;
+    }
+
+    .header-lef .logo-sec {
+        width: 100%;
+    }
+
+    .main-wrapper header .header-right,
+    .small-header .header-right {
+        width: Calc(100% - 36%) !important;
+        padding-right: 0;
+    }
+
+    .menu-icon {
+        top: -48px;
+        display: block;
+    }
+
+    .main-wrapper .side-blue-sec {
+        top: 143px;
+    }
+
+    .main-wrapper .blue-sec {
+        padding-top: 126px;
+    }
+
+    .invoice-btns.invoice-btns-position+.tabs-custom {
+        margin-top: 20px;
+    }
+
+    .tabs-custom {
+        overflow: auto;
+    }
+
+    /* .list-table-custom td input {
+        width: 100% !important;
+    }
+
+    .form-control.small-single-search-selection.select2-hidden-accessible + span.select2.select2-container.select2-container--default {
+        width: 200px !important;
+    } */
+    section#dashboard {
+        overflow-x: hidden;
+    }
+
+    .custom-tooltip .tooltiptext {
+        bottom: -68px;
+        left: 80px;
+        margin-left: -199px;
+    }
+
+    .main-wrapper .blue-sec {
+        padding-top: 117px;
+    }
+
+    .main-wrapper .side-blue-sec {
+        top: 119px;
+    }
+
+    .main-wrapper header .john-sec .dropdown-toggle::after,
+    .small-header .john-sec .dropdown-toggle::after {
+        top: 9px;
+    }
+
+    .dataTables_wrapper .dataTables_filter {
+        text-align: left !important;
+        display: block;
+        width: 100%;
+    }
+
+    .dataTables_wrapper .dataTables_info,
+    .dataTables_wrapper .dataTables_paginate {
+        text-align: left !important;
+    }
+
+    .invoice-btns.invoice-btns-position {
+        display: block;
+        width: 100%;
+        float: none;
+        position: relative;
+        text-align: left;
+    }
+
+    .add-cell .consumption-box {
+        position: relative;
+        right: 0;
+        margin-bottom: 10px;
+    }
+
+    .invoice-detail-count-item span.title {
+        font-size: 14px;
+    }
+
+    .invoice-detail-count .value {
+        font-size: 16px;
+    }
+
+    .invoice-detail-count {
+        margin-bottom: 24px;
+    }
+
+    .row.adds-row>.col-lg-4 {
+        order: 1;
+    }
+
+    .add-cell-center h2 {
+        text-transform: capitalize;
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .add-cell-center h3,
+    .add-cell-center p {
+        font-size: 13px
+    }
+
+    .default-form.view-form .generate-invoice .view-form-custom td {
+        padding: 0 10px;
+    }
+
+    .consumption-box span {
+        font-size: 15px;
+    }
+
+    .consumption-number {
+        padding: 0px 7px;
+    }
+
+    .consumption-box span,
+    .consumption-box i,
+    .consumption-box .consumption-number {
+        margin-right: 5px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    p,
+    td,
+    th,
+    .no-data-row .message p,
+    p b,
+    .form-group label b,
+    .form-group span,
+    .total-table td,
+    .total-table th,
+    table th,
+    table td {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    table td.td-reference input,
+    table td.td-price input,
+    table td.td-tax select,
+    table td.td-total input {
+        width: auto !important;
+    }
+
+    td.td-quantity,
+    td.td-quantity input {
+        width: 150px !important;
+    }
+
+    td.td-disc,
+    td.td-disc input {
+        width: 120px !important;
+    }
+
+    table#concept_items td.td-concept {
+        width: 405px !important;
+        display: block;
+    }
+
+    td.td-tax_amount,
+    td.td-tax_amount input {
+        width: 158px !important;
+    }
+
+    .mb-group-spacing .col-md-4 {
+        margin-bottom: 15px;
+    }
+
+    table td.td-tax select {
+        width: 0px !important;
+    }
+
+    .main-wrapper .reset-form-bg .inner-sec {
+        max-height: 400px;
+        overflow-y: scroll;
+        scroll-behavior: smooth;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .pswp {
+        top: 51px;
+        height: Calc(100% - 51px);
+    }
+
+    div#export-buttons {
+        align-items: flex-start;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    div#export-buttons .dt-buttons {
+        margin-bottom: 30px;
+    }
+
+    select.form-control.dasboard-filter-block.form-control,
+    .pass-month-select {
+        height: 38px !important;
+    }
+
+    .list-table-custom.products-table {
+        overflow: auto !important;
+        padding-bottom: 80px;
+    }
+
+    .list-table-custom.products-table.table-responsive .dataTables_wrapper td.show .dropdown-menu.show {
+        transform: translate3d(-120px, 40px, 0) !important;
+    }
+
+    .default-table.with-concept-table .list-table-custom {
+        overflow: auto !important;
+    }
+
+    table td,
+    table th,
+    .dataTables_wrapper .dataTables_info,
+    .default-table table th,
+    .default-table table td {
+        font-size: 14px;
+    }
+
+    table#supplier-invoice-list-table {
+        width: 100% !important;
+    }
+
+    .cal-filter-cnt.cal-filter-cust-btns.cal-span-filter-cust-btns {
+        margin-bottom: 20px;
+    }
+
+    .tabs-custom {
+        margin-top: 20px;
+    }
+
+    .dataTables_wrapper .dataTables_paginate {
+        padding-top: 11px;
+    }
+
+    .dataTables_wrapper .dataTables_info {
+        padding-top: 29px;
+    }
+
+    .dataTables_wrapper .dataTables_filter input,
+    .cal-filter-cnt input {
+        height: 35px;
+    }
+
+    table thead th,
+    table thead td {
+        white-space: pre !important;
+    }
+
+    table.dataTable thead th,
+    table.dataTable td,
+    .descrip-notes span {
+        white-space: nowrap;
+    }
+
+    .descrip-notes {
+        white-space: nowrap;
+    }
+
+    .descrip-notes span {
+        width: 500px;
+    }
+
+
+    .cal-filter-cnt input {
+        max-width: 102px;
+    }
+
+    .form-group.client-supplier-checkbox-cnt .container {
+        max-width: 100%;
+    }
+
+    .dataTables_wrapper .dataTables_paginate .paginate_button {
+        min-width: 30px;
+        padding: 10px 0;
+        line-height: 10px;
+        margin-left: 2px;
+    }
+
+    table.dataTable thead th,
+    table.dataTable td,
+    .descrip-notes span {
+        white-space: nowrap;
+    }
+
+    .descrip-notes {
+        white-space: nowrap;
+    }
+
+
+
+    .add-cell-center span {
+        justify-content: flex-start;
+    }
+
+    .add-cell-center {
+        text-align: left;
+    }
+
+    .currency_exchange_cnt .custom-select-controller,
+    .currency_exchange_cnt .form-group {
+        max-width: 100%;
+        display: block;
+        width: 100% !important;
+        flex: 100%;
+    }
+
+    .row.adds-row.recurring-company-details.white-bg .row {
+        position: relative;
+    }
+
+    .consumption-box {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .descrip-notes span {
+        white-space: break-spaces !important;
+    }
+
+    /********new-css-v*******/
+    .cal-filter-cust-btns input {
+        padding: 8px 10px;
+        margin-right: 5px;
+        width: 125px;
+    }
+
+    .dataTables_length label {
+        font-size: 14px;
+    }
+
+    .dataTables_wrapper .dataTables_filter span {
+        font-size: 14px;
+    }
+
+    .dataTables_wrapper .dataTables_filter label {
+        font-size: 14px;
+    }
+
+    .dataTables_length select {
+        width: 100%;
+    }
+
+    .dataTables_filter input[type="search"] {
+        margin-left: 5px;
+        width: 100%;
+    }
+
+    .dataTables_wrapper .dataTables_filter label {
+        font-size: 14px;
+        margin-left: 5px;
+    }
+
+    .dataTables_wrapper .dataTables_filter {
+        float: inherit;
+        text-align: inherit;
+    }
+
+    .dataTables_wrapper .dataTables_length {
+        float: inherit;
+        text-align: left;
+    }
+
+    .cal-filter-cust-btns {
+        margin-bottom: 20px;
+        margin-top: 20px !important;
+        text-align: left;
+        display: block;
+    }
+
+    .sales-recieve-block #layoutTop .cart-product-details-child {
+        font-size: 16px;
+    }
+
+    #cart-payment-modal .invoice-table {
+        padding-right: 0px;
+    }
+
+    .wrap-payment-updated-total {
+        display: block;
+        ;
+    }
+
+    #js-payment-title label {
+        width: 100%;
+        display: block;
+    }
+
+    .wrap-payment-updated-total .wrp-input input[type="number"] {
+        display: block;
+        width: 100%;
+        padding-right: 10px;
+    }
+
+    .wrap-payment-updated-total select#exchange_currency_id {
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    #cart-payment-modal #js-payment .form-group label {
+        width: 100%;
+        display: block;
+    }
+
+    #cart-payment-modal #js-payment .form-group label+.p-0 {
+        width: 100% !important;
+    }
+
+    .custom-search-block .form-control {
+        font-size: 14px;
+    }
+
+    .ml-0,
+    .mx-0 {
+        margin-left: 0 !important;
+        margin-right: 0px !important;
+    }
+
+    .cart-summary-table {
+        padding: 5px 10px !important;
+    }
+
+    #cart-payment-modal #js-payment td {
+        font-size: 13px;
+    }
+
+    .sales-recieve-block .product-cells-wrap .standard-product a.app-color-text .product-card-font .limit {
+        font-size: 15px;
+    }
+
+    .client-supplier-checkbox-cnt {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding-left: 0px;
+    }
+
+    .action-btns-view.show-wrap-btns a,
+    .action-btns-view.show-wrap-btns select.form-control {
+        margin-right: 10px;
+    }
+
+    .list-sub-footer-row {
+        padding: 14px 20px;
+        font-size: 16px;
+        margin-top: 9px;
+        border: none;
+    }
+
+    .list-table-custom.accounting-journals-list-table.products-table li a {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .wrap-list-head {
+        flex-wrap: wrap;
+        align-items: baseline;
+    }
+
+    .wrap-list-cell,
+    .wrap-list-head input#invoice_start_date,
+    .wrap-list-head strong {
+        margin-right: 20px !important;
+        margin-bottom: 15px !important;
+    }
+
+    .wrap-two-cell-group {
+        flex-direction: column;
+    }
+
+    .wrap-two-cell-group .left,
+    .wrap-two-cell-group .right {
+        width: 100%;
+    }
+
+    .wrap-two-cell-group .left,
+    .wrap-checkbox-block {
+        margin-bottom: 20px;
+    }
+
+    .wrap-checkbox-block {
+        margin-top: 17px;
+    }
+
+    select {
+        padding-right: 24px !important;
+        padding-left: 13px !important;
+    }
+
+    .chartsOfAccountsContent-tabs .table td {
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+
+    .payroll-report-block .dropdown-menu a {
+        font-size: 16px;
+    }
+
+}
+
+@media (min-width:320px) and (max-width:720px) {
+    .invoice-btns.invoice-btns-position {
+        position: relative;
+        margin-top: 20px;
+        text-align: left;
+        margin-top: 7px;
+    }
+
+    .invoice-btns .btn-custom {
+        margin-bottom: 9px;
+        margin-right: 9px;
+    }
+
+    .chartOfAccountModal-modal .modal-dialog {
+        max-width: 95%;
+        margin: 0 auto;
+    }
+
+    .list-table-custom.products-table {
+        overflow: auto !important;
+        padding-bottom: 80px;
+    }
+
+    .list-table-custom.products-table.table-responsive .dataTables_wrapper td.show .dropdown-menu.show {
+        transform: translate3d(-120px, 40px, 0) !important;
+    }
+
+    .list-table-custom.products-table.table-responsive .dataTables_wrapper {
+        padding-bottom: 100px !important;
+    }
+
+    .default-table.with-concept-table .list-table-custom {
+        overflow: auto !important;
+    }
+
+    table.dataTable tbody .no-data-row td {
+        padding: 70px 0 !important;
+        text-align: center !important;
+    }
+
+    .payroll-bank-account-modal .steps-form h2 {
+        font-size: 20px;
+    }
+
+    .payroll-bank-account-modal .steps-form {
+        padding: 40px;
+    }
+
+    .payroll-bank-account-modal .back-next-btn {
+        margin-top: 20px;
+    }
+
+    .payroll-bank-account-modal .hierarchy-select .dropdown-item {
+        font-size: 12px;
+    }
+
+    .payroll-bank-account-modal .hierarchy-form-element .dropdown-toggle {
+        padding-top: 9px;
+        font-size: 14px;
+    }
+
+    .payroll-report-block .dropdown-menu a {
+        font-size: 16px;
+    }
+
+}
+
+@media (min-width:320px) and (max-width:688px) {
+    .action-btns-view.show-wrap-btns {
+        flex-wrap: wrap;
+    }
+
+    .action-btns-view.show-wrap-btns select.form-control {
+        width: 226px;
+        margin-bottom: 20px;
+        display: block;
+    }
+
+    .show-wrap-btns-inner {
+        width: 100%;
+    }
+}
+
+@media (min-width:320px) and (max-width:575px) {
+    .elaborated {
+        margin-bottom: 29px;
+    }
+
+    .total-table {
+        float: none;
+        padding-right: 15px;
+        width: 100%;
+    }
+
+    .total-table table {
+        width: 100%;
+    }
+
+    .view-form-custom {
+        overflow-y: scroll;
+        padding-bottom: 10px;
+    }
+
+    .view-form-custom .table td {
+        white-space: pre;
+    }
+
+    img#signature-preview {
+        max-width: 100%;
+    }
+
+    .main-wrapper header .header-left,
+    .small-header .header-left {
+        width: 117px;
+        padding-left: 15px;
+    }
+
+    .header-lef .logo-sec {
+        width: 100%;
+    }
+
+    .main-wrapper header,
+    .small-header {
+        height: auto;
+    }
+
+    .main-wrapper header .header-right,
+    .small-header .header-right {
+        margin-top: 0;
+        padding-bottom: 0;
+    }
+
+    .main-wrapper header .john-sec .dropdown-menu {
+        top: 20px !important;
+    }
+
+    #locale_selector {
+        background: url(../images/select-arrow.png) right top 6px no-repeat;
+        font-size: 12px;
+        padding-right: 12px !important;
+    }
+
+    .main-wrapper header .john-sec span img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .total-table td {
+        text-align: right;
+    }
+
+    .pswp {
+        height: Calc(100% - 45px);
+        top: 45px;
+    }
+
+    .list-table-custom.products-table {
+        overflow: auto !important;
+        padding-bottom: 80px;
+    }
+
+    .list-table-custom.products-table.table-responsive .dataTables_wrapper {
+        padding-bottom: 100px !important;
+    }
+
+    .list-table-custom.products-table.table-responsive .dataTables_wrapper td.show .dropdown-menu.show {
+        transform: translate3d(-120px, 40px, 0) !important;
+    }
+
+    .default-table.with-concept-table .list-table-custom {
+        overflow: auto !important;
+    }
+
+    .payroll-report-block .dropdown-menu a {
+        font-size: 16px;
+    }
+
+}
+
+@media (min-width:320px) and (max-width:480px) {
+    .view-details-img-cell img {
+        width: 100%;
+    }
+
+    .default-form.view-form-detail.item-detail-view.view-details-product-ser .view-details-product-cell .form-group label,
+    .default-form.view-form-detail.item-detail-view.view-details-product-ser .view-details-product-cell .value-form {
+        display: block;
+        width: 100%;
+    }
+
+    .invoice-detail-count .value,
+    .invoice-detail-count-item span.title {
+        font-size: 13px;
+    }
+
+    .dz-preview.dz-complete.dz-image-preview,
+    table {
+        width: 100%;
+    }
+
+    select.form-control.dasboard-filter-block.form-control,
+    .pass-month-select {
+        width: 153px;
+        height: 40px !important;
+    }
+
+    .default-table.with-concept-table .list-table-custom {
+        overflow: auto !important;
+    }
+
+    .show-wrap-btns-inner {
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .show-wrap-btns-inner a {
+        margin-bottom: 10px;
+    }
+
+    .payroll-bank-account-modal .back-next-btn .btn-custom {
+        height: 42px;
+        line-height: 42px;
+        width: 100%;
+    }
+
+    .payroll-bank-account-modal input.form-control {
+        height: 32px !important;
+    }
+
+    .payroll-report-block .dropdown-menu a {
+        font-size: 15px;
+    }
+
+    .payroll-bank-account-modal .steps-form .welcome-msg {
+        margin-bottom: 20px;
+    }
+
+    .payroll-bank-account-modal .steps-form {
+        padding: 30px;
+    }
+
+    .payroll-report-block .dropdown-menu a {
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width:400px) {
+    .dasboard-select-wrap {
+        flex-wrap: wrap;
+    }
+
+    select.form-control.dasboard-filter-block.form-control,
+    .pass-month-select {
+        width: 100%;
+        height: 40px !important;
+    }
+
+    select.form-control.dasboard-filter-block.form-control {
+        margin-right: 0;
+        margin-bottom: 14px;
+    }
+}
+
+@media (max-width:374px) {
+    .invoice-detail-count {
+        text-align: center;
+    }
+
+    .invoice-detail-count-item {
+        display: inline-block;
+        width: auto;
+        border: none !important;
+        margin-bottom: 0;
+        padding: 16px;
+    }
+}
+
+@media (max-width:350px) {
+    .main-wrapper header .header-left .logo-sec img {
+        width: 90px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .main-wrapper header .header-left,
+    .small-header .header-left {
+        width: 97px;
+        padding-left: 8px;
+    }
+
+    .main-wrapper header .header-right,
+    .small-header .header-right {
+        width: Calc(100% - 31%) !important;
+    }
+
+    #locale_selector {
+        background: url(../images/select-arrow.png) right top 6px no-repeat;
+        font-size: 12px;
+        padding-right: 11px;
+        background-size: 10px;
+    }
+
+    .main-wrapper header .john-sec a,
+    .small-header .john-sec a {
+        font-size: 10px;
+        padding-right: 17px;
+    }
+
+    .main-wrapper header .john-sec .dropdown-toggle::after,
+    .small-header .john-sec .dropdown-toggle::after {
+        top: 6px;
+    }
+
+}

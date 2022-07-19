@@ -1,0 +1,86 @@
+input[type="search"] {
+	background: #f7f7f7 !important;
+	border: 1px solid #c9c9c9 !important;
+	border-radius: 50px !important;
+	font-size: 14px !important;
+	height: 44px !important !important;
+	padding-left: 15px !important;
+	color: #202020 !important;
+	height: 44px
+}
+.jconfirm .jconfirm-box.jconfirm-type-red {
+	border-top: solid 5px #af1b10 !important;
+}
+.jconfirm .jconfirm-box.jconfirm-type-red .jconfirm-title-c .jconfirm-icon-c {
+	color: #af1b10 !important;
+}
+.jconfirm .jconfirm-box .jconfirm-buttons button.btn-red {
+	 background: #0e68b1;
+	 border:solid 1px #0e68b1;
+}
+.jconfirm .jconfirm-box .jconfirm-buttons button.btn-red:hover {
+	background: none;
+	color: #0e68b1
+}
+.jconfirm .jconfirm-box .jconfirm-buttons button.btn-default {
+	background: none;
+	border:solid 1px #0e68b1;
+	color: #0e68b1
+}
+.jconfirm .jconfirm-box .jconfirm-buttons button.btn-default:hover {
+	background: #0e68b1;
+	color: #fff
+}
+.dataTables_wrapper .dataTables_filter {
+	margin-bottom: 15px;
+}
+.dataTables_empty {
+	padding: 100px 15px !important;
+	background: #fff;
+	border-bottom: none !important;
+}
+table.dataTable.no-footer {
+	border-bottom: 1px solid #dee2e6;
+}
+table.dataTable thead th, table.dataTable thead td {
+	border-bottom: 1px solid #dee2e6 !important;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+	color: #333 !important;
+	border: 1px solid #d9d9d9;
+	background: #d9d9d9;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+	border: 1px solid #0e68b1;
+	background: #0e68b1;
+	color: #fff !important
+}
+.dataTables_wrapper .dataTables_info {
+	padding-top: 35px;
+}
+.dataTables_wrapper .dataTables_paginate {
+	padding-top: 25px;
+}
+.paginate_button.previous,
+.paginate_button.next {
+	text-indent: -110px;
+	background: #0e68b1 !important;
+	width: 35px;
+	overflow: hidden;
+	vertical-align: top;
+	position: relative;
+}
+.paginate_button.previous::before,
+.paginate_button.next:before {
+	position: absolute;
+	top: 8px;
+	right: -39px;
+	color: #fff !important;
+	font-size: 13px;
+	}
+.paginate_button.previous::before {
+	content: "<<";
+}
+.paginate_button.next:before {
+	content: ">>";
+}
